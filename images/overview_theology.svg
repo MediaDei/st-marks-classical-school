@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="228" height="313" viewBox="131 117 228 313" enable-background="new 131 117 228 313" xml:space="preserve">
+<defs>
+</defs>
+<polygon fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" points="269.054,191.965 280.188,136.602 
+	296.397,195.894 300.397,195.883 307.953,217.96 287.711,188.583 269.126,219.965 260.386,191.321 "/>
+<polyline fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" points="260.385,191.321 253.166,234.673 
+	256.824,231.997 256.964,285.33 199.394,322.146 141.523,372.298 205.459,347.465 268.25,281.634 255.025,286.57 "/>
+<polyline fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" points="307.953,217.96 308.16,297.196 
+	355.475,353.073 351.481,355.75 355.658,423.739 203.334,427.471 205.459,347.464 "/>
+<polyline fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" points="143.491,370.593 141.653,421.631 
+	203.335,427.471 "/>
+<line fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" x1="274.206" y1="122.618" x2="286.217" y2="126.92"/>
+<polyline fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" points="256.91,264.664 274.545,252.617 
+	308.059,258.53 "/>
+<g>
+	<defs>
+		<rect id="XMLID_86_" width="612" height="792"/>
+	</defs>
+	<clipPath id="XMLID_89_">
+		<use xlink:href="#XMLID_86_" />
+	</clipPath>
+	<path clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" d="M287.692,245.081
+		l7.5,1.169c0,0-0.167-28.725-3.75-28.716C287.859,217.543,287.692,245.081,287.692,245.081z"/>
+	<path clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" d="M286.794,347.919
+		l14.077-0.037c0,0-2.114-43.655-7.093-42.632C287.692,306.5,286.11,341.254,286.794,347.919z"/>
+	<path clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" d="M279.497,425.605
+		c0,0-1.997-59.605,13.332-59.705C309.648,365.792,307,405.5,308.5,425.5"/>
+	
+		<line clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" x1="280.92" y1="386.601" x2="305.466" y2="386.537"/>
+	
+		<line clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" x1="308.16" y1="297.196" x2="312.99" y2="423.185"/>
+	<path clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" d="M228.5,409.396h18.2
+		c0,0,4.103-58.056-8.239-61.351C225.008,344.453,228.5,409.396,228.5,409.396z"/>
+	<path clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" d="M323.038,408.277
+		H340.5c0,0-1.438-59.523-10.785-59.964C320.369,347.871,323.038,408.277,323.038,408.277z"/>
+	<polyline clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" points="
+		274.437,210.999 274.545,252.617 275,427.283 	"/>
+	<path clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" d="M263.484,251.25
+		l4.596-2.5c0,0,0.92-22-1.936-22.103C262.999,226.534,262.757,243,263.484,251.25z"/>
+	
+		<line clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" x1="289.606" y1="403.912" x2="289.621" y2="409.245"/>
+	
+		<line clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" x1="297.273" y1="403.892" x2="297.287" y2="409.225"/>
+	<path clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" d="M304.466,378.869
+		c0,0-3.915-9.636-8.273-5.63c-3.277,3.011-2.527,10.428-2.53,13.331l0.101,38.7"/>
+	<path clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" d="M284.167,376.5
+		c0,0,4.167-5.833,7.357-3.257c2.448,1.977,1.561,2.993,1.585,12.326"/>
+	<polyline clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="2" stroke-miterlimit="10" points="
+		268.08,216.534 276.552,191.279 280.188,136.602 279.859,117.27 	"/>
+	
+		<line clip-path="url(#XMLID_89_)" fill="none" stroke="#875E99" stroke-width="4" stroke-miterlimit="10" x1="279.92" y1="140.63" x2="291.302" y2="191.24"/>
+</g>
+</svg>

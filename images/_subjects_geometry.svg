@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="213" height="157" viewBox="-1.382 -2.331 213 157" enable-background="new -1.382 -2.331 213 157" xml:space="preserve">
+<defs>
+</defs>
+<polygon fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" points="1.814,116.097 44.814,3.417 86.814,73.417 
+	70.814,83.419 71.814,129.419 44.314,146.419 "/>
+<line fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" x1="44.814" y1="3.419" x2="44.314" y2="146.419"/>
+<polyline fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" points="71.814,129.419 71.814,146.419 
+	136.483,151.419 133.815,86.475 70.814,83.419 "/>
+<polyline fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" points="86.814,73.419 115.815,58.086 
+	163.065,62.086 133.815,86.475 "/>
+<line fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" x1="164.503" y1="61.419" x2="165.268" y2="86.704"/>
+<path fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" d="M160.815,131.419c0,0,19,19.281,48,1.281V90.919
+	c-31,17.5-48,0-48,0V131.419l-24.332,20"/>
+<path fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" d="M160.399,89.503
+	c0.834-0.647,24.604-19.583,48.688,0.457"/>
+<polyline fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="7 7" points="47.242,7.463 
+	50.315,94.419 70.815,112.419 "/>
+<line fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="7 7" x1="1.814" y1="116.097" x2="50.314" y2="94.419"/>
+<polyline fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="7 7" points="71.814,146.419 
+	117.315,127.419 115.815,58.086 "/>
+<line fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="7 7" x1="160.815" y1="128.919" x2="117.315" y2="127.419"/>
+<path fill="none" stroke="#7F4098" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="7 7" d="M160.815,132.669
+	c0,0,22-13.75,48,0.031"/>
+</svg>
