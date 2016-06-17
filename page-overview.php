@@ -9,7 +9,7 @@
 	<h2 class="section-title ov-overview">Academy Overview</h2>
 
 	<div class="intro">
-		<p><span class="smallcaps">The mission</span> of <span class="italic">St. Mark’s Academy</span> is to endow children with the tools of learning, and the wisdom of the ages, by nourishing their souls with truth, goodness and beauty, so that they may serve God and their fellow man with virtue, dignity, and strength.</p>
+		<p class="capital-ornate"><span class="T">T</span><span class="smallcaps">he mission of st. mark’s academy</span> is to endow children with the tools of learning, and the wisdom of the ages, by nourishing their souls with truth, goodness and beauty, so that they may serve God and their fellow man with virtue, dignity, and strength.</p>
 
 
 		<div class="sub-title"><div class="inner italic">What is St. Mark's Academy?</div></div>
@@ -59,7 +59,7 @@
 				<div class="grid-whole"><img class="up" src="<?php bloginfo('template_url'); ?>/images/overview_bracket.png" alt="Bracket"/></div>
 			</div>
 
-			<div class="children"></div>		
+			<!--moved to index.php for success image <div class="children"></div>	-->	
 		</div>
 	</div>
 </section>

@@ -1,17 +1,6 @@
 
 
 	<footer>
-		<nav class="menu smallcaps">
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/overview/">Overview</a></li>
-				<li><a href="/classical/">Classical</a></li>
-				<li><a href="/latest/">Latest</a></li>
-				<li><a href="/students/">Students</a></li>
-				<li><a href="/apply/">Apply</a></li>
-			</ul>
-		</nav>
-
 		<div class="title">
 			<span class="top smallcaps">St. Mark’s</span><br>
 			<span class="bottom italic swash">Classical Academy</span>
@@ -21,17 +10,17 @@
 			<div class="grid-50 left">
 			<div class="inner">
 				<div class="title italic">Contact</div>
-				<div class="line email"><span class="smallcaps">Email</span>: <span class="faded">....</span> <a href="#" onclick="return false;">mail@stmarksclassical.org</a></div>
-				<div class="line tel"><span class="smallcaps">Tel</span>: <span class="faded">....</span> (215) 884-7660</div>
-				<div class="line"><div class="addr-pre"><span class="smallcaps">Address</span>: <span class="faded">....</span></div> <div class="addr">1162 Beverly Road<br>
+				<div class="line email"><span class="smallcaps">Email</span>: <span class="faded"></span> <a href="#" onclick="return false;">mail@stmarksclassical.org</a></div>
+				<div class="line tel"><span class="smallcaps">Tel</span>: <span class="faded"></span> (215) 884-7660</div>
+				<div class="line"><div class="addr-pre"><span class="smallcaps">Address</span>: <span class="faded"></span></div> <div class="addr">1162 Beverly Road<br>
 											   Rydal, PA 19046</div></div>
 			</div>
 			</div>
 			<div class="grid-50 right">
 			<div class="inner">
 				<div class="title italic">Social</div>
-				<div class="line facebook"><span class="smallcaps">Facebook</span>: <span class="faded">...</span> <a href="https://www.facebook.com/pages/St-Marks-Church/259381804090029">fb.com/St-Marks-Church</a></div>
-				<div class="line rss"><span class="smallcaps">Rss Feed</span>: <span class="faded">...</span> <a href="/rss/">stmarksclassical.org/rss/</a></div>
+				<div class="line facebook"><span class="smallcaps">Facebook</span>: <span class="faded"></span> <a href="https://www.facebook.com/pages/St-Marks-Church/259381804090029">fb.com/St-Marks-Church</a></div>
+				<div class="line rss"><span class="smallcaps">Rss Feed</span>: <span class="faded"></span> <a href="/rss/">stmarksclassical.org/rss/</a></div>
 			</div>
 			</div>
 		</div>

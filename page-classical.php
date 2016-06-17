@@ -13,7 +13,7 @@
 
 
 	<h3 class="sub-title space">
-		<span class="inner">The Foundation: The Trivium</span>
+		<span class="inner">The Trivium</span>
 	</h3>
 
 	<div class="foundation">
@@ -187,48 +187,60 @@
 	<div class="myths">
 
 		<div>
-		<div class="grid-20">
-			<div class="circle smallcaps">Myth<br> #1</div>
+			<div class="grid-20">
+				<div class="circle smallcaps">Myth<br> #1</div>
+			</div>
+
+			<div class="grid-80">
+				<div class="italic">Classical education was fine back then, but we need modern education in a modern world.</div>
+			</div>
 		</div>
+		
+		<span id="fact-1" class="anchor"></span>
+		<a class="anchor-button" href="#fact-1">Learn the Truth</a>
+		<div class="hidden-content fact-1">
+			<p class="first"><span class="bold smallcaps">Fact:</span> Classical education teaches students facts, provides them with logical tools to use those facts, and perfects the student’s ability to relate those facts to others. This fundamental skill-set is more valuable today than it has ever been. The process of teaching students to think extends far beyond filling their heads with knowledge. Modern education, to varying degrees, has succeeded in teaching facts and some skills. Classical education helps students draw original, creative, and accurate conclusions from facts and then formulate those conclusions into logical and persuasive arguments.</p>
 
-		<div class="grid-80">
-			<div class="italic">Classical education was fine back then, but we need modern education in a modern world.</div>
+			<p>Modern subjects based in science and technology are taught in classical schools, through classical methods. Parents who are exposed to classical education recognize that its “back to the basics” approach contrasts with the distractions of modern education. Is the classical method applicable in a modern, technological age? The technology we have today was invented, in large part, by the classically educated.</p>
+
+			<p>Classical education teaches children the timeless skills of thinking; reasoning, logic, and expression. Our subject matter is as up-to-date as that found in other schools. We simply add a depth and dimension through this time-tested method.</p>
 		</div>
-		</div>
-
-		<p class="first"><span class="bold smallcaps">Fact:</span> Classical education teaches students facts, provides them with logical tools to use those facts, and perfects the student’s ability to relate those facts to others. This fundamental skill-set is more valuable today than it has ever been. The process of teaching students to think extends far beyond filling their heads with knowledge. Modern education, to varying degrees, has succeeded in teaching facts and some skills. Classical education helps students draw original, creative, and accurate conclusions from facts and then formulate those conclusions into logical and persuasive arguments.</p>
-
-		<p>Modern subjects based in science and technology are taught in classical schools, through classical methods. Parents who are exposed to classical education recognize that its “back to the basics” approach contrasts with the distractions of modern education. Is the classical method applicable in a modern, technological age? The technology we have today was invented, in large part, by the classically educated.</p>
-
-		<p>Classical education teaches children the timeless skills of thinking; reasoning, logic, and expression. Our subject matter is as up-to-date as that found in other schools. We simply add a depth and dimension through this time-tested method.</p>
 
 		<div>
-		<div class="grid-20">
-			<div class="circle smallcaps">Myth<br> #2</div>
+			<div class="grid-20">
+				<div class="circle smallcaps">Myth<br> #2</div>
+			</div>
+
+			<div class="grid-80">
+				<div class="italic">Classical education is unnecessarily difficult.</div>
+			</div>
 		</div>
 
-		<div class="grid-80">
-			<div class="italic">Classical education is unnecessarily difficult.</div>
-		</div>
-		</div>
+		<span id="fact-2" class="anchor"></span>
+		<a class="anchor-button" href="#fact-2">Learn the Truth</a>
+		<div class="hidden-content fact-2">
+			<p class="first"><span class="bold smallcaps">Fact:</span> Children enjoy learning. They are wired for it. Assuming that a child will not be able to succeed in a challenging environment is tempting, but simply untrue.</p>
 
-		<p class="first"><span class="bold smallcaps">Fact:</span> Children enjoy learning. They are wired for it. Assuming that a child will not be able to succeed in a challenging environment is tempting, but simply untrue.</p>
-
-		<p>A common assumption is that a demanding curriculum results in unhappy children. As adults, learning new things can be uncomfortable. However, children are fascinated by what they learn. The excitement of children learning Latin grows as they become able to describe the world in a language that most adults do not understand. The right and complex texture of classical literature is amplified by youth. Science and the history of Western Civilization come alive for those who hunger to know about their world. For the unconvinced, a visit to our school is sure to demonstrate that our students love to learn. The classical method encourages a stimulating and enjoyable learning environment for students.</p>
+			<p>A common assumption is that a demanding curriculum results in unhappy children. As adults, learning new things can be uncomfortable. However, children are fascinated by what they learn. The excitement of children learning Latin grows as they become able to describe the world in a language that most adults do not understand. The right and complex texture of classical literature is amplified by youth. Science and the history of Western Civilization come alive for those who hunger to know about their world. For the unconvinced, a visit to our school is sure to demonstrate that our students love to learn. The classical method encourages a stimulating and enjoyable learning environment for students.</p>
+		</div>
 
 		<div>
-		<div class="grid-20">
-			<div class="circle smallcaps">Myth<br> #3</div>
+			<div class="grid-20">
+				<div class="circle smallcaps">Myth<br> #3</div>
+			</div>
+
+			<div class="grid-80">
+				<div class="italic">Classical education is too extreme.</div>
+			</div>
 		</div>
 
-		<div class="grid-80">
-			<div class="italic">Classical education is too extreme.</div>
-		</div>
-		</div>
+		<span id="fact-3" class="anchor"></span>
+		<a class="anchor-button" href="#fact-3">Learn the Truth</a>
+		<div class="hidden-content fact-3">
+			<p class="first"><span class="bold smallcaps">Fact:</span> Classical education teaches “with the grain”&mdash;complementing their developmental phase with the appropriate teaching method. Parents are rightfully skeptical of anything that differs boldly from the norm. However, classical education was the norm 100 years ago because it worked.</p>
 
-		<p class="first"><span class="bold smallcaps">Fact:</span> Classical education teaches “with the grain”&mdash;complementing their developmental phase with the appropriate teaching method. Parents are rightfully skeptical of anything that differs boldly from the norm. However, classical education was the norm 100 years ago because it worked.</p>
-
-		<p>Conventional education has taken an experimental approach to educating our children over the past four decades. Many different methods have been tried and later scrapped when they failed. This constant state of change in education creates an environment where anything “traditional” seems extreme. Classical education provides a basic structure upon which we can build effective, successful students. We are not advocating an experiment. Rather, we are seeking a return to a system proven for over 1,000 years.</p>
+			<p>Conventional education has taken an experimental approach to educating our children over the past four decades. Many different methods have been tried and later scrapped when they failed. This constant state of change in education creates an environment where anything “traditional” seems extreme. Classical education provides a basic structure upon which we can build effective, successful students. We are not advocating an experiment. Rather, we are seeking a return to a system proven for over 1,000 years.</p>
+		</div>
 
 	</div>
 </section>
