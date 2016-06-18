@@ -28,7 +28,7 @@
 		</div>
 		</div>
 
-		<div>
+		<div class="middle">
 		<div class="grid-33">
 			<div class="img logic"></div>
 		</div>

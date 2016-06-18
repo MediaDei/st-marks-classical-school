@@ -7,6 +7,16 @@ $border: #979797;
 
 //home
 $icon-border: #979797;
+$otherTimesColor: #95793A;
+$eventBoxDate: #6E6C69;
+$eventBoxDateIcon: #CAC4BB;
+$eventBoxTimerColor: #6E6C6A;
+$eventBoxBorderColor: #825E5E;
+$eventBoxBorderTopColor: #979797;
+$eventBoxBottomBoxBorderColor: #B7A985;
+$otherTimesSubheadingColor: #8E8E8E;
+$acTextColor: #616263;
+$acIconColor: #CAC4BB;
 
 
 //overview
@@ -144,6 +154,10 @@ section.classical .myths p.first::before{
         display: block;
         margin-bottom: 70px; 
       }
+      &+.question-1,&+.question-2,&+.question-3,&+.question-4,&+.question-5,&+.question-6,&+.question-7,&+.question-8,&+.question-9,&+.question-10{
+        display: block;
+        margin-bottom: 70px;
+      }
     }
   }
 }
@@ -217,6 +231,115 @@ p.capital-ornate {
   }
 }
 
+//Give widget Range style
+.range-input {
+  margin: 40px auto 0px;
+  width: 600px;
+  height: 35px;
+  //background: #F6F6F6;
+  //box-shadow: 0px 1px 3px rgba(black,0.3);
+  border-radius: 5px;
 
+
+  .range-value{
+    display: block;
+    float: left;
+    width: 15%; 
+    height: auto;
+    color: #585858;
+    font-size: 12px;
+    font-family: georgia;
+    text-align: center;
+    border-radius: 3px;
+    background: rgba(white,1);
+    padding: 3px;
+    margin: 7px 0px 0px 7px;
+    box-shadow: 0px 1px 4px rgba(black,0.2) inset,
+                0px 1px 2px rgba(black,0.2);
+    overflow: hidden;
+
+    &:before{
+      content: "$";
+    }
+  }
+
+  input[type=range] {
+    -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+    width: 80%; /* Specific width is required for Firefox. */
+    float: right;
+    margin: 8px 6px 0px 0px;
+  }
+  input[type=range]:focus {
+    outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    height: 8.4px;
+    cursor: pointer;
+    background: #D7D7D7;
+    border-radius: 12px;
+    border: 1px solid #BBBBBB;
+    margin-top: 5px; //Webkit does not like positioning range. White space appears with position:relative, top:5px also. In addition, Safari does not show thumb when moved with JS.
+
+  }
+  input[type=range]::-moz-range-track {
+    height: 8.4px;
+    cursor: pointer;
+    background: #D7D7D7;
+    border-radius: 12px;
+    border: 1px solid #BBBBBB;
+  }
+  input[type=range]::-moz-focus-outer {
+    //hide dotted border when interacting with slider thumb
+    border: 0;
+  }
+
+  /* Special styling for WebKit/Blink */
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    box-shadow: 0px 1px 4px rgba(black,0.1);
+    height: 18px;
+    width: 18px;
+    border-radius: 100%;
+    background: rgba(white,1);
+    cursor: pointer;
+    border: 1px solid #CCCCCC;
+    margin-top: -6px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  }
+
+  /* All the same stuff for Firefox */
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 1px 4px rgba(black,0.1);
+    height: 18px;
+    width: 18px;
+    border-radius: 100%;
+    background: rgba(white,1);
+    cursor: pointer;
+    border: 1px solid #CCCCCC;
+  }
+}
+@import "give-widget";
+
+.range-amounts {
+  display: table;
+  margin: 30px auto;
+}
+
+.recurring {
+  display: table;
+  margin: 0 auto;
+
+  input {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    margin-top: -1px;
+  }
+  label {
+    font-style: italic;
+    padding-left: 5px;
+    color: #6F654E;
+    font-size: 1.2em;
+  }
+}
 
 

@@ -37,6 +37,7 @@
 				<li class="left"><a href="/overview/">Overview</a></li>
 				<li class="left"><a href="/classical/">Classical</a></li>
 				<li class="left"><a href="/latest/">Latest</a></li>
+				<li class="left"><a href="/faq/">FAQ</a></li>
 				<li class="right"><a href="/apply/">Apply</a></li>
 				<li class="right"><a href="/students/">Students</a></li>
 			</ul>

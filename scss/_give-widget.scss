@@ -1,0 +1,176 @@
+// Override default Give Plugin styles from plugins folder
+div.give-form-wrap{ 
+  display: table;
+  margin: 0 auto;
+
+  h2{
+    display: none;
+  }
+  div.give_error{
+    display: none;
+  }
+  form.give-form{
+    position: relative;
+    margin: 0px;//override Give styling
+    label.give-hidden{
+      display: none !important;
+    }
+    p.set-price.give-donation-amount.form-row-wide{
+      display: none !important;
+    }
+    div.give-total-wrap{
+      display: table !important;
+
+      div.give-donation-amount.set-price{
+        display: none !important;
+        span.give-currency-symbol{
+          
+        }
+        input.give-text-input{
+          
+        }
+        p.give-loading-text{
+          &:active{
+             display: none;
+
+          }
+          span.give-loading-animation{
+            display: none;
+          }
+          span.elipsis{
+            display: none;
+          }
+        }
+      }
+    }
+    ul.give-donation-levels-wrap{   
+      margin-bottom: 0px !important;//override Give styling
+      padding: 10px 0px !important; 
+      li{
+        button { 
+          background-color: #F9F4E4;
+          border: 1px solid #D2BB89;
+          border-radius: 6px;
+          padding: 5px 17px;
+          margin: 0 5px;
+          color: $main-text;
+          font-size: 1.2em;
+          transition: opacity .5s ease-in-out, width .5s, height .5s;
+
+          &:hover {
+            background-color: #F9F4E4 * 1.03;
+            border: 1px solid #D2BB89 * 1.03;
+          }
+
+          &:active {
+            background-color: #F9F4E4 * 0.98;
+            border: 1px solid #D2BB89;
+            box-shadow: inset 0 0 5px rgba(black,0.1);          
+          }
+          &.faded{
+            opacity: 0.5;
+            transition: opacity .5s ease-in-out, width .5s, height .5s;
+          }
+        }
+        input#give-amount{
+          border: 1px solid #bbb;
+          border-radius: 3px;
+          box-shadow: 0 1px 2px #dedede inset;
+          color: #3c2420;
+          font-size: 1.2em;
+          font-style: italic;
+          line-height: 1;
+          padding: 7px 0 4px 7px;
+        }
+      }
+    }
+    button.give-btn.give-btn-modal{
+      margin: 0px auto;
+      box-shadow: 0 3px 4px rgba(black,0.5);
+      cursor: pointer;
+      border-radius: 12px;
+      position: relative;
+      border: 0;//Required to stop Give Plugin style
+      text-transform: uppercase;
+      z-index: 1;
+      &:active{
+        padding: 0px;//override Give styling
+        margin-top: 1px;
+        margin-bottom: -1px;
+        box-shadow: 0 3px 4px rgba(black,0.2);
+      }
+      &.join-button{
+        background-color: red;
+        @include background(linear-gradient(to bottom, rgba(white,0.5), rgba(black,0.5)),
+            #F8CF7A);
+        width: 178px;
+        height: 46px;
+        left: 50%; top: 52%;
+        @include transform (translate(-50%, -50%));
+        text-shadow: 0 1px 0 rgba(white, 1);
+        color: #3A4D52;
+        font-size: 1.4em;
+        letter-spacing: 4px;
+        margin: 0px auto;
+
+        // inner gradient
+        &:before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 4px;
+          left: 4px;
+          @include background(linear-gradient(to bottom, rgba(#EFE5E5,0.5) 0%, rgba(#D2BA8D,0.5) 55%, rgba(#FDFFD4,0.53) 100%));
+          border-radius: 8px;
+          box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.5);
+          height: 38px;
+          width: 170px;
+          z-index: -1;
+        }
+
+        &:hover {
+          @include background(linear-gradient(to bottom, rgba(white,0.6), rgba(black,0.4)),
+            #F8CF7A);
+          &:after {
+            @include background(linear-gradient(to bottom, rgba(#EFE5E5,0.6) 0%, rgba(#D2BA8D,0.6) 55%, rgba(#FDFFD4,0.43) 100%));
+          }
+        }
+      }
+
+      &.donate-button{
+        @include background(linear-gradient(to bottom, rgba(white,0.5), rgba(black,0.5)),
+        #4186B6);
+        height: 46px;
+        width: 178px;
+        display: block;
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        text-shadow: 0 -1px 0 rgba(black, 0.4);
+        color: #F9F0D9;
+
+        // button extra
+        &:before {
+          content: "";
+          @include background(linear-gradient(to bottom, #C5D8E5 0%, #9BABD2 42%, #477799 100%));
+          position: absolute;
+          height: 38px;
+          width: 170px;
+          border-radius: 8px;
+          box-shadow: inset 0 0 10px rgba(white,0.6);
+          left: 4px;
+          top: 4px;
+          z-index: -1;
+        }
+
+        &:hover {
+          @include background(linear-gradient(to bottom, rgba(white,0.6), rgba(black,0.25)),
+            #4186B6);
+
+          &:after {
+            @include background(linear-gradient(to bottom, #C5D8E5*1 0%, #9BABD2*1.05 42%, #477799*1.05 100%));
+          }
+        }
+      }
+    }
+  }
+}

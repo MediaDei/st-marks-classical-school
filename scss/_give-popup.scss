@@ -1,0 +1,219 @@
+//////////////////////////////////// Give Pop-up styling
+body.give-page{
+  div.mfp-bg{
+  }
+  div.mfp-wrap{
+    div.mfp-container{
+      div.mfp-content{
+        min-width: 250px;
+        form.give-form{
+          fieldset#give-payment-mode-select{
+            div#give-payment-mode-wrap{
+              legend.give-payment-mode-label{
+                display: none;
+
+              }
+              ul#give-gateway-radio-list{
+                margin-bottom: 10px;
+                li{
+                  label.give-gateway-option{
+                    display: none;
+
+                  }
+
+                }
+              }
+              p.give-loading-text{
+
+              }
+            }
+          }
+          div#give_purchase_form_wrap{
+            fieldset#give_checkout_user_info{
+              legend{
+                display: none;
+              }
+              p{
+                label{
+                  display: none;
+                }
+                input{
+                  border: 1px solid #bbb;
+                  border-radius: 3px;
+                  box-shadow: 0 1px 2px #dedede inset;
+                  color: #3c2420;
+                  font-size: 1.2em;
+                  line-height: 1;
+                  padding: 7px 0 4px 7px;
+                  font-style: italic;
+                }
+              }
+            }
+            fieldset#give_purchase_submit{
+              p#give-final-total-wrap{
+                display: table;
+                margin: 0px auto;
+                padding-bottom: 15px;
+                span{
+                  color: $main-text;
+                  
+                  &.give-donation-total-label{
+                    background: none;
+                    border: 0px;
+
+
+                  }
+                  &.give-final-total-amount{
+                    border: 0px;
+                    padding-left: 0px;
+                  }
+                }
+
+
+                
+              }
+              div.give-submit-button-wrap{
+
+                &.join-button{
+                  position: relative;
+                  background-color: red;
+                  margin: 0px auto;
+                  padding: 10px 0px;
+                  display: table;
+                  @include background(linear-gradient(to bottom, rgba(white,0.5), rgba(black,0.5)),
+                      #F8CF7A);
+                  border-radius: 12px;
+                  width: 178px;
+                  height: 46px;
+                  box-shadow: 0 3px 4px rgba(black,0.5);
+                  cursor: pointer;
+                  
+
+                  // inner gradient
+                  &:after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: 4px;
+                    left: 4px;
+                    @include background(linear-gradient(to bottom, rgba(#EFE5E5,0.5) 0%, rgba(#D2BA8D,0.5) 55%, rgba(#FDFFD4,0.53) 100%));
+                    border-radius: 8px;
+                    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.5);
+                    height: 38px;
+                    width: 170px;
+                  }
+
+                  &:hover {
+                    @include background(linear-gradient(to bottom, rgba(white,0.6), rgba(black,0.4)),
+                      #F8CF7A);
+                    &:after {
+                      @include background(linear-gradient(to bottom, rgba(#EFE5E5,0.6) 0%, rgba(#D2BA8D,0.6) 55%, rgba(#FDFFD4,0.43) 100%));
+                    }
+                  }
+                  &:active{
+                    margin-top: 1px;
+                    margin-bottom: -1px;
+                    box-shadow: 0 3px 4px rgba(black,0.2);
+                  }
+
+                  input{
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    background: none;
+                    border: 0;//Required to stop Give Plugin style
+                    text-shadow: 0 1px 0 rgba(white, 1);
+                    color: #3A4D52;
+                    letter-spacing: 4px;
+                    font-size: 1.4em;
+                    text-transform: uppercase;
+                    left: 50%; top: 50%;
+                    @include transform (translate(-50%, -50%));
+                    z-index: 2;
+
+                    &:active{
+                      padding: 0px;//override Give styling
+                    }
+                  }
+                }
+
+                &.donate-button{
+                  @include background(linear-gradient(to bottom, rgba(white,0.5), rgba(black,0.5)),
+                  #4186B6);
+                  border-radius: 12px;
+                  position: relative;
+                  box-shadow: 0 3px 4px rgba(black,0.5);
+                  height: 46px;
+                  width: 178px;
+                  display: block;
+                  margin: 0px auto;
+                  cursor: pointer;
+                  border: 0;//Required to stop Give Plugin style
+                  font-size: 1.3em;
+                  text-transform: uppercase;
+                  letter-spacing: 2px;
+                  text-shadow: 0 -1px 0 rgba(black, 0.4);
+                  color: #F9F0D9;
+
+                  // button extra
+                  &:after {
+                    content: "";
+                    @include background(linear-gradient(to bottom, #C5D8E5 0%, #9BABD2 42%, #477799 100%));
+                    position: absolute;
+                    height: 38px;
+                    width: 170px;
+                    border-radius: 8px;
+                    box-shadow: inset 0 0 10px rgba(white,0.6);
+                    left: 4px;
+                    top: 4px;
+                  }
+
+                  &:hover {
+                    @include background(linear-gradient(to bottom, rgba(white,0.6), rgba(black,0.25)),
+                      #4186B6);
+
+                    &:after {
+                      @include background(linear-gradient(to bottom, #C5D8E5*1 0%, #9BABD2*1.05 42%, #477799*1.05 100%));
+                    }
+                  }
+                  &:active{
+                    margin-top: 1px;
+                    margin-bottom: -1px;
+                    box-shadow: 0 3px 4px rgba(black,0.2);
+                  }
+                  input{
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    border: 0;//Required to stop Give Plugin style
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    text-shadow: 0 -1px 0 rgba(black, 0.4);
+                    color: #F9F0D9;
+                    left: 50%; top: 50%;
+                    @include transform (translate(-50%, -50%));
+                    background: none;
+                    z-index: 2;
+                    font-size: 1em;
+
+                    &:active{
+                      padding: 0px;//override Give styling
+                    }
+                  }
+                    
+                  span.give-loading-animation{
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+          button.mfp-close{
+            top: -6px;
+          }
+        }
+      }
+    }
+  }
+}
+//// End Give pop-up styling

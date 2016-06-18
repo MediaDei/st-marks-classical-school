@@ -2,6 +2,8 @@
 @import "normalize";
 @import "bits";
 @import "old-global";
+@import "give-widget";
+@import "give-popup";
 
 html {
   line-height: 1;
@@ -17,8 +19,18 @@ body{
 	p{
 		line-height: 1.3; 
 	}
+	ol{
+		list-style-type: decimal;
+		li{
+		}
+	}
 	@import "header";
 	section{
+		border-bottom: 1px solid $border;
+		h3.section-heading{
+			text-align: center;
+			font-size: 2.4em; 
+		}
 		&.first{
 			padding-top: 30px;
 		}
@@ -263,7 +275,320 @@ body{
 		&.student-life{
 			h3{
 				text-align: center;
-				font-size: 2.4em;  
+				font-size: 2.4em; 
+				margin-bottom: 40px; 
+			}
+			div.gallery{
+				margin-bottom: 40px;
+				p{
+					width: 620px;
+					margin: 0 auto 40px;
+				}
+			}
+			div.divider{
+				background-color: $border;
+				height: 200px; 
+				margin-bottom: 40px;
+			}
+			h4{
+				text-align: center;
+				font-size: 1.5em;
+				margin-bottom: 40px;
+				font-style: italic; 
+			}
+			section.ac-container {
+        margin: 10px auto 30px;
+        padding: 6px 0;
+        width: 600px;
+        position: relative;
+        
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 54px;
+          right: 54px;
+          bottom: 0;
+          box-shadow: inset 0 0 4px rgba(black, 0.5);
+          border-radius: 6px;
+        }
+
+        .timer {
+          width: 330px;
+          height: 42px;
+          box-shadow: 0px 2px 1px rgba(black,0.25),
+                      inset 3px 0px 3px rgba(white,0.8),
+                      inset 0px 3px 3px rgba(white,0.75),
+                      inset -3px 0px 3px rgba(white,0.8);
+          border-right: 1px solid $eventBoxBottomBoxBorderColor;
+          border-top: 1px solid $eventBoxBottomBoxBorderColor;
+          border-left: 1px solid $eventBoxBottomBoxBorderColor;
+          background: #F3ECCC;
+          border-top-left-radius: 4px;
+          border-top-right-radius: 4px;
+          position: absolute;
+          left: 22%;
+          top: -33px;
+          padding-top: 7px;
+
+          &:before {      // shadow
+            content: "";
+            display: block;
+            margin: 0 auto 9px;
+            width: 330px;
+            height: 1px;
+            box-shadow: 0 0px 5px 2px black;
+            position: absolute;
+            bottom: -10px;
+          }
+
+          figure {
+            width: 40px;
+            height: 20px;
+            background-image: url("../images/eventPointer.png");
+            background-size: 70% 70%;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 4px 5px 0 13px;
+            float: left;
+          }
+          p {
+            text-shadow: 0px 1px 0px white;
+            font-size: 1.2em;
+            margin: 3px auto 0;
+            color: $eventBoxTimerColor;
+            text-align: center;
+            float: left;
+            
+            span {
+              text-shadow: 0px 0px 0px white;
+              padding-right: 10px;
+              color: $eventBoxTimerColor;
+              font-size: 0.9em;
+            }
+          }
+        }
+        
+        label {
+          @include background(linear-gradient(center top , #ffffff 1%, #eaeaea 100%) repeat scroll 0 0);
+          box-shadow: 0 0 0 1px rgba(155, 155, 155, 0.3), 1px 0 0 0 rgba(255, 255, 255, 0.9) inset, 0 2px 2px rgba(0, 0, 0, 0.1);
+          cursor: pointer;
+          display: block;
+          height: 53px;
+          overflow: hidden;
+          padding: 7px 20px;
+          margin: 0 60px;
+          position: relative;
+          border-radius: 3px;
+          transition: height 0.2s ease-in-out 0s, padding 0.2s ease-in-out 0s, margin 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s;
+          
+          &:first-of-type {
+            overflow: hidden;
+            &:after{
+              content: "";
+              color: #646464;
+              bottom: -37px;
+              left: 34%;
+              position: absolute;
+              text-align: center;
+              font-size: 1.1em;
+              width: 200px;
+            }
+          }
+          &:last-of-type {
+            overflow: hidden;
+            &:after{
+              content: "";
+              color: #646464;
+              bottom: -37px;
+              left: 34%;
+              position: absolute;
+              text-align: center;
+              font-size: 1.1em;
+              width: 200px;
+            }
+          }
+
+          &:hover {
+            @include background(linear-gradient(center top, #ffffff 1%, lighten(#eaeaea,2%) 100%) repeat scroll 0 0);
+          }
+          &:active {
+            @include background(linear-gradient(center top, #ffffff 1%, lighten(#eaeaea,5%) 100%) repeat scroll 0 0);
+          }
+          
+          header {
+            text-align: center;
+            margin-bottom: 16px;
+
+            h1 {
+              font-size: 1.2em;
+              padding: 4px 0 0;
+              transition: font-size 0.2s ease-in-out 0s, padding 0.2s ease-in-out 0s;
+            }
+            time {
+              font-size: 0.7em;
+              color: #EFE8E0*0.9;
+              transition: font-size 0.2s ease-in-out 0s;
+      
+              span {
+                font-style: italic;
+                color: #87837C;
+                font-size: 1.2em;
+                padding: 0 7px;
+                transition: font-size 0.2s ease-in-out 0s, padding 0.2s ease-in-out 0s;
+              }        
+            }
+          }
+
+          article {
+            text-align: left;
+            font-size: 0.9em;
+            transition: font-size 0.2s ease-in-out 0s;
+
+            a img {
+              max-width: 220px;
+              max-height: 160px;
+              float: left;
+              margin-right: 20px;
+              border: 4px solid white;
+              box-shadow: 0px 1px 2px rgba(black, 0.4);
+            }
+
+            p {
+              line-height: 1.15;
+              margin-top: 25px;
+              color: $acTextColor;
+              font-size: 0.9em;
+            }
+          }
+          div.bottomBox {
+            span {
+              color: $acIconColor;
+              padding: 7px 16px 0px 16px;
+              font-size: 1.2em;
+              
+              &:first-of-type {
+                float: left;
+                font-size: 1.1em;
+              }
+              &:nth-of-type(2) {
+                float: right;
+              }
+            }
+            
+            time {
+              color: #615F5C;
+              padding-top: 10px;
+              font-size: 1em;
+              
+              &:first-of-type {
+                float: left;
+              }
+              &:nth-of-type(2) {
+                float: right;
+              }
+            }
+          }
+        }
+        input { display: none;}
+        input:checked + label {
+          background: white none;
+          border: 1px solid black;
+          border-radius: 6px;
+          padding: 20px 20px;
+          margin: 0;
+          transition: height 0.2s ease-in-out 0s, padding 0.2s ease-in-out 0s, margin 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s;
+          height: 300px;
+          margin: 25px 0px;
+          
+          &:first-of-type {
+            overflow: visible;
+            margin: 0px 0px 50px;
+            
+            &:after {
+              content: "Later Events";
+              bottom: -42px;
+              font-size: 0.9em;
+              font-style: italic;
+            }
+          }
+          &:last-of-type {
+            overflow: visible;
+            margin: 50px 0px 0px;
+
+            &:after {
+              content: "More Events";
+              top: -40px;
+              font-size: 0.9em;
+              font-style: italic;
+            }
+          }
+                      
+          h1 {
+            font-size: 1.6em;
+            padding-bottom: 5px;
+          }
+          time {
+            font-size: 0.8em;
+            color: #EFE8E0;
+            span {
+              font-style: italic;
+              color: #87837C;
+              font-size: 1.3em;
+              padding: 0 10px;
+            }        
+          }
+          article {
+            font-size: 1em;
+          }
+          div.bottomBox {
+            width: 598px;
+            height: 35px;
+            background: #F9F7E5;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            border-top: 1px solid #979797;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            
+            span {
+              color: $acIconColor;
+              padding: 7px 16px 0px 16px;
+              font-size: 1.2em;
+              
+              &:first-of-type {
+                float: left;
+                font-size: 1.1em;
+              }
+              &:nth-of-type(2) {
+                float: right;
+              }
+            }
+            
+            time {
+              color: #615F5C;
+              padding-top: 10px;
+              font-size: 1em;
+              
+              &:first-of-type {
+                float: left;
+              }
+              &:nth-of-type(2) {
+                float: right;
+              }
+            } 
+          }
+        }
+      }
+		}
+		&.give{
+			h3{
+				margin-bottom: 15px;
+			}
+			p{
+				width: 500px;
+				margin: 0 auto; 
 			}
 		}
 	}

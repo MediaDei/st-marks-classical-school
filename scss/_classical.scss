@@ -1,4 +1,21 @@
 section.classical{
+	h3{
+		span{
+			font-size: 2em !important; 
+		}
+	}
+	div.foundation{
+		div{
+			padding: 0px;
+			width: 650px;
+			&.middle{
+				margin-left: 120px;
+			}
+			div.grid-66{
+				color: $main-text;
+			}
+		}
+	}
 	div.myths{
 		padding: 0px;
 		div{
