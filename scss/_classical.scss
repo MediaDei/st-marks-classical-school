@@ -18,13 +18,17 @@ section.classical{
 		}
 	}
 	div.lost-content{
+		line-height: 1.2;
 		div{
 			div.grid-20{
+				&.pad-left{
+					padding-left: 20px; 
+				}
 				img{
 					width: 120px !important;
 					height: 120px !important;
 					padding: 5px !important;
-					background-color: white !important;
+					@include background-image(linear-gradient(lighten(#F7DCB4,15%), lighten(#F7DCB4,9%), lighten(#F7DCB4,11%)));
 					border: 1px solid #F7DCB4 !important;
 					border-radius: 100% !important;
 					box-shadow: inset 0px 1px 3px 0px rgba(black,0.3),
@@ -37,6 +41,10 @@ section.classical{
 			div.grid-80{
 				line-height: 1.2; 
 				font-size: 1em;
+				text-indent: 0px !important;
+				p{
+					margin: 0px;
+				}
 			}
 		}
 	}
@@ -44,6 +52,7 @@ section.classical{
 		padding: 0px;
 		div{
 			padding: 0px;
+			margin-bottom: 10px;
 		}
 	}
 }

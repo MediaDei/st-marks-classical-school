@@ -77,7 +77,9 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_greatminds.svg" alt="Great Minds"/>
 		</div>
 		<div class="grid-80">
-			<span class="bold smallcaps">Great Minds</span> begin by reading great books. Modern educators see the prior minds of history as approximations to our present enlightened society, as such being outdated and irrelevant. To classical educators great minds stand on their own merits, speak to timeless issues, and are always relevant.
+			<p>
+				<span class="simple-dropcaps">G</span><span class="smallcaps">reat Minds</span> begin by reading great books. Modern educators see the prior minds of history as approximations to our present enlightened society, as such being outdated and irrelevant. To classical educators great minds stand on their own merits, speak to timeless issues, and are always relevant.
+			</p>
 		</div>
 		</div>
 		<div>
@@ -85,7 +87,7 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_literature.svg" alt="Literature"/>
 		</div>
 		<div class="grid-80">
-			<span class="bold smallcaps">Literature</span> brings the great ideas of history alive. Students who read great literature write better because they have history’s best teachers. Great books let you think and feel the brilliance of history’s most influential people.
+			<span class="simple-dropcaps">L</span><span class="smallcaps">iterature</span> brings the great ideas of history alive. Students who read great literature write better because they have history’s best teachers. Great books let you think and feel the brilliance of history’s most influential people.
 		</div>
 		</div>
 		<div>
@@ -93,7 +95,7 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_philosophy.svg" alt="Philosophy"/>
 		</div>
 		<div class="grid-80">
-			<span class="bold smallcaps">Philosophy</span> asks the age-old foundational questions about man, God, and nature. Classical Christian education sets students on a firm foundation for understanding and integrating all of life.
+			<span class="simple-dropcaps">P</span><span class="smallcaps">hilosophy</span> asks the age-old foundational questions about man, God, and nature. Classical Christian education sets students on a firm foundation for understanding and integrating all of life.
 		</div>
 		</div>
 		<div>
@@ -101,7 +103,7 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_theology.svg" alt="Theology"/>
 		</div>
 		<div class="grid-80">
-			<span class="bold smallcaps">Theology:</span> Scripture provides us with everything we need to know about God. Theology organizes it. Students who know their theology have a better grasp of the Bible. Classical educators call theology the “Queen of the Sciences.”
+			<span class="simple-dropcaps">T</span><span class="smallcaps">heology:</span> Scripture provides us with everything we need to know about God. Theology organizes it. Students who know their theology have a better grasp of the Bible. Classical educators call theology the “Queen of the Sciences.”
 		</div>
 		</div>
 
@@ -110,7 +112,7 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_art.svg" alt="Art"/>
 		</div>
 		<div class="grid-80">
-			<span class="bold smallcaps">Art:</span> People’s beliefs about the world are reflected in their art. By studying music, theater; and the fine arts in their historical context, we come to know the views that produced them.
+			<span class="simple-dropcaps">A</span><span class="smallcaps">rt:</span> People’s beliefs about the world are reflected in their art. By studying music, theater; and the fine arts in their historical context, we come to know the views that produced them.
 		</div>
 		</div>
 		<div>
@@ -118,7 +120,7 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_math.svg" alt="Science & Math"/>
 		</div>
 		<div class="grid-80">
-			<span class="bold smallcaps">Science <span class="italic">&</span> Math:</span> From Archimedes to Newton, from Galileo to Pascal, the golden era of science belongs to the classical worldview. One difference between a classical and a liberal-arts education is our emphasis on science and math. Students at classical schools perform well in these subjects.
+			<span class="simple-dropcaps">S</span><span class="smallcaps">cience <span class="italic">&</span> Math:</span> From Archimedes to Newton, from Galileo to Pascal, the golden era of science belongs to the classical worldview. One difference between a classical and a liberal-arts education is our emphasis on science and math. Students at classical schools perform well in these subjects.
 		</div>
 		</div>
 		<div>
@@ -126,14 +128,14 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_rhetoric.svg" alt="Rhetoric"/>
 		</div>
 		<div class="grid-80">
-			<span class="bold smallcaps">Logic <span class="italic">&</span> Rhetoric</span> are not only methods, they are also subjects, systematized and formalized by Aristotle. We study these to learn the science of thinking and the art of verbal and written communication.
+			<span class="simple-dropcaps">L</span><span class="smallcaps">ogic<span class="italic"> &</span> Rhetoric</span> are not only methods, they are also subjects, systematized and formalized by Aristotle. We study these to learn the science of thinking and the art of verbal and written communication.
 		</div>
 		</div>
 		<div>
 		<div class="grid-80">
-			<span class="bold smallcaps">Scripture</span> is not only a subject&mdash;it is also a lens. It provides perspective, enlightening every subject as we use the light of Scripture to help us understand every subject in every way. This difference is evident in every classical and Christian classroom.
+			<span class="simple-dropcaps">S</span><span class="smallcaps">cripture</span> is not only a subject&mdash;it is also a lens. It provides perspective, enlightening every subject as we use the light of Scripture to help us understand every subject in every way. This difference is evident in every classical and Christian classroom.
 		</div>
-		<div class="grid-20">
+		<div class="grid-20 pad-left">
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_scripture.svg" alt="Scripture"/>
 		</div>
 		</div>
@@ -190,20 +192,16 @@
 			<div class="grid-20">
 				<div class="circle smallcaps">Myth<br> #1</div>
 			</div>
-
-			<div class="grid-80">
-				<div class="italic">Classical education was fine back then, but we need modern education in a modern world.</div>
-			</div>
-		</div>
 		
-		<span id="fact-1" class="anchor"></span>
-		<a class="anchor-button" href="#fact-1">Learn the Truth</a>
-		<div class="hidden-content fact-1">
-			<p class="first"><span class="bold smallcaps">Fact:</span> Classical education teaches students facts, provides them with logical tools to use those facts, and perfects the student’s ability to relate those facts to others. This fundamental skill-set is more valuable today than it has ever been. The process of teaching students to think extends far beyond filling their heads with knowledge. Modern education, to varying degrees, has succeeded in teaching facts and some skills. Classical education helps students draw original, creative, and accurate conclusions from facts and then formulate those conclusions into logical and persuasive arguments.</p>
+			<span id="fact-1" class="anchor"></span>
+			<a class="anchor-text grid-80" href="#fact-1">Classical education was fine back then, but we need modern education in a modern world.</a>
+			<div class="hidden-content fact-1">
+				<p><span class="simple-dropcaps">F</span><span class="smallcaps">act:</span> Classical education teaches students facts, provides them with logical tools to use those facts, and perfects the student’s ability to relate those facts to others. This fundamental skill-set is more valuable today than it has ever been. The process of teaching students to think extends far beyond filling their heads with knowledge. Modern education, to varying degrees, has succeeded in teaching facts and some skills. Classical education helps students draw original, creative, and accurate conclusions from facts and then formulate those conclusions into logical and persuasive arguments.</p>
 
-			<p>Modern subjects based in science and technology are taught in classical schools, through classical methods. Parents who are exposed to classical education recognize that its “back to the basics” approach contrasts with the distractions of modern education. Is the classical method applicable in a modern, technological age? The technology we have today was invented, in large part, by the classically educated.</p>
+				<p>Modern subjects based in science and technology are taught in classical schools, through classical methods. Parents who are exposed to classical education recognize that its “back to the basics” approach contrasts with the distractions of modern education. Is the classical method applicable in a modern, technological age? The technology we have today was invented, in large part, by the classically educated.</p>
 
-			<p>Classical education teaches children the timeless skills of thinking; reasoning, logic, and expression. Our subject matter is as up-to-date as that found in other schools. We simply add a depth and dimension through this time-tested method.</p>
+				<p>Classical education teaches children the timeless skills of thinking; reasoning, logic, and expression. Our subject matter is as up-to-date as that found in other schools. We simply add a depth and dimension through this time-tested method.</p>
+			</div>
 		</div>
 
 		<div>
@@ -211,17 +209,13 @@
 				<div class="circle smallcaps">Myth<br> #2</div>
 			</div>
 
-			<div class="grid-80">
-				<div class="italic">Classical education is unnecessarily difficult.</div>
+			<span id="fact-2" class="anchor"></span>
+			<a class="anchor-text grid-80" href="#fact-2">Classical education is unnecessarily difficult.</a>
+			<div class="hidden-content fact-2">
+				<p><span class="simple-dropcaps">F</span><span class="smallcaps">act:</span> Children enjoy learning. They are wired for it. Assuming that a child will not be able to succeed in a challenging environment is tempting, but simply untrue.</p>
+				
+				<p>A common assumption is that a demanding curriculum results in unhappy children. As adults, learning new things can be uncomfortable. However, children are fascinated by what they learn. The excitement of children learning Latin grows as they become able to describe the world in a language that most adults do not understand. The right and complex texture of classical literature is amplified by youth. Science and the history of Western Civilization come alive for those who hunger to know about their world. For the unconvinced, a visit to our school is sure to demonstrate that our students love to learn. The classical method encourages a stimulating and enjoyable learning environment for students.</p>
 			</div>
-		</div>
-
-		<span id="fact-2" class="anchor"></span>
-		<a class="anchor-button" href="#fact-2">Learn the Truth</a>
-		<div class="hidden-content fact-2">
-			<p class="first"><span class="bold smallcaps">Fact:</span> Children enjoy learning. They are wired for it. Assuming that a child will not be able to succeed in a challenging environment is tempting, but simply untrue.</p>
-
-			<p>A common assumption is that a demanding curriculum results in unhappy children. As adults, learning new things can be uncomfortable. However, children are fascinated by what they learn. The excitement of children learning Latin grows as they become able to describe the world in a language that most adults do not understand. The right and complex texture of classical literature is amplified by youth. Science and the history of Western Civilization come alive for those who hunger to know about their world. For the unconvinced, a visit to our school is sure to demonstrate that our students love to learn. The classical method encourages a stimulating and enjoyable learning environment for students.</p>
 		</div>
 
 		<div>
@@ -229,17 +223,13 @@
 				<div class="circle smallcaps">Myth<br> #3</div>
 			</div>
 
-			<div class="grid-80">
-				<div class="italic">Classical education is too extreme.</div>
+			<span id="fact-3" class="anchor"></span>
+			<a class="anchor-text grid-80" href="#fact-3">Classical education is too extreme.</a>
+			<div class="hidden-content fact-3">
+				<p><span class="simple-dropcaps">F</span><span class="smallcaps">act:</span> Classical education teaches “with the grain”&mdash;complementing their developmental phase with the appropriate teaching method. Parents are rightfully skeptical of anything that differs boldly from the norm. However, classical education was the norm 100 years ago because it worked.</p>
+
+				<p>Conventional education has taken an experimental approach to educating our children over the past four decades. Many different methods have been tried and later scrapped when they failed. This constant state of change in education creates an environment where anything “traditional” seems extreme. Classical education provides a basic structure upon which we can build effective, successful students. We are not advocating an experiment. Rather, we are seeking a return to a system proven for over 1,000 years.</p>
 			</div>
-		</div>
-
-		<span id="fact-3" class="anchor"></span>
-		<a class="anchor-button" href="#fact-3">Learn the Truth</a>
-		<div class="hidden-content fact-3">
-			<p class="first"><span class="bold smallcaps">Fact:</span> Classical education teaches “with the grain”&mdash;complementing their developmental phase with the appropriate teaching method. Parents are rightfully skeptical of anything that differs boldly from the norm. However, classical education was the norm 100 years ago because it worked.</p>
-
-			<p>Conventional education has taken an experimental approach to educating our children over the past four decades. Many different methods have been tried and later scrapped when they failed. This constant state of change in education creates an environment where anything “traditional” seems extreme. Classical education provides a basic structure upon which we can build effective, successful students. We are not advocating an experiment. Rather, we are seeking a return to a system proven for over 1,000 years.</p>
 		</div>
 
 	</div>

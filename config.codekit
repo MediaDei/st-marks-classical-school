@@ -450,6 +450,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/home_tout2-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4690,
+		"inputAbbreviatedPath": "\/images\/home_tout2-black.png",
+		"outputAbbreviatedPath": "\/images\/home_tout2-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/home_tout2-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4940,
+		"inputAbbreviatedPath": "\/images\/home_tout2-white.png",
+		"outputAbbreviatedPath": "\/images\/home_tout2-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/home_tout3-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4546,
+		"inputAbbreviatedPath": "\/images\/home_tout3-black.png",
+		"outputAbbreviatedPath": "\/images\/home_tout3-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/home_tout3-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4847,
+		"inputAbbreviatedPath": "\/images\/home_tout3-white.png",
+		"outputAbbreviatedPath": "\/images\/home_tout3-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/home_virtue.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -556,6 +600,17 @@
 		"initialSize": 83264,
 		"inputAbbreviatedPath": "\/images\/overview_formation.jpg",
 		"outputAbbreviatedPath": "\/images\/overview_formation.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/overview_philosophy-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2260,
+		"inputAbbreviatedPath": "\/images\/overview_philosophy-black.png",
+		"outputAbbreviatedPath": "\/images\/overview_philosophy-black.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -890,6 +945,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_classical.scss",
 		"outputAbbreviatedPath": "\/css\" # by Fire.app \/_classical.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_faq.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_faq.scss",
+		"outputAbbreviatedPath": "\/css\" # by Fire.app \/_faq.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

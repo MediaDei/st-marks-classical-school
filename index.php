@@ -77,13 +77,12 @@
 		</p>
 	</div>
 
-	<div class="quote">
-		<span class="smallcaps">We are a classical academy </span><span class="italic">“where the instruction which enlightens<br>
-		 the understanding is not separated from the moral education <br>
-		 which amends the heart.”</span> — Alexis de Tocqueville
+	<div class="divider-quote">
+		<blockquote class="first"><span class="smallcaps">We are a classical academy </span><span class="italic">“where the instruction which enlightens the understanding is not separated from the moral education which amends the heart.”</span>
+		<br>
+		<cite>&mdash; Alexis de Tocqueville</cite>
+		</blockquote>
 	</div>
-</section>
-
 <section class="main-section">
 	<h2 class="section-title hm-education">Classical Education</h2>
 
@@ -141,8 +140,9 @@
 		</div>
 	</div>
 	<div class="home-hr"></div>
-	<div class="home-quote">
-		<blockquote><span class="smallcaps">The sole purpose</span> of education is simply this&thinsp;:&thinsp; <span class="italic">to teach men how to learn for themselves</span>&thinsp;;&thinsp; and whatever instruction fails to do this is effort spent in vain.
+	<div class="divider-quote">
+		<blockquote class="second"><span class="smallcaps">The sole purpose</span> of education is simply this&thinsp;:&thinsp; <span class="italic">to teach men how to learn for themselves</span>&thinsp;;&thinsp; and whatever instruction fails to do this is effort spent in vain.
+		<br>
 		<cite>&mdash; Dorothy Sayers, <span class="italic">The Lost Tools of Learning</span></cite>
 		</blockquote>
 	</div>
@@ -154,8 +154,16 @@
 		<p class="capital-ornate"><span class="A">A</span><span class="smallcaps">t saint mark's classical school</span> we understand how the busyness of life can get in the way of traveling. If you are unable to attend our next Open House Event, we hope that these captured moments will at least give you a glimpse into what our classical education program has to offer both you and your child.</p>
 		<?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'home-page-slider', 'slug' ); } ?>
 	</div>
-	<div class="divider">some content...maybe featured image/announcment?</div>
-	<h4>Upcoming Events</h4>
+	<div class="divider-quote">
+		<blockquote class="third"><span class="smallcaps">the study of philosophy</span> is not that we may know what men have thought, but what the truth of things is.
+		<br>
+		<cite>&mdash; Thomas Aquinas</cite>
+		</blockquote>
+	</div>
+</section>
+
+<section class="events">
+	<h3 class="section-heading">Upcoming Events</h4>
 	<section class="ac-container">
 		<div class="event-list">
 		<?php 
@@ -347,6 +355,7 @@
 		</div>
 	</section>
 </section>
+<!--
 <section class="give bg-grey">
 	<h3 class="section-heading">Support</h3>
 	<p class="capital-ornate"><span class="A">W</span><span class="smallcaps">e rely on your support</span> to provide affordable education, and offer financial assistance where needed, ensuring a brighter future. Consider donating today.</p>
@@ -499,4 +508,5 @@
     });
   </script>
 </section>
+-->
 <?php get_footer(); ?>
