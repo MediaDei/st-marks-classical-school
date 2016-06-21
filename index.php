@@ -58,65 +58,22 @@
 		Welcome to St. Mark's
 	</h1>
 	<h1 class="subtext">Classical Academy</h1>
-	
-<!--
-	<div class="new-calendar">
-		<h2>On the Calendar at St. Mark's Classical School</h2>
-		<style>
-			.open-house {
-				display: block;
-				margin: 16px auto 70px;
-				width: 400px;
-				box-shadow: 0 9px 4px -6px rgba(0,0,0,0.5), 0 3px 7px rgba(0, 0, 0, 0.3);
-			}
-		</style>
 
-		<img class="open-house" src="<?php bloginfo('template_url'); ?>/open-house.jpg" />
-		<?php 
-			// Ensure the global $post variable is in scope
-			global $post;
-			 
-			// Retrieve the next 5 upcoming events
-			$events = tribe_get_events( array(
-				'posts_per_page' => 3,			   // how many to grab
-				//'eventDisplay'   => 'upcoming',  // Upcoming, Past, Custom, List, etc
-				//'tag'            => 'featured'   // specify tag if needed
-				//'start_date' => new DateTime()
-			) );
-			
-			foreach ( $events as $post ) {
-				setup_postdata( $post ); // basic WP post setup
-				remove_filter ('the_content','wpautop'); // prevent appending <p> to content
-
-				echo '
-		 		<div class="item">
-			    	<div class="date">
-			    		<div class="top smallcaps">' . tribe_get_start_date(null, false, 'M') . '</div>
-			    		<div class="bottom">' .  tribe_get_start_date(null, false, 'd') . '</div>
-			    	</div>
-					<div class="text"><h3 class="event-title">' . get_the_title() . '</h3><p class"event-title">' . get_the_content() . '</p></div>
-				</div>';
-			}
-
-			add_filter ('the_content','wpautop');	// restore
-		?>
-	</div>
--->
 	<div class="icon-p-wrap">
 		<div class="icon icon1"></div>
-		<p class="mission capital-ornate"><span class="A">M</span><span class="smallcaps">ission: </span>To endow our students with the tools of learning and the wisdom of the ages by nourishing their souls with truth, goodness and beauty, so that they may serve God and their fellow man with virtue, dignity and strength.
+		<p class="mission"><span class="simple-dropcaps">M</span><span class="smallcaps">ission: </span>To endow our students with the tools of learning and the wisdom of the ages by nourishing their souls with truth, goodness and beauty, so that they may serve God and their fellow man with virtue, dignity and strength.
 		</p>
 	</div>
 
 	<div class="icon-p-wrap">
 		<div class="icon icon2"></div>
-		<p class="faculty capital-ornate"><span class="T">O</span><span class="smallcaps">ur faculty: </span>are committed to the full integration of faith and learning. We maintain a low student-teacher ratio so as to provide an effective, personal learning environment in which our teachers act not only as instructors, but also as mentors and Christian role-models.
+		<p class="faculty"><span class="simple-dropcaps">O</span><span class="smallcaps">ur faculty: </span>are committed to the full integration of faith and learning. We maintain a low student-teacher ratio so as to provide an effective, personal learning environment in which our teachers act not only as instructors, but also as mentors and Christian role-models.
 		</p>
 	</div>
 
 	<div class="icon-p-wrap last">
 		<div class="icon icon3"></div>
-		<p class="curriculum capital-ornate"><span class="C">C</span><span class="smallcaps">urriculum: </span>Using the time-honored “trivium,” (three-fold way) and its three stages of learning as a guide, curriculum materials are carefully chosen from select publishers to ensure that students in the Grammar stage (K-6<sup>th</sup>) acquire the necessary phonetic, reading, arithmetic, and writing skills in traditional core subjects.
+		<p class="curriculum"><span class="simple-dropcaps">C</span><span class="smallcaps">urriculum: </span>Using the time-honored “trivium,” (three-fold way) and its three stages of learning as a guide, curriculum materials are carefully chosen from select publishers to ensure that students in the Grammar stage (K-6<sup>th</sup>) acquire the necessary phonetic, reading, arithmetic, and writing skills in traditional core subjects.
 		</p>
 	</div>
 

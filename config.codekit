@@ -428,6 +428,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/home_tout1-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3515,
+		"inputAbbreviatedPath": "\/images\/home_tout1-black.png",
+		"outputAbbreviatedPath": "\/images\/home_tout1-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/home_tout1-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3674,
+		"inputAbbreviatedPath": "\/images\/home_tout1-white.png",
+		"outputAbbreviatedPath": "\/images\/home_tout1-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/home_virtue.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

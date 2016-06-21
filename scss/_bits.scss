@@ -112,7 +112,6 @@ $image-outer-frame: #CBBFA5;
 .pre > p:first-of-type::before,
 section.overview .sub-title .inner::before,
 section.overview .intro .our-goals .list .title::before,
-section.overview .educational-philosophy .grid-right p .darker::before,
 section.classical .sub-title .inner::before,
 section.classical .latin .text-graph p.first::before,
 section.classical .myths p.first::before{
@@ -160,6 +159,14 @@ section.classical .myths p.first::before{
       }
     }
   }
+}
+
+//simple-dropcaps
+span.simple-dropcaps{
+  font-size: 3em; 
+  margin-right: 0.1em;
+  float: left;
+  color: lighten($main-text,5%);
 }
 
 //ornate-capitals

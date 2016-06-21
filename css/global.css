@@ -431,7 +431,6 @@ th {
 .pre > p:first-of-type::before,
 section.overview .sub-title .inner::before,
 section.overview .intro .our-goals .list .title::before,
-section.overview .educational-philosophy .grid-right p .darker::before,
 section.classical .sub-title .inner::before,
 section.classical .latin .text-graph p.first::before,
 section.classical .myths p.first::before {
@@ -473,6 +472,12 @@ section.classical .myths p.first::before {
     .anchor:target + .anchor-button + .question-1, .anchor:target + .anchor-button + .question-2, .anchor:target + .anchor-button + .question-3, .anchor:target + .anchor-button + .question-4, .anchor:target + .anchor-button + .question-5, .anchor:target + .anchor-button + .question-6, .anchor:target + .anchor-button + .question-7, .anchor:target + .anchor-button + .question-8, .anchor:target + .anchor-button + .question-9, .anchor:target + .anchor-button + .question-10 {
       display: block;
       margin-bottom: 70px; }
+
+span.simple-dropcaps {
+  font-size: 3em;
+  margin-right: 0.1em;
+  float: left;
+  color: #635c57; }
 
 p.capital-ornate {
   text-indent: -10px; }
@@ -3462,8 +3467,8 @@ body {
   min-width: 960px;
   font-size: 16px;
   color: #554F4B; }
-  body p {
-    line-height: 1.3; }
+  body p, body div {
+    line-height: 1.2; }
   body ol {
     list-style-type: decimal; }
   body header div.navTitle a.seal img {
@@ -3474,7 +3479,8 @@ body {
       text-align: center;
       font-size: 2.4em; }
     body section.first {
-      padding-top: 30px; }
+      padding-top: 30px;
+      padding-bottom: 0px; }
     body section.section-banner div.home-scroll {
       display: none; }
     body section div.home-leaf {
@@ -3509,9 +3515,12 @@ body {
           width: 50px;
           position: absolute;
           top: 0px;
-          left: 0px; }
+          left: 0px;
+          line-height: 0.6 !important; }
           body section div.new-calendar div.item div.date:after {
             height: 25px; }
+          body section div.new-calendar div.item div.date div.bottom {
+            line-height: 0.7 !important; }
         body section div.new-calendar div.item div.text {
           width: 100%; }
           body section div.new-calendar div.item div.text h3.event-title {
@@ -3571,73 +3580,83 @@ body {
         margin: 0px 0px 0px 20px; }
     body section div.quote {
       text-align: center;
-      font-size: 1.1em;
-      margin: 110px auto 80px;
+      font-size: 1.3em;
+      height: 140px;
+      padding: 40px;
+      margin: 80px auto 0px;
       line-height: 1.3;
-      position: relative; }
-      body section div.quote:before {
+      position: relative;
+      background-color: #676767;
+      color: white;
+      text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.8);
+      box-shadow: inset 0 12px 8px -5px black;
+      z-index: 0; }
+      body section div.quote:before, body section div.quote:after {
         content: "";
         position: absolute;
-        top: -120%;
-        left: 50%;
-        opacity: 0.3;
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-        width: 190px;
-        height: 190px;
-        background: url("../images/home_tout1.svg") no-repeat scroll center center/100% auto; }
-    body section.main-section div.home-values {
-      margin-bottom: 60px; }
-      body section.main-section div.home-values div.grid-whole img {
-        width: 93%; }
-      body section.main-section div.home-values div.grid-whole div div.img {
-        height: 240px;
-        width: 240px; }
-        body section.main-section div.home-values div.grid-whole div div.img:after {
+        left: 8%;
+        width: 140px;
+        height: 140px; }
+      body section div.quote:before {
+        background: url("../images/home_tout1-white.png") no-repeat scroll center center/100% auto;
+        z-index: -1;
+        top: 1px; }
+      body section div.quote:after {
+        background: url("../images/home_tout1-black.png") no-repeat scroll center center/100% auto;
+        z-index: -2;
+        top: 0px; }
+    body section.main-section {
+      background-color: white; }
+      body section.main-section div.home-values {
+        margin-bottom: 60px; }
+        body section.main-section div.home-values div.grid-whole img {
+          width: 93%; }
+        body section.main-section div.home-values div.grid-whole div div.img {
           height: 240px;
           width: 240px; }
-        body section.main-section div.home-values div.grid-whole div div.img.success {
-          background-size: 100% auto;
-          background-position: center center; }
-      body section.main-section div.home-values div.grid div div.img {
-        height: 240px;
-        width: 240px; }
-        body section.main-section div.home-values div.grid div div.img:before {
-          display: none; }
-        body section.main-section div.home-values div.grid div div.img:after {
+          body section.main-section div.home-values div.grid-whole div div.img:after {
+            height: 240px;
+            width: 240px; }
+          body section.main-section div.home-values div.grid-whole div div.img.success {
+            background-size: 100% auto;
+            background-position: center center; }
+        body section.main-section div.home-values div.grid div div.img {
           height: 240px;
           width: 240px; }
-        body section.main-section div.home-values div.grid div div.img.virtue {
-          background-size: 115% auto;
-          background-position: center center; }
-        body section.main-section div.home-values div.grid div div.img.rigor {
-          background-size: 110% auto;
-          background-position: center center; }
-        body section.main-section div.home-values div.grid div div.img.faith {
-          background-size: 100% auto;
-          background-position: center center; }
-      body section.main-section div.home-values div.grid-whole div {
-        width: 100%; }
-        body section.main-section div.home-values div.grid-whole div div.children {
-          border: 4px solid #F4DC97;
-          box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 1px #CBBFA5, 0px 21px 10px -15px rgba(0, 0, 0, 0.5);
-          border-radius: 0px;
-          background: transparent url("../images/overview_formation.jpg") no-repeat scroll 0 -20px/100% auto;
-          height: 260px;
-          margin: 30px auto;
-          width: 660px; }
-        body section.main-section div.home-values div.grid-whole div div.success {
-          display: none; }
-    body section.main-section div.education p {
-      width: 500px;
-      margin: 0 auto 50px; }
-    body section.main-section div.education h3 {
-      font-size: 1.4em;
-      text-align: center;
-      margin-bottom: 15px;
-      font-style: italic; }
+          body section.main-section div.home-values div.grid div div.img:before {
+            display: none; }
+          body section.main-section div.home-values div.grid div div.img:after {
+            height: 240px;
+            width: 240px; }
+          body section.main-section div.home-values div.grid div div.img.virtue {
+            background-size: 115% auto;
+            background-position: center center; }
+          body section.main-section div.home-values div.grid div div.img.rigor {
+            background-size: 110% auto;
+            background-position: center center; }
+          body section.main-section div.home-values div.grid div div.img.faith {
+            background-size: 100% auto;
+            background-position: center center; }
+        body section.main-section div.home-values div.grid-whole div {
+          width: 100%; }
+          body section.main-section div.home-values div.grid-whole div div.children {
+            border: 4px solid #F4DC97;
+            box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 1px #CBBFA5, 0px 21px 10px -15px rgba(0, 0, 0, 0.5);
+            border-radius: 0px;
+            background: transparent url("../images/overview_formation.jpg") no-repeat scroll 0 -20px/100% auto;
+            height: 260px;
+            margin: 30px auto;
+            width: 660px; }
+          body section.main-section div.home-values div.grid-whole div div.success {
+            display: none; }
+      body section.main-section div.education p {
+        width: 500px;
+        margin: 0 auto 50px; }
+      body section.main-section div.education h3 {
+        font-size: 1.4em;
+        text-align: center;
+        margin-bottom: 15px;
+        font-style: italic; }
     body section.student-life h3 {
       text-align: center;
       font-size: 2.4em;
@@ -3906,7 +3925,19 @@ body {
     body section.classical div.foundation div.middle {
       margin-left: 120px; }
     body section.classical div.foundation div div.grid-66 {
-      color: #554F4B; }
+      color: #554F4B;
+      font-size: 1em; }
+  body section.classical div.lost-content div div.grid-20 img {
+    width: 120px !important;
+    height: 120px !important;
+    padding: 5px !important;
+    background-color: white !important;
+    border: 1px solid #F7DCB4 !important;
+    border-radius: 100% !important;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 2px white, 0px 0px 0px 4px #F7DCB4, 0px 0px 0px 5px #c6b090, 0px 4px 3px 3px rgba(0, 0, 0, 0.2) !important; }
+  body section.classical div.lost-content div div.grid-80 {
+    line-height: 1.2;
+    font-size: 1em; }
   body section.classical div.myths {
     padding: 0px; }
     body section.classical div.myths div {
