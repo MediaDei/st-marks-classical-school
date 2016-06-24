@@ -63,7 +63,7 @@
 	</div>
 </section>
 
-<section class="classical main-section">
+<section class="classical main-section bg-grey">
 
 	<h2 class="section-title cl-lost-content">
 		The Lost Content
@@ -87,7 +87,9 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_literature.svg" alt="Literature"/>
 		</div>
 		<div class="grid-80">
-			<span class="simple-dropcaps">L</span><span class="smallcaps">iterature</span> brings the great ideas of history alive. Students who read great literature write better because they have history’s best teachers. Great books let you think and feel the brilliance of history’s most influential people.
+			<p>
+				<span class="simple-dropcaps">L</span><span class="smallcaps">iterature</span> brings the great ideas of history alive. Students who read great literature write better because they have history’s best teachers. Great books let you think and feel the brilliance of history’s most influential people.
+			</p>
 		</div>
 		</div>
 		<div>
@@ -95,7 +97,9 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_philosophy.svg" alt="Philosophy"/>
 		</div>
 		<div class="grid-80">
-			<span class="simple-dropcaps">P</span><span class="smallcaps">hilosophy</span> asks the age-old foundational questions about man, God, and nature. Classical Christian education sets students on a firm foundation for understanding and integrating all of life.
+			<p>
+				<span class="simple-dropcaps">P</span><span class="smallcaps">hilosophy</span> asks the age-old foundational questions about man, God, and nature. Classical Christian education sets students on a firm foundation for understanding and integrating all of life.
+			</p>
 		</div>
 		</div>
 		<div>
@@ -103,7 +107,9 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_theology.svg" alt="Theology"/>
 		</div>
 		<div class="grid-80">
-			<span class="simple-dropcaps">T</span><span class="smallcaps">heology:</span> Scripture provides us with everything we need to know about God. Theology organizes it. Students who know their theology have a better grasp of the Bible. Classical educators call theology the “Queen of the Sciences.”
+			<p>
+				<span class="simple-dropcaps">T</span><span class="smallcaps">heology:</span> Scripture provides us with everything we need to know about God. Theology organizes it. Students who know their theology have a better grasp of the Bible. Classical educators call theology the “Queen of the Sciences.”
+			</p>
 		</div>
 		</div>
 
@@ -112,7 +118,9 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_art.svg" alt="Art"/>
 		</div>
 		<div class="grid-80">
-			<span class="simple-dropcaps">A</span><span class="smallcaps">rt:</span> People’s beliefs about the world are reflected in their art. By studying music, theater; and the fine arts in their historical context, we come to know the views that produced them.
+			<p>
+				<span class="simple-dropcaps">A</span><span class="smallcaps">rt:</span> People’s beliefs about the world are reflected in their art. By studying music, theater; and the fine arts in their historical context, we come to know the views that produced them.
+			</p>
 		</div>
 		</div>
 		<div>
@@ -120,7 +128,9 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_math.svg" alt="Science & Math"/>
 		</div>
 		<div class="grid-80">
-			<span class="simple-dropcaps">S</span><span class="smallcaps">cience <span class="italic">&</span> Math:</span> From Archimedes to Newton, from Galileo to Pascal, the golden era of science belongs to the classical worldview. One difference between a classical and a liberal-arts education is our emphasis on science and math. Students at classical schools perform well in these subjects.
+			<p>
+				<span class="simple-dropcaps">S</span><span class="smallcaps">cience <span class="italic">&</span> Math:</span> From Archimedes to Newton, from Galileo to Pascal, the golden era of science belongs to the classical worldview. One difference between a classical and a liberal-arts education is our emphasis on science and math. Students at classical schools perform well in these subjects.
+			</p>
 		</div>
 		</div>
 		<div>
@@ -128,12 +138,16 @@
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_rhetoric.svg" alt="Rhetoric"/>
 		</div>
 		<div class="grid-80">
-			<span class="simple-dropcaps">L</span><span class="smallcaps">ogic<span class="italic"> &</span> Rhetoric</span> are not only methods, they are also subjects, systematized and formalized by Aristotle. We study these to learn the science of thinking and the art of verbal and written communication.
+			<p>
+				<span class="simple-dropcaps">L</span><span class="smallcaps">ogic<span class="italic"> &</span> Rhetoric</span> are not only methods, they are also subjects, systematized and formalized by Aristotle. We study these to learn the science of thinking and the art of verbal and written communication.
+			</p>
 		</div>
 		</div>
 		<div>
 		<div class="grid-80">
-			<span class="simple-dropcaps">S</span><span class="smallcaps">cripture</span> is not only a subject&mdash;it is also a lens. It provides perspective, enlightening every subject as we use the light of Scripture to help us understand every subject in every way. This difference is evident in every classical and Christian classroom.
+			<p>
+				<span class="simple-dropcaps">S</span><span class="smallcaps">cripture</span> is not only a subject&mdash;it is also a lens. It provides perspective, enlightening every subject as we use the light of Scripture to help us understand every subject in every way. This difference is evident in every classical and Christian classroom.
+			</p>
 		</div>
 		<div class="grid-20 pad-left">
 			<img class="img" src="<?php bloginfo('template_url'); ?>/images/overview_scripture.svg" alt="Scripture"/>

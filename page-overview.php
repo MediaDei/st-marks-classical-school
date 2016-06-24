@@ -65,7 +65,7 @@
 </section>
 
 
-<section class="overview main-section">
+<section class="overview main-section bg-grey">
 	<h2 class="section-title ov-philosophy">Education Philosophy</h2>
 
 	<div class="educational-philosophy">
@@ -96,18 +96,32 @@
 	<h2 class="section-title ov-environment">Environment</h2>
 
 	<div class="environment">
-		<div class="sub-title"><div class="inner italic">Chapel</div></div>
+		<div class="wrapper">
+			<div class="text chapel">
+				<div class="sub-title"><div class="inner italic acorn">Our Chapel</div></div>
+				<p><span class="smallcaps">every day at saint mark's classical academy</span> begins and ends with a traditional Anglican prayer service, striving for the humility that lies at the center of wisdom.  Love for each other begins with love for God and the singular ethos of St. Mark’s flows from our corporate prayers.
+				</p>
+			</div>
+			<div class="overview-image chapel"></div>
+		</div>
 
-		<p><span class="smallcaps">Every day</span> at St. Mark’s begins and ends with a traditional Anglican prayer service, striving for the humility that lies at the center of wisdom.  Love for each other begins with love for God and the singular ethos of St. Mark’s flows from our corporate prayers.
-		</p>
+		<div class="divider-quote">
+			<blockquote><span class="smallcaps">o come, let us sing unto the lord</span>; *let us heartily rejoice in the strength of our salvation.<br>Let us come before his presence with thanksgiving; *and show ourselves glad in him with psalms.
+			<br>
+			<cite>&mdash; Venite, Exultemus Domino, <span class="italic">Book of Common Prayer (1928)</span></cite>
+			</blockquote>
+		</div>
 
-
-		<div class="sub-title"><div class="inner italic">Our Faculty</div></div>
-
-		<p><span class="smallcaps">St. Mark's Academy</span> is committed to providing a high-caliber staff of educators who embrace the philosophy and principles of Christian education and who are committed to the full integration of faith and learning. We maintain a low student-teacher ratio so as to provide an effective, personal learning environment. In this setting our teachers act not only as instructors but also as mentors and Christian role-models.
-		</p>
-		<br>
-
+		<div class="wrapper second">
+			<div class="overview-image faculty"></div>
+			<div class="text faculty">
+				<div class="sub-title"><div class="inner italic acorn">Our Faculty</div></div>
+				<p><span class="smallcaps">st. mark's classical academy</span> is committed to providing a high-caliber staff of educators who embrace the philosophy and principles of Christian education and who are committed to the full integration of faith and learning. We maintain a low student-teacher ratio so as to provide an effective, personal learning environment. In this setting our teachers act not only as instructors but also as mentors and Christian role-models.
+				</p>
+			</div>
+		</div>
+		
+		<h3>Meet Our Teachers</h3>
 
 		<input type="radio" name="bio1" id="bio1-left" />
 		<input type="radio" name="bio1" id="bio1-center" />
@@ -221,7 +235,7 @@
 	</div>
 </section>
 
-<section class="overview main-section">
+<section class="overview main-section bg-grey">
 	<h2 class="section-title ov-curriculum">Curriculum</h2>
 
 	<div class="curriculum" id="curriculum">

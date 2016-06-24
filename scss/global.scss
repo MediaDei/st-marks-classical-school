@@ -16,6 +16,23 @@ body{
 	min-width: 960px;
 	font-size: 16px;
 	color: $main-text;
+	header{
+		div.navTitle{
+			div.social{
+				a{
+					border: 1px solid darken(#F7DCB4,55%);
+					color: darken(#F7DCB4,65%) !important;
+					@include background-image(linear-gradient(lighten(#F7DCB4,15%), lighten(#F7DCB4,9%), lighten(#F7DCB4,11%)));
+					&:active{
+						box-shadow: 0px 0px 4px -2px rgba(black,0.8) inset !important;
+					}
+					&.fa-envelope{
+						padding: 6px 8px !important;
+					}
+				}
+			}
+		}
+	}
 	p{
 		line-height: 1.2;
 	}
@@ -26,7 +43,9 @@ body{
 	}
 	@import "header";
 	section{
-		border-bottom: 1px solid $border;
+		&.border{
+			border-bottom: 1px solid $border;
+		}
 		h3.section-heading{
 			text-align: center;
 			font-size: 2.4em; 
@@ -49,13 +68,16 @@ body{
 			text-shadow: 0px -2px 0px rgba(black,0.8);
 			box-shadow: inset 0 12px 8px -5px black;
 			z-index: 0; 
+			&.fourth{
+				padding: 35px;
+			}
 			blockquote{
 				position: relative;
 				margin: 0px auto;
 				cite{
 					color: white;
 				}
-				&.first,&.second,&.third{
+				&.first,&.second,&.third,&.fourth{
 					&:before,&:after{
 						content: "";
 						position: absolute;
@@ -113,6 +135,24 @@ body{
 					&:after{
 						background: url("../images/home_tout3-black.png") no-repeat scroll center center / 100% auto;
 						top: -52px;
+						z-index: -2;
+					}
+				}
+				&.fourth{
+					width: 630px; 
+					&:before,&:after{
+						left: -150px;
+						width: 140px;
+						height: 140px;
+					}
+					&:before{
+						background: url("../images/_footer_lion-white.png") no-repeat scroll center center / 100% auto;
+						top: -35px;
+						z-index: -1; 
+					}
+					&:after{
+						background: url("../images/_footer_lion-black.png") no-repeat scroll center center / 100% auto;
+						top: -37px;
 						z-index: -2;
 					}
 				}
@@ -290,12 +330,13 @@ body{
 			}
 		}
 		&.events{
-			
+			padding-bottom: 0px;  	
 			section.ac-container {
-        margin: 10px auto 30px;
+        margin: 60px auto 30px;
         padding: 6px 0;
         width: 600px;
         position: relative;
+        overflow: visible;
         
         &:before {
           content: "";
@@ -493,7 +534,7 @@ body{
           padding: 20px 20px;
           margin: 0;
           transition: height 0.2s ease-in-out 0s, padding 0.2s ease-in-out 0s, margin 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s;
-          height: 300px;
+          height: 350px;
           margin: 25px 0px;
           
           &:first-of-type {
@@ -577,12 +618,9 @@ body{
         }
       }
 		}
-		&.give{
-			h3{
-				margin-bottom: 15px;
-			}
+		&.apply{
 			p{
-				width: 500px;
+				width: 600px;
 				margin: 0 auto; 
 			}
 		}

@@ -76,6 +76,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/_footer_lion-black.png": {
+		"fileType": 32768,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44503,
+		"inputAbbreviatedPath": "\/images\/_footer_lion-black.png",
+		"outputAbbreviatedPath": "\/images\/_footer_lion-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/_footer_lion-white.png": {
+		"fileType": 32768,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44740,
+		"inputAbbreviatedPath": "\/images\/_footer_lion-white.png",
+		"outputAbbreviatedPath": "\/images\/_footer_lion-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/_footer_lion.png": {
 		"fileType": 32768,
 		"ignore": 1,
@@ -219,6 +241,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/chapel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 730443,
+		"inputAbbreviatedPath": "\/images\/chapel.jpg",
+		"outputAbbreviatedPath": "\/images\/chapel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/classical__banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -270,6 +303,17 @@
 		"initialSize": 44116,
 		"inputAbbreviatedPath": "\/images\/classical_rhetoric.jpg",
 		"outputAbbreviatedPath": "\/images\/classical_rhetoric.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/faculty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.8855e+06,
+		"inputAbbreviatedPath": "\/images\/faculty.jpg",
+		"outputAbbreviatedPath": "\/images\/faculty.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

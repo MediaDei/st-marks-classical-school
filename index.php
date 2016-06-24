@@ -354,6 +354,17 @@
 		<?php wp_reset_query(); ?>
 		</div>
 	</section>
+	<div class="divider-quote fourth">
+		<blockquote class="fourth"><span class="smallcaps">almighty god</span>, heavenly Father, who hast blessed us with the joy and care of children; Give us light and strength so to train them, that they may love whatsoever things are true and pure and lovely and of good report, following the example of their Saviour Jesus Christ. Amen.
+		<br>
+		<cite>&mdash; A Prayer For the Children, <em>Book of Common Prayer (1928)</em></cite>
+		</blockquote>
+	</div>
+</section>
+<section class="apply">
+	<h3 class="section-heading">Apply for Enrollment</h3>
+	<p class="capital-ornate"><span class="I">I</span><span class="smallcaps">f you would like to apply</span> to enroll your child at Saint Mark's Classical Academy, we would be glad to review your application and respond in a timely manner. We appreciate your interest in classical education and are excited for you and your child in this next step.</p>
+	<a class="button" href="/apply/"><div class="centered-button" role="button">Apply</div></a>
 </section>
 <!--
 <section class="give bg-grey">

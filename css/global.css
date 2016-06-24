@@ -426,15 +426,42 @@ th {
   float: left; }
 
 .bg-grey {
-  background-color: #faf9f9; }
+  background-color: #faf9f9 !important; }
 
 .pre > p:first-of-type::before,
-section.overview .sub-title .inner::before,
+section.overview .sub-title .inner.faculty::before,
+section.overview .intro .sub-title .inner::before,
 section.overview .intro .our-goals .list .title::before,
 section.classical .sub-title .inner::before,
 section.classical .latin .text-graph p.first::before,
 section.classical .myths p.first::before {
   display: none !important; }
+
+a.button {
+  display: table;
+  margin: 0 auto; }
+  a.button:hover {
+    text-decoration: none !important; }
+  a.button div.centered-button {
+    display: table;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiZmExOGMiIHN0b3Atb3BhY2l0eT0iMC4zOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(191, 161, 140, 0.38))) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
+    border: 1px solid #a9a9a9;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5), 0 -2px 6px rgba(255, 255, 255, 0.75) inset;
+    color: #554F4B !important;
+    letter-spacing: 1px;
+    padding: 7px 18px 5px 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    margin: 40px auto;
+    font-size: 1.3em;
+    cursor: pointer; }
+    a.button div.centered-button:active {
+      position: relative;
+      top: 1px; }
 
 .anchor-button {
   display: table;
@@ -472,11 +499,11 @@ section.classical .myths p.first::before {
   height: 0px;
   overflow: hidden;
   opacity: 0;
-  -moz-transition: all 0.1s ease-out 0.1s;
-  -o-transition: all 0.1s ease-out 0.1s;
-  -webkit-transition: all 0.1s ease-out;
-  -webkit-transition-delay: 0.1s;
-  transition: all 0.1s ease-out 0.1s;
+  -moz-transition: height 0.3s ease 0s;
+  -o-transition: height 0.3s ease 0s;
+  -webkit-transition: height 0.3s ease;
+  -webkit-transition-delay: 0s;
+  transition: height 0.3s ease 0s;
   padding: 0px;
   background-color: #676767;
   color: white;
@@ -497,7 +524,7 @@ section.classical .myths p.first::before {
   .anchor:target + .anchor-button + .fact-1, .anchor:target + .anchor-button + .fact-2, .anchor:target + .anchor-button + .fact-3, .anchor:target + .anchor-text + .fact-1, .anchor:target + .anchor-text + .fact-2, .anchor:target + .anchor-text + .fact-3 {
     margin-bottom: 70px;
     padding: 20px 0px;
-    height: 100%;
+    height: 300px;
     opacity: 1; }
   .anchor:target + .anchor-button + .question-1, .anchor:target + .anchor-button + .question-2, .anchor:target + .anchor-button + .question-3, .anchor:target + .anchor-button + .question-4, .anchor:target + .anchor-button + .question-5, .anchor:target + .anchor-button + .question-6, .anchor:target + .anchor-button + .question-7, .anchor:target + .anchor-button + .question-8, .anchor:target + .anchor-button + .question-9, .anchor:target + .anchor-button + .question-10, .anchor:target + .anchor-text + .question-1, .anchor:target + .anchor-text + .question-2, .anchor:target + .anchor-text + .question-3, .anchor:target + .anchor-text + .question-4, .anchor:target + .anchor-text + .question-5, .anchor:target + .anchor-text + .question-6, .anchor:target + .anchor-text + .question-7, .anchor:target + .anchor-text + .question-8, .anchor:target + .anchor-text + .question-9, .anchor:target + .anchor-text + .question-10 {
     margin: 10px 0px 70px;
@@ -566,7 +593,7 @@ p.capital-ornate {
     line-height: 0;
     color: transparent;
     background: url("../images/_ornateT.jpg") no-repeat scroll left top/100% auto white;
-    margin: 4px 11px 0 0;
+    margin: 4px 22px 0 0;
     font-size: 5.5em;
     padding: 39px 12px 29px; }
 
@@ -3499,208 +3526,240 @@ body {
   min-width: 960px;
   font-size: 16px;
   color: #554F4B; }
+  body header div.navTitle div.social a {
+    border: 1px solid #84550e;
+    color: #563709 !important;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmNmOSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmJlZmRkIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmNmNGU3Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefcf9), color-stop(50%, #fbefdd), color-stop(100%, #fcf4e7));
+    background-image: -moz-linear-gradient(#fefcf9, #fbefdd, #fcf4e7);
+    background-image: -webkit-linear-gradient(#fefcf9, #fbefdd, #fcf4e7);
+    background-image: linear-gradient(#fefcf9, #fbefdd, #fcf4e7); }
+    body header div.navTitle div.social a:active {
+      box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.8) inset !important; }
+    body header div.navTitle div.social a.fa-envelope {
+      padding: 6px 8px !important; }
   body p {
     line-height: 1.2; }
   body ol {
     list-style-type: decimal; }
   body header div.navTitle a.seal img {
     opacity: 0.8; }
-  body section {
+  body section.border {
     border-bottom: 1px solid #979797; }
-    body section h3.section-heading {
+  body section h3.section-heading {
+    text-align: center;
+    font-size: 2.4em;
+    margin-bottom: 40px; }
+  body section.first {
+    padding-top: 30px;
+    padding-bottom: 0px; }
+  body section div.divider-quote {
+    text-align: center;
+    font-size: 1em;
+    height: 140px;
+    padding: 45px 0px;
+    margin: 80px auto 0px;
+    line-height: 1.3;
+    position: relative;
+    background-color: #676767;
+    color: white;
+    text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0 12px 8px -5px black;
+    z-index: 0; }
+    body section div.divider-quote.fourth {
+      padding: 35px; }
+    body section div.divider-quote blockquote {
+      position: relative;
+      margin: 0px auto; }
+      body section div.divider-quote blockquote cite {
+        color: white; }
+      body section div.divider-quote blockquote.first:before, body section div.divider-quote blockquote.first:after, body section div.divider-quote blockquote.second:before, body section div.divider-quote blockquote.second:after, body section div.divider-quote blockquote.third:before, body section div.divider-quote blockquote.third:after, body section div.divider-quote blockquote.fourth:before, body section div.divider-quote blockquote.fourth:after {
+        content: "";
+        position: absolute;
+        opacity: 0.9; }
+      body section div.divider-quote blockquote.first {
+        width: 550px; }
+        body section div.divider-quote blockquote.first:before, body section div.divider-quote blockquote.first:after {
+          left: -150px;
+          width: 140px;
+          height: 140px; }
+        body section div.divider-quote blockquote.first:before {
+          background: url("../images/home_tout1-white.png") no-repeat scroll center center/100% auto;
+          top: -45px;
+          z-index: -1; }
+        body section div.divider-quote blockquote.first:after {
+          background: url("../images/home_tout1-black.png") no-repeat scroll center center/100% auto;
+          top: -47px;
+          z-index: -2; }
+      body section div.divider-quote blockquote.second {
+        width: 510px; }
+        body section div.divider-quote blockquote.second:before, body section div.divider-quote blockquote.second:after {
+          width: 160px;
+          height: 160px;
+          left: -180px; }
+        body section div.divider-quote blockquote.second:before {
+          background: url("../images/home_tout2-white.png") no-repeat scroll center center/100% auto;
+          top: -50px;
+          z-index: -1; }
+        body section div.divider-quote blockquote.second:after {
+          background: url("../images/home_tout2-black.png") no-repeat scroll center center/100% auto;
+          top: -52px;
+          z-index: -2; }
+      body section div.divider-quote blockquote.third {
+        width: 520px; }
+        body section div.divider-quote blockquote.third:before, body section div.divider-quote blockquote.third:after {
+          width: 160px;
+          height: 160px;
+          left: -160px; }
+        body section div.divider-quote blockquote.third:before {
+          background: url("../images/home_tout3-white.png") no-repeat scroll center center/100% auto;
+          top: -50px;
+          z-index: -1; }
+        body section div.divider-quote blockquote.third:after {
+          background: url("../images/home_tout3-black.png") no-repeat scroll center center/100% auto;
+          top: -52px;
+          z-index: -2; }
+      body section div.divider-quote blockquote.fourth {
+        width: 630px; }
+        body section div.divider-quote blockquote.fourth:before, body section div.divider-quote blockquote.fourth:after {
+          left: -150px;
+          width: 140px;
+          height: 140px; }
+        body section div.divider-quote blockquote.fourth:before {
+          background: url("../images/_footer_lion-white.png") no-repeat scroll center center/100% auto;
+          top: -35px;
+          z-index: -1; }
+        body section div.divider-quote blockquote.fourth:after {
+          background: url("../images/_footer_lion-black.png") no-repeat scroll center center/100% auto;
+          top: -37px;
+          z-index: -2; }
+  body section.section-banner div.home-scroll {
+    display: none; }
+  body section div.home-leaf {
+    margin-bottom: 20px; }
+  body section h1.home-welcome, body section h1.subtext {
+    margin: 0px auto;
+    font-size: 2.5em;
+    text-align: center; }
+  body section h1.subtext {
+    font-style: italic;
+    margin: 0px auto 60px;
+    letter-spacing: 4.3px; }
+  body section div.icon-p-wrap {
+    margin-bottom: 40px;
+    display: table;
+    margin: 40px auto 0px;
+    position: relative;
+    line-height: 1.3; }
+    body section div.icon-p-wrap.last {
+      margin-bottom: 40px; }
+    body section div.icon-p-wrap div.icon {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      opacity: 0.2;
+      display: none; }
+      body section div.icon-p-wrap div.icon.icon1 {
+        background: url("../images/home_tout1.svg") no-repeat scroll center 10px/80% auto;
+        top: -140%;
+        left: 50%;
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%); }
+      body section div.icon-p-wrap div.icon.icon2 {
+        background: url("../images/home_tout2.svg") no-repeat scroll center center/80% auto;
+        top: -130%;
+        left: 50%;
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%); }
+      body section div.icon-p-wrap div.icon.icon3 {
+        background: url("../images/home_tout3.svg") no-repeat scroll center center/80% auto;
+        top: -90%;
+        left: 50%;
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%); }
+    body section div.icon-p-wrap p {
+      display: block;
+      width: 645px;
+      margin: 0px 0px 0px 20px; }
+  body section.main-section {
+    padding-bottom: 0px;
+    background-color: white; }
+    body section.main-section div.home-values {
+      margin-bottom: 60px; }
+      body section.main-section div.home-values div.grid-whole img {
+        width: 93%; }
+      body section.main-section div.home-values div.grid-whole div div.img {
+        height: 240px;
+        width: 240px; }
+        body section.main-section div.home-values div.grid-whole div div.img:after {
+          height: 240px;
+          width: 240px; }
+        body section.main-section div.home-values div.grid-whole div div.img.success {
+          background-size: 100% auto;
+          background-position: center center; }
+      body section.main-section div.home-values div.grid div div.img {
+        height: 240px;
+        width: 240px; }
+        body section.main-section div.home-values div.grid div div.img:before {
+          display: none; }
+        body section.main-section div.home-values div.grid div div.img:after {
+          height: 240px;
+          width: 240px; }
+        body section.main-section div.home-values div.grid div div.img.virtue {
+          background-size: 115% auto;
+          background-position: center center; }
+        body section.main-section div.home-values div.grid div div.img.rigor {
+          background-size: 110% auto;
+          background-position: center center; }
+        body section.main-section div.home-values div.grid div div.img.faith {
+          background-size: 100% auto;
+          background-position: center center; }
+      body section.main-section div.home-values div.grid-whole div {
+        width: 100%; }
+        body section.main-section div.home-values div.grid-whole div div.children {
+          border: 4px solid #F4DC97;
+          box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 1px #CBBFA5, 0px 21px 10px -15px rgba(0, 0, 0, 0.5);
+          border-radius: 0px;
+          background: transparent url("../images/overview_formation.jpg") no-repeat scroll 0 -20px/100% auto;
+          height: 260px;
+          margin: 30px auto;
+          width: 660px; }
+        body section.main-section div.home-values div.grid-whole div div.success {
+          display: none; }
+    body section.main-section div.education p {
+      width: 500px;
+      margin: 0 auto 50px; }
+    body section.main-section div.education h3 {
+      font-size: 1.4em;
+      text-align: center;
+      margin-bottom: 15px;
+      font-style: italic; }
+  body section.student-life {
+    padding-bottom: 0px; }
+    body section.student-life h3 {
       text-align: center;
       font-size: 2.4em;
       margin-bottom: 40px; }
-    body section.first {
-      padding-top: 30px;
-      padding-bottom: 0px; }
-    body section div.divider-quote {
-      text-align: center;
-      font-size: 1em;
-      height: 140px;
-      padding: 45px 0px;
-      margin: 80px auto 0px;
-      line-height: 1.3;
-      position: relative;
-      background-color: #676767;
-      color: white;
-      text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.8);
-      box-shadow: inset 0 12px 8px -5px black;
-      z-index: 0; }
-      body section div.divider-quote blockquote {
-        position: relative;
-        margin: 0px auto; }
-        body section div.divider-quote blockquote cite {
-          color: white; }
-        body section div.divider-quote blockquote.first:before, body section div.divider-quote blockquote.first:after, body section div.divider-quote blockquote.second:before, body section div.divider-quote blockquote.second:after, body section div.divider-quote blockquote.third:before, body section div.divider-quote blockquote.third:after {
-          content: "";
-          position: absolute;
-          opacity: 0.9; }
-        body section div.divider-quote blockquote.first {
-          width: 550px; }
-          body section div.divider-quote blockquote.first:before, body section div.divider-quote blockquote.first:after {
-            left: -150px;
-            width: 140px;
-            height: 140px; }
-          body section div.divider-quote blockquote.first:before {
-            background: url("../images/home_tout1-white.png") no-repeat scroll center center/100% auto;
-            top: -45px;
-            z-index: -1; }
-          body section div.divider-quote blockquote.first:after {
-            background: url("../images/home_tout1-black.png") no-repeat scroll center center/100% auto;
-            top: -47px;
-            z-index: -2; }
-        body section div.divider-quote blockquote.second {
-          width: 510px; }
-          body section div.divider-quote blockquote.second:before, body section div.divider-quote blockquote.second:after {
-            width: 160px;
-            height: 160px;
-            left: -180px; }
-          body section div.divider-quote blockquote.second:before {
-            background: url("../images/home_tout2-white.png") no-repeat scroll center center/100% auto;
-            top: -50px;
-            z-index: -1; }
-          body section div.divider-quote blockquote.second:after {
-            background: url("../images/home_tout2-black.png") no-repeat scroll center center/100% auto;
-            top: -52px;
-            z-index: -2; }
-        body section div.divider-quote blockquote.third {
-          width: 520px; }
-          body section div.divider-quote blockquote.third:before, body section div.divider-quote blockquote.third:after {
-            width: 160px;
-            height: 160px;
-            left: -160px; }
-          body section div.divider-quote blockquote.third:before {
-            background: url("../images/home_tout3-white.png") no-repeat scroll center center/100% auto;
-            top: -50px;
-            z-index: -1; }
-          body section div.divider-quote blockquote.third:after {
-            background: url("../images/home_tout3-black.png") no-repeat scroll center center/100% auto;
-            top: -52px;
-            z-index: -2; }
-    body section.section-banner div.home-scroll {
-      display: none; }
-    body section div.home-leaf {
-      margin-bottom: 20px; }
-    body section h1.home-welcome, body section h1.subtext {
-      margin: 0px auto;
-      font-size: 2.5em;
-      text-align: center; }
-    body section h1.subtext {
-      font-style: italic;
-      margin: 0px auto 60px;
-      letter-spacing: 4.3px; }
-    body section div.icon-p-wrap {
-      margin-bottom: 40px;
-      display: table;
-      margin: 40px auto 0px;
-      position: relative;
-      line-height: 1.3; }
-      body section div.icon-p-wrap.last {
-        margin-bottom: 40px; }
-      body section div.icon-p-wrap div.icon {
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        opacity: 0.2;
-        display: none; }
-        body section div.icon-p-wrap div.icon.icon1 {
-          background: url("../images/home_tout1.svg") no-repeat scroll center 10px/80% auto;
-          top: -140%;
-          left: 50%;
-          -moz-transform: translateX(-50%);
-          -ms-transform: translateX(-50%);
-          -webkit-transform: translateX(-50%);
-          transform: translateX(-50%); }
-        body section div.icon-p-wrap div.icon.icon2 {
-          background: url("../images/home_tout2.svg") no-repeat scroll center center/80% auto;
-          top: -130%;
-          left: 50%;
-          -moz-transform: translateX(-50%);
-          -ms-transform: translateX(-50%);
-          -webkit-transform: translateX(-50%);
-          transform: translateX(-50%); }
-        body section div.icon-p-wrap div.icon.icon3 {
-          background: url("../images/home_tout3.svg") no-repeat scroll center center/80% auto;
-          top: -90%;
-          left: 50%;
-          -moz-transform: translateX(-50%);
-          -ms-transform: translateX(-50%);
-          -webkit-transform: translateX(-50%);
-          transform: translateX(-50%); }
-      body section div.icon-p-wrap p {
-        display: block;
-        width: 645px;
-        margin: 0px 0px 0px 20px; }
-    body section.main-section {
-      padding-bottom: 0px;
-      background-color: white; }
-      body section.main-section div.home-values {
-        margin-bottom: 60px; }
-        body section.main-section div.home-values div.grid-whole img {
-          width: 93%; }
-        body section.main-section div.home-values div.grid-whole div div.img {
-          height: 240px;
-          width: 240px; }
-          body section.main-section div.home-values div.grid-whole div div.img:after {
-            height: 240px;
-            width: 240px; }
-          body section.main-section div.home-values div.grid-whole div div.img.success {
-            background-size: 100% auto;
-            background-position: center center; }
-        body section.main-section div.home-values div.grid div div.img {
-          height: 240px;
-          width: 240px; }
-          body section.main-section div.home-values div.grid div div.img:before {
-            display: none; }
-          body section.main-section div.home-values div.grid div div.img:after {
-            height: 240px;
-            width: 240px; }
-          body section.main-section div.home-values div.grid div div.img.virtue {
-            background-size: 115% auto;
-            background-position: center center; }
-          body section.main-section div.home-values div.grid div div.img.rigor {
-            background-size: 110% auto;
-            background-position: center center; }
-          body section.main-section div.home-values div.grid div div.img.faith {
-            background-size: 100% auto;
-            background-position: center center; }
-        body section.main-section div.home-values div.grid-whole div {
-          width: 100%; }
-          body section.main-section div.home-values div.grid-whole div div.children {
-            border: 4px solid #F4DC97;
-            box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 1px #CBBFA5, 0px 21px 10px -15px rgba(0, 0, 0, 0.5);
-            border-radius: 0px;
-            background: transparent url("../images/overview_formation.jpg") no-repeat scroll 0 -20px/100% auto;
-            height: 260px;
-            margin: 30px auto;
-            width: 660px; }
-          body section.main-section div.home-values div.grid-whole div div.success {
-            display: none; }
-      body section.main-section div.education p {
-        width: 500px;
-        margin: 0 auto 50px; }
-      body section.main-section div.education h3 {
-        font-size: 1.4em;
-        text-align: center;
-        margin-bottom: 15px;
-        font-style: italic; }
-    body section.student-life {
-      padding-bottom: 0px; }
-      body section.student-life h3 {
-        text-align: center;
-        font-size: 2.4em;
-        margin-bottom: 40px; }
-      body section.student-life div.gallery {
-        margin-bottom: 40px; }
-        body section.student-life div.gallery p {
-          width: 620px;
-          margin: 0 auto 40px; }
+    body section.student-life div.gallery {
+      margin-bottom: 40px; }
+      body section.student-life div.gallery p {
+        width: 620px;
+        margin: 0 auto 40px; }
+  body section.events {
+    padding-bottom: 0px; }
     body section.events section.ac-container {
-      margin: 10px auto 30px;
+      margin: 60px auto 30px;
       padding: 6px 0;
       width: 600px;
-      position: relative; }
+      position: relative;
+      overflow: visible; }
       body section.events section.ac-container:before {
         content: "";
         position: absolute;
@@ -3863,7 +3922,7 @@ body {
         padding: 20px 20px;
         margin: 0;
         transition: height 0.2s ease-in-out 0s, padding 0.2s ease-in-out 0s, margin 0.2s ease-in-out 0s, border 0.2s ease-in-out 0s;
-        height: 300px;
+        height: 350px;
         margin: 25px 0px; }
         body section.events section.ac-container input:checked + label:first-of-type {
           overflow: visible;
@@ -3921,11 +3980,9 @@ body {
               float: left; }
             body section.events section.ac-container input:checked + label div.bottomBox time:nth-of-type(2) {
               float: right; }
-    body section.give h3 {
-      margin-bottom: 15px; }
-    body section.give p {
-      width: 500px;
-      margin: 0 auto; }
+  body section.apply p {
+    width: 600px;
+    margin: 0 auto; }
   body section.overview div.intro div.our-goals {
     line-height: 1.2; }
     body section.overview div.intro div.our-goals div.list div.grid-50 div, body section.overview div.intro div.our-goals div.list div.grid-33 div {
@@ -3936,6 +3993,62 @@ body {
       border: 4px solid #F4DC97;
       box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 1px #CBBFA5, 0px 21px 10px -15px rgba(0, 0, 0, 0.5);
       border-radius: 0px; }
+  body section.overview div.environment div.wrapper {
+    display: table;
+    margin: 140px auto 0px 100px; }
+    body section.overview div.environment div.wrapper.second {
+      margin-top: 70px; }
+    body section.overview div.environment div.wrapper div.text {
+      width: 400px;
+      display: inline-block;
+      vertical-align: top;
+      box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      position: relative;
+      border-radius: 4px;
+      z-index: 1; }
+      body section.overview div.environment div.wrapper div.text:before {
+        content: "";
+        background: white none repeat scroll 0 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        opacity: 0.9;
+        left: 0;
+        top: 0; }
+      body section.overview div.environment div.wrapper div.text.faculty {
+        top: 40px;
+        left: -90px; }
+      body section.overview div.environment div.wrapper div.text div.sub-title {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-size: 1.2em; }
+        body section.overview div.environment div.wrapper div.text div.sub-title div.acorn:before {
+          width: 22px !important;
+          height: 32px !important; }
+    body section.overview div.environment div.wrapper div.overview-image {
+      display: inline-block;
+      position: relative;
+      width: 450px;
+      height: 350px;
+      box-shadow: 0px 0px 0px 2px white inset, 0px 0px 3px 4px rgba(0, 0, 0, 0.5) inset, 0px 0px 0px 8px white inset, 0px 0px 5px 11px rgba(0, 0, 0, 0.5) inset; }
+      body section.overview div.environment div.wrapper div.overview-image.chapel {
+        background: url("../images/chapel.jpg") no-repeat center center/155% auto;
+        top: -70px;
+        left: -100px; }
+      body section.overview div.environment div.wrapper div.overview-image.faculty {
+        background: url("../images/faculty.jpg") no-repeat center center/155% auto;
+        top: 0px;
+        left: 0px; }
+  body section.overview div.environment div.divider-quote {
+    margin: 0px auto; }
+  body section.overview div.environment h3 {
+    text-align: center;
+    font-size: 1.7em;
+    font-style: italic;
+    margin: 70px 0px 40px; }
   body section.overview div.environment div.outer-3 div.grid-3 div.person div.title {
     color: #554F4B; }
   body section.overview div.curriculum div.outer {
@@ -3975,6 +4088,8 @@ body {
       text-indent: 0px !important; }
       body section.classical div.lost-content div div.grid-80 p {
         margin: 0px; }
+        body section.classical div.lost-content div div.grid-80 p span.simple-dropcaps {
+          font-size: 2em !important; }
   body section.classical div.myths {
     padding: 0px; }
     body section.classical div.myths div {
