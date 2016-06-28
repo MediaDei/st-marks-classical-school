@@ -219,6 +219,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/application.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.3353e+06,
+		"inputAbbreviatedPath": "\/images\/application.jpg",
+		"outputAbbreviatedPath": "\/images\/application.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/apply__banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -307,6 +318,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/download-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1404,
+		"inputAbbreviatedPath": "\/images\/download-icon.png",
+		"outputAbbreviatedPath": "\/images\/download-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/download-icon2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2920,
+		"inputAbbreviatedPath": "\/images\/download-icon2.png",
+		"outputAbbreviatedPath": "\/images\/download-icon2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/faculty.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -325,6 +358,17 @@
 		"initialSize": 2.7768e+06,
 		"inputAbbreviatedPath": "\/images\/faq__banner.jpg",
 		"outputAbbreviatedPath": "\/images\/faq__banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/FAST-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14088,
+		"inputAbbreviatedPath": "\/images\/FAST-icon.png",
+		"outputAbbreviatedPath": "\/images\/FAST-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -479,6 +523,17 @@
 		"initialSize": 3515,
 		"inputAbbreviatedPath": "\/images\/home_tout1-black.png",
 		"outputAbbreviatedPath": "\/images\/home_tout1-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/home_tout1-dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3375,
+		"inputAbbreviatedPath": "\/images\/home_tout1-dark.png",
+		"outputAbbreviatedPath": "\/images\/home_tout1-dark.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -964,6 +1019,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/scss\/_apply.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_apply.scss",
+		"outputAbbreviatedPath": "\/css\" # by Fire.app \/_apply.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/_bits.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1117,6 +1188,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_overview.scss",
 		"outputAbbreviatedPath": "\/css\" # by Fire.app \/_overview.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_students.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_students.scss",
+		"outputAbbreviatedPath": "\/css\" # by Fire.app \/_students.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

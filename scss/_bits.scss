@@ -2,27 +2,38 @@
 $main-text: #554F4B;
 $link: #3C7BC4;
 $bg-grey: #faf9f9;
+
+//borders
 $border: #979797;
-
-
-//home
-$icon-border: #979797;
-$otherTimesColor: #95793A;
-$eventBoxDate: #6E6C69;
-$eventBoxDateIcon: #CAC4BB;
-$eventBoxTimerColor: #6E6C6A;
-$eventBoxBorderColor: #825E5E;
-$eventBoxBorderTopColor: #979797;
-$eventBoxBottomBoxBorderColor: #B7A985;
-$otherTimesSubheadingColor: #8E8E8E;
-$acTextColor: #616263;
-$acIconColor: #CAC4BB;
-
+$lighter-border: #DFDFDF;
+$lightest-border: #CBCBCB;
 
 //overview
 $image-border: #979797;
 $image-inner-frame: #F4DC97;
 $image-outer-frame: #CBBFA5;
+
+//student page buttons
+$dl-btn-1-fill: lighten(#bdf6fb,5%);
+$dl-btn-1-icon-fill: #76ABC4;
+$dl-btn-1-border: #AEB7BA;
+$dl-btn-1-icon-border: #8498A0;
+
+$dl-btn-2-fill: #EBEDDF*2;
+$dl-btn-2-icon-fill: #C4B976;
+$dl-btn-2-border: #A0A391;
+$dl-btn-2-icon-border: #8498A0;
+
+$bcp-fill: #FCF9FA;
+$bcp-icon-fill: #CDBFC9;
+$bcp-border: #C5B9BF;
+$bcp-icon-border: #B4A0A1;
+
+$dl-btn-4-fill: #E8F5EC;
+$dl-btn-4-icon-fill: #B95756;
+$dl-btn-4-border: #90A58E;
+$dl-btn-4-icon-border: #924645;
+
 
 //Font-Stacks
 @font-face {
@@ -70,6 +81,9 @@ $image-outer-frame: #CBBFA5;
   clear: both;
 }
 
+.grid-1{
+  width: 100%;
+}
 //grid sizes
 .grid-2-3 {
   width: 66%;

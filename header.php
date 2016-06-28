@@ -10,7 +10,6 @@
 	
 
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/global.css" type="text/css" />
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/js/slick/slick.css" type="text/css" />
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 

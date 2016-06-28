@@ -1,0 +1,286 @@
+section.students{
+	h3{
+		font-size: 2.2em;
+    margin-bottom: 40px;
+    text-align: center;
+	}
+	h4{
+		text-align: center;
+		font-style: italic;
+		font-size: 1.4em;
+		margin-bottom: 20px; 
+	}
+	section.newsletters{
+		padding-top: 0px;
+		border-bottom: 1px solid $border;
+		a{
+			display: table;
+			margin: 0px auto 20px; 
+			&:hover{
+				text-decoration: none; 
+			}
+			div.button{
+				cursor: pointer;
+				margin: 0 auto;
+				border-radius: 4px;
+				position: relative;
+				box-shadow: 0px 2px 7px -3px rgba(black,0.5);
+				&:before,&:after{
+					content:"";
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					top: 0%;
+					left: 0%;
+				}
+				&:before{
+					@include background-image(linear-gradient(rgba(234,234,234,0.4),rgba(95,95,95,0.3)));
+					border-radius: 4px; 
+				}
+				&:active{
+					top: 1px;
+					box-shadow: 0px 2px 5px -3px rgba(black,0.5);
+				}
+				
+				div.text{
+					float: left;
+					padding-left: 20px;
+					@include transform(translateY(-50%));
+					top: 50%;
+					position: relative;
+					p{
+						margin: 0px;
+					}
+				}
+			}
+		}
+		div.wrapper{
+			width: 80%;
+			margin: 0px auto 10px;
+			&.older{
+				width: 40%; 
+				margin-bottom: 0px; 
+			}
+			div.grid-1{
+				margin: 0 auto;
+				div.button{
+					text-shadow: 0px 1px 0px rgba(white,0.5);
+					width: 540px;
+					height: 82px;
+					padding: 0px 20px;
+					&.btn-1{
+						background-color: $dl-btn-1-fill;
+						border: 1px solid $dl-btn-1-border;
+					}
+					
+					&.btn-3{
+						width: 170px;
+						height: 42px;
+						background-color: $dl-btn-2-fill;
+						border: 1px solid $dl-btn-2-border;
+						div.text{
+							span{
+								font-size: 1.1em;
+							}
+						}
+					}
+					
+					div.text{
+						text-align: center;
+						color: $main-text;
+						float: none;
+						padding-left: 0px;
+						p{
+							font-size: 1.6em;
+							letter-spacing: 1.7px;
+							padding-bottom: 5px;
+						}
+						span{
+							font-style: italic;
+							font-size: 1.5em;
+						}
+					}
+				}
+			}
+
+			div.grid-1-2{
+				margin: 0 auto;
+				div.button{
+					text-shadow: 0px 1px 0px rgba(white,0.5);
+					width: 170px;
+					height: 42px;
+					padding: 0px 20px;
+					background-color: $dl-btn-2-fill;
+					border: 1px solid $dl-btn-2-border;
+					
+					div.text{
+						text-align: center;
+						color: $main-text;
+						float: none;
+						padding-left: 0px;
+						span{
+							font-style: italic;
+							font-size: 1.1em;
+						}
+					}
+				}
+			}
+		}
+		ul.newsletters{
+			width: 540px;
+			padding-top: 10px;
+			border: 1px solid #c9d2da;
+	    border-radius: 7px;
+	    box-shadow: 0 5px 20px -5px rgba(black, 0.2);
+	    margin: 10px auto;
+	    padding: 30px; 
+	    background-color: #FAFDFF;
+	    a{
+	    	color: $link; 
+	    	display: table;
+		  	&:hover{
+					background-color: white;
+					cursor: pointer;
+					box-shadow: 0px 2px 3px 0px rgba(black,0.3);
+				}
+				li{
+					display: table;
+					margin: 10px 0px;
+					padding: 5px 10px;
+				}
+			}
+		}
+	}
+	section.handbooks{
+		a{
+			display: table;
+			margin: 0px auto 20px; 
+			div.button{
+				cursor: pointer;
+				margin: 0 auto;
+				border-radius: 4px;
+				position: relative;
+				box-shadow: 0px 2px 7px -3px rgba(black,0.5);
+				&:before,&:after{
+					content:"";
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					top: 0%;
+					left: 0%;
+				}
+				&:before{
+					@include background-image(linear-gradient(rgba(234,234,234,0.4),rgba(95,95,95,0.3)));
+					border-radius: 4px; 
+				}
+				&:active{
+					top: 1px;
+					box-shadow: 0px 2px 5px -3px rgba(black,0.5);
+				}
+				div.icon{
+					@include transform(translateY(-50%));
+					top: 50%;
+					position: relative;
+					box-shadow: 0px 3px 6px 0px rgba(black,0.5);
+					float: left;
+					padding: 0px;
+					&:before,&:after{
+						content:"";
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						top: 0%;
+						left: 0%;
+					}
+					&:before{
+						@include background-image(linear-gradient(rgba(white,0.1),rgba(white,0.4)45%,rgba(black,0)46%,rgba(black,0.1)97%));
+					}
+				}
+				div.text{
+					float: left;
+					padding-left: 20px;
+					@include transform(translateY(-50%));
+					top: 50%;
+					position: relative;
+					p{
+						margin: 0px;
+					}
+				}
+			}
+		}
+		div.wrapper{
+			width: 80%;
+			margin: 0 auto;
+			div.grid-1-2{
+				margin: 0 auto;
+				label{
+					display: table;
+					margin: 0 auto;
+					font-style: italic;
+					font-size: 1.6em;  
+					padding-bottom: 10px;
+				}
+				div.button{
+					text-shadow: 0px 1px 0px rgba(white,0.5);
+					width: 300px;
+					height: 92px;
+					padding: 0px 20px;
+					&.btn-1{
+						background-color: $dl-btn-1-fill;
+						border: 1px solid $dl-btn-1-border;
+						 
+					}
+					&.btn-2{
+						background-color: $dl-btn-2-fill;
+						border: 1px solid $dl-btn-2-border;
+						 
+					}
+					div.icon{
+						width: 70px;
+						height: 70px;
+						border-radius: 4px;
+						margin-right: 10px; 
+						&:before{ 
+							border-radius: 4px;
+							
+						}
+						&.btn-1{
+							background-color: $dl-btn-1-icon-fill;
+							border: 1px solid $dl-btn-1-icon-border;
+							&:after{
+								background: url("../images/download-icon.png") no-repeat center center / 70% auto;
+							}	
+						}
+						&.btn-2{
+							background-color: $dl-btn-2-icon-fill;
+							border: 1px solid $dl-btn-2-icon-border;
+							&:after{
+								background: url("../images/download-icon2.png") no-repeat center center / 70% auto;
+							}
+						}
+					}
+					div.text{
+						text-align: center;
+						color: $main-text;
+						p{
+							font-size: 1.6em;
+							letter-spacing: 1.7px;
+							padding-bottom: 5px;
+						}
+						span{
+							font-style: italic;
+							font-size: 1.1em;
+						}
+					}
+				}
+			}
+		}
+	}
+	section.uniforms{
+		border-bottom: 1px solid $border;
+		p{
+			margin: 0 auto;
+			width: 500px; 
+		}
+	}
+}

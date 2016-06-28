@@ -78,7 +78,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="simple-dropcaps">G</span><span class="smallcaps">reat Minds</span> begin by reading great books. Modern educators see the prior minds of history as approximations to our present enlightened society, as such being outdated and irrelevant. To classical educators great minds stand on their own merits, speak to timeless issues, and are always relevant.
+				<span class="smallcaps">great Minds</span> begin by reading great books. Modern educators see the prior minds of history as approximations to our present enlightened society, as such being outdated and irrelevant. To classical educators great minds stand on their own merits, speak to timeless issues, and are always relevant.
 			</p>
 		</div>
 		</div>
@@ -88,7 +88,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="simple-dropcaps">L</span><span class="smallcaps">iterature</span> brings the great ideas of history alive. Students who read great literature write better because they have history’s best teachers. Great books let you think and feel the brilliance of history’s most influential people.
+				<span class="smallcaps">literature</span> brings the great ideas of history alive. Students who read great literature write better because they have history’s best teachers. Great books let you think and feel the brilliance of history’s most influential people.
 			</p>
 		</div>
 		</div>
@@ -98,7 +98,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="simple-dropcaps">P</span><span class="smallcaps">hilosophy</span> asks the age-old foundational questions about man, God, and nature. Classical Christian education sets students on a firm foundation for understanding and integrating all of life.
+				<span class="smallcaps">philosophy</span> asks the age-old foundational questions about man, God, and nature. Classical Christian education sets students on a firm foundation for understanding and integrating all of life.
 			</p>
 		</div>
 		</div>
@@ -108,7 +108,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="simple-dropcaps">T</span><span class="smallcaps">heology:</span> Scripture provides us with everything we need to know about God. Theology organizes it. Students who know their theology have a better grasp of the Bible. Classical educators call theology the “Queen of the Sciences.”
+				<span class="smallcaps">theology:</span> Scripture provides us with everything we need to know about God. Theology organizes it. Students who know their theology have a better grasp of the Bible. Classical educators call theology the “Queen of the Sciences.”
 			</p>
 		</div>
 		</div>
@@ -119,7 +119,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="simple-dropcaps">A</span><span class="smallcaps">rt:</span> People’s beliefs about the world are reflected in their art. By studying music, theater; and the fine arts in their historical context, we come to know the views that produced them.
+				<span class="smallcaps">art:</span> People’s beliefs about the world are reflected in their art. By studying music, theater; and the fine arts in their historical context, we come to know the views that produced them.
 			</p>
 		</div>
 		</div>
@@ -129,7 +129,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="simple-dropcaps">S</span><span class="smallcaps">cience <span class="italic">&</span> Math:</span> From Archimedes to Newton, from Galileo to Pascal, the golden era of science belongs to the classical worldview. One difference between a classical and a liberal-arts education is our emphasis on science and math. Students at classical schools perform well in these subjects.
+				<span class="smallcaps">science <span class="italic">&</span> Math:</span> From Archimedes to Newton, from Galileo to Pascal, the golden era of science belongs to the classical worldview. One difference between a classical and a liberal-arts education is our emphasis on science and math. Students at classical schools perform well in these subjects.
 			</p>
 		</div>
 		</div>
@@ -139,14 +139,14 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="simple-dropcaps">L</span><span class="smallcaps">ogic<span class="italic"> &</span> Rhetoric</span> are not only methods, they are also subjects, systematized and formalized by Aristotle. We study these to learn the science of thinking and the art of verbal and written communication.
+				<span class="smallcaps">logic<span class="italic"> &</span> Rhetoric</span> are not only methods, they are also subjects, systematized and formalized by Aristotle. We study these to learn the science of thinking and the art of verbal and written communication.
 			</p>
 		</div>
 		</div>
 		<div>
 		<div class="grid-80">
 			<p>
-				<span class="simple-dropcaps">S</span><span class="smallcaps">cripture</span> is not only a subject&mdash;it is also a lens. It provides perspective, enlightening every subject as we use the light of Scripture to help us understand every subject in every way. This difference is evident in every classical and Christian classroom.
+				<span class="smallcaps">scripture</span> is not only a subject&mdash;it is also a lens. It provides perspective, enlightening every subject as we use the light of Scripture to help us understand every subject in every way. This difference is evident in every classical and Christian classroom.
 			</p>
 		</div>
 		<div class="grid-20 pad-left">
@@ -170,11 +170,11 @@
 
 			<div id="chart">
 				<ul>
-					<li><div data-percentage="92" title="665" class="bar first"></div><span class="smallcaps first">Latin</span></li>
-					<li><div data-percentage="73" title="633" class="bar"></div><span>French</span></li>
-					<li><div data-percentage="68" title="625" class="bar"></div><span>German</span></li>
-					<li><div data-percentage="50" title="583" class="bar"></div><span>Spanish</span></li>
-					<li><div data-percentage="15" title="506" class="bar"></div><span class="last">All<br> Students</span></li>
+					<li><div data-percentage="95" title="665" class="bar first"></div><span class="smallcaps first">Latin</span></li>
+					<li><div data-percentage="90" title="633" class="bar"></div><span>French</span></li>
+					<li><div data-percentage="89" title="625" class="bar"></div><span>German</span></li>
+					<li><div data-percentage="83" title="583" class="bar"></div><span>Spanish</span></li>
+					<li><div data-percentage="72" title="506" class="bar"></div><span class="last">All<br> Students</span></li>
 				</ul>
 			</div>
 			<p class="chart-note"><span class="italic">Source:</span> The College Board, as cited by the National Committee for Latin and Greek.</p>

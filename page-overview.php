@@ -105,13 +105,6 @@
 			<div class="overview-image chapel"></div>
 		</div>
 
-		<div class="divider-quote">
-			<blockquote><span class="smallcaps">o come, let us sing unto the lord</span>; *let us heartily rejoice in the strength of our salvation.<br>Let us come before his presence with thanksgiving; *and show ourselves glad in him with psalms.
-			<br>
-			<cite>&mdash; Venite, Exultemus Domino, <span class="italic">Book of Common Prayer (1928)</span></cite>
-			</blockquote>
-		</div>
-
 		<div class="wrapper second">
 			<div class="overview-image faculty"></div>
 			<div class="text faculty">

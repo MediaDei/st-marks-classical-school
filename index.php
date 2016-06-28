@@ -87,7 +87,7 @@
 	<h2 class="section-title hm-education">Classical Education</h2>
 
 	<div class="education">
-		<p class="capital-ornate"><span class="A">A</span><span class="smallcaps">t st. mark's academy,</span> we believe that to address the problems of the present, we must look backward. An education rooted in the accumulated wisdom of thousands of years is still available. It is the education of our forefathers&mdash;the education that has shaped leaders for generations, and is still doing just that.</p>
+		<p><span class="simple-dropcaps">A</span><span class="smallcaps">t st. mark's academy,</span> we believe that to address the problems of the present, we must look backward. An education rooted in the accumulated wisdom of thousands of years is still available. It is the education of our forefathers&mdash;the education that has shaped leaders for generations, and is still doing just that.</p>
 
 
 		<h3>The Three Legs of Classical Education</h3>
@@ -135,7 +135,7 @@
 			<div class="dots">.<br>.</div>
 			<div class="children"></div>		
 			<div class="title italic">Success</div>
-			Founded on <span class="italic">timeless educational principles</span>, our highest goal is that our students know and love the truth.
+			Founded on <span class="italic">timeless educational principles</span>, our highest <br>goal is that our students know and love the truth.
 			</div>
 		</div>
 	</div>
@@ -149,211 +149,12 @@
 </section>
 
 <section class="student-life">
-	<h3 class="section-heading">A Glimpse into St. Mark's Classical Academy</h3>
+	<h3 class="section-heading">A Glimpse Inside</h3>
 	<div class="gallery">
-		<p class="capital-ornate"><span class="A">A</span><span class="smallcaps">t saint mark's classical school</span> we understand how the busyness of life can get in the way of traveling. If you are unable to attend our next Open House Event, we hope that these captured moments will at least give you a glimpse into what our classical education program has to offer both you and your child.</p>
+		<p><span class="simple-dropcaps">A</span><span class="smallcaps">t saint mark's classical school</span> we understand how the busyness of life can get in the way of traveling. If you are unable to attend our next Open House Event, we hope that these captured moments will at least give you a glimpse into what our classical education program has to offer both you and your child.</p>
 		<?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'home-page-slider', 'slug' ); } ?>
 	</div>
-	<div class="divider-quote">
-		<blockquote class="third"><span class="smallcaps">the study of philosophy</span> is not that we may know what men have thought, but what the truth of things is.
-		<br>
-		<cite>&mdash; Thomas Aquinas</cite>
-		</blockquote>
-	</div>
-</section>
-
-<section class="events">
-	<h3 class="section-heading">Upcoming Events</h4>
-	<section class="ac-container">
-		<div class="event-list">
-		<?php 
-			// Ensure the global $post variable is in scope
-			global $post;
-			date_default_timezone_set('Europe/London'); 
-
-			$i = 1;
-			
-			$now = new DateTime();
-
-			// Retrieve upcoming events
-			$events = tribe_get_events( array(
-				'eventDisplay'  => 'upcoming',      // Upcoming, Past, Custom, List, etc
-				'start_date'    => $now->format('y-m-d H:i')
-			) );
-
-
-			foreach ( $events as $post ) {
-				setup_postdata( $post ); // basic WP post setup
-
-				if ($i == 1) {
-					$event = new DateTime(tribe_get_start_date( null, true, "y-m-d H:i:s"));
-					$end = new DateTime(tribe_get_end_date( null, true, "y-m-d H:i:s"));
-					$interval = $now->diff($event);
-
-					//echo $now->format('y-m-d H:i') . '<br>';
-					//echo $event->format('y-m-d H:i') . '<br>';
-					//echo $end->format('y-m-d H:i') . '<br>';
-					//echo $interval->format('%R') . $interval->format('%h') . ':' . $interval->format('%i') . ':' . $interval->format('%s') . '<br>';
-
-					// if timer is within 2 days, show it
-					if ($interval->days < 2) {
-
-						// if negative interval, set to zero
-						if ($interval->format('%R') === "-") {
-							$totalseconds = 0;
-						}
-
-						else {
-							$totalseconds = ($interval->format('%h') * 60 * 60) +
-											($interval->format('%i') * 60) +
-											 $interval->format('%s');
-							// if there's an extra day, add it
-							if ($interval->days > 0)
-								$totalseconds += (24 * 60 * 60);								
-						}
-
-						echo '
-						<div class="timer">
-							<figure></figure>
-							<p>starts in: <time datetime="P ';
-
-							// if negative interval, show zeroes
-							if ($interval->format('%R') === "-") {
-								echo '0H 0M 0S"';
-							}
-
-							// show interval
-							else {
-								// if there's an extra day, add it
-								if ($interval->days > 0)
-									echo $interval->format('%h') + 24 . 'H ';
-								else
-									echo $interval->format('%h') . 'H ';
-								echo   $interval->format('%i') . 'M 
-								   ' . $interval->format('%s') . 'S"';
-							} 
-							echo 'id="countdown"></time></p>
-						</div>';
-
-						// Countdown script
-						echo '
-						<script src="' . get_bloginfo('template_url') . '/js/isInViewport.min.js" type="text/javascript"></script>
-						<script type="text/javascript">
-							function calcage(secs, num1, num2) {
-							  s = ((Math.floor(secs/num1))%num2).toString();
-							  if (s.length < 2)
-							  	s = "0" + s;
-							  return s;
-							}
-							function countback(secs) {
-								if (secs == 0) {
-									DisplayStr = DisplayFormat.replace(/%%H%%/g, "00");
-									DisplayStr = DisplayStr.replace(/%%M%%/g, "00");
-									DisplayStr = DisplayStr.replace(/%%S%%/g, "00");
-									document.getElementById("countdown").innerHTML = DisplayStr;
-									document.getElementById("countdown").className += "blink";
-									return;
-								}
-
-								else {
-									DisplayStr = DisplayFormat.replace(/%%H%%/g, calcage(secs,3600,48));
-									DisplayStr = DisplayStr.replace(/%%M%%/g, calcage(secs,60,60));
-									DisplayStr = DisplayStr.replace(/%%S%%/g, calcage(secs,1,60));
-
-									document.getElementById("countdown").innerHTML = DisplayStr;
-
-									if (secs == 1) window.location.reload();
-
-									setTimeout("countback(" + (secs-1) + ")", 1000);
-								}
-							}
-							DisplayFormat = "%%H%% Hrs, %%M%% Min, %%S%% Sec";
-							countback(' . $totalseconds . ')
-						';
-
-						// if in view, slide down
-						echo "
-							// easeOutBounce function from http://gsgd.co.uk/sandbox/jquery/easing/
-							$.easing.easeOutBounce = function (x, t, b, c, d) {
-								if ((t/=d) < (1/2.75))
-									return c*(7.5625*t*t) + b;
-								else if (t < (2/2.75))
-									return c*(7.5625*(t-=(1.5/2.75))*t + .75) + b;
-								else if (t < (2.5/2.75))
-									return c*(7.5625*(t-=(2.25/2.75))*t + .9375) + b;
-								else
-									return c*(7.5625*(t-=(2.625/2.75))*t + .984375) + b;
-							}
-
-							$('.event-list').addClass('runonce');
-							$('.event-list .timer').css('top', '10px');
-							$(window).scroll( function() {
-								$('.event-list.runonce:in-viewport(250)').run(function() {
-									$('.event-list .timer').animate({ 'top' : '-=44px' }, 1000, 'easeOutBounce');
-									this.removeClass('runonce');
-								});
-							});
-
-							var timeBlink = function() {
-								var elem = $(this);
-								setInterval(function() {
-								    if (elem.css('visibility') == 'hidden') {
-								        elem.css('visibility', 'visible');
-								    } else {
-								        elem.css('visibility', 'hidden');
-								    }    
-								}, 800);
-							};
-
-							$('.blink').each ( timeBlink );
-
-						</script>
-						";
-					}
-				}
-
-
-				echo '
-				<input id="ac-' . $i . '" type="radio"' . ($i == 1 ? ' checked=""' : ' ') . ' name="accordion-1">
-				<label for="ac-' . $i . '">			
-					<header>
-						<h1>' . get_the_title() . '</h1>
-						<time datetime="' . tribe_get_start_date(null, false, 'Y-m') . '">
-							<span>' . tribe_get_start_date(null, false, 'j F') . '</span> &bull; <span>' . tribe_get_start_date(null, false, 'g:i') . ' - ' . tribe_get_end_date(null, false, 'g:ia') . '</span> &bull; <span>' . tribe_get_venue() . '</span>
-						</time>
-					</header>
-					<article>';
-
-						if (has_post_thumbnail() ){
-							?>
-
-								<a class="image">  <?php the_post_thumbnail(); ?></a>
-								<p> <?php the_content(); ?> </p>
-
-								<?php
-						} 
-						else {
-							?>
-								<p> <?php the_content(); ?> </p>
-							<?php  
-						}
-					
-					echo
-					'</article>
-					<div class="bottomBox">
-						<span class="fa fa-calendar"></span>
-						<time>' . tribe_get_start_date(null, false, 'j M., g:i') . ' - ' . tribe_get_end_date(null, false, 'g:ia') . '</time>
-						<span class="fa fa-star-o"></span>
-						<time>' . tribe_get_venue() . '</time>
-					</div>
-				</label>';
-
-				$i++;
-			} #aEND foreach
-		?>
-		<?php wp_reset_query(); ?>
-		</div>
-	</section>
+	
 	<div class="divider-quote fourth">
 		<blockquote class="fourth"><span class="smallcaps">almighty god</span>, heavenly Father, who hast blessed us with the joy and care of children; Give us light and strength so to train them, that they may love whatsoever things are true and pure and lovely and of good report, following the example of their Saviour Jesus Christ. Amen.
 		<br>
@@ -361,9 +162,9 @@
 		</blockquote>
 	</div>
 </section>
-<section class="apply">
+<section class="home-apply">
 	<h3 class="section-heading">Apply for Enrollment</h3>
-	<p class="capital-ornate"><span class="I">I</span><span class="smallcaps">f you would like to apply</span> to enroll your child at Saint Mark's Classical Academy, we would be glad to review your application and respond in a timely manner. We appreciate your interest in classical education and are excited for you and your child in this next step.</p>
+	<p><span class="simple-dropcaps">I</span><span class="smallcaps">f you would like to apply</span> to enroll your child at Saint Mark's Classical Academy, we would be glad to review your application and respond in a timely manner. We appreciate your interest in classical education and are excited for you and your child in this next step.</p>
 	<a class="button" href="/apply/"><div class="centered-button" role="button">Apply</div></a>
 </section>
 <!--
