@@ -12,20 +12,6 @@
 		<div class="petal-leaf"></div>
 	</div>
 
-	<style>
-	.open-house {
-		display: block;
-		margin: 16px auto 70px;
-		width: 400px;
-		box-shadow: 0 9px 4px -6px rgba(0,0,0,0.5), 0 3px 7px rgba(0, 0, 0, 0.3);
-	}
-	</style>
-
-	<img class="open-house" src="<?php bloginfo('template_url'); ?>/open-house.jpg" />
-
-
-
-
 	<div class="container clearfix">
 		<div class="grid-fixed">
 			<?php include 'extra_toc.php'; ?>

@@ -560,6 +560,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/home_tout2-dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5073,
+		"inputAbbreviatedPath": "\/images\/home_tout2-dark.png",
+		"outputAbbreviatedPath": "\/images\/home_tout2-dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/home_tout2-white.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -578,6 +589,17 @@
 		"initialSize": 4546,
 		"inputAbbreviatedPath": "\/images\/home_tout3-black.png",
 		"outputAbbreviatedPath": "\/images\/home_tout3-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/home_tout3-dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5112,
+		"inputAbbreviatedPath": "\/images\/home_tout3-dark.png",
+		"outputAbbreviatedPath": "\/images\/home_tout3-dark.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

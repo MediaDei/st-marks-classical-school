@@ -75,11 +75,11 @@ body{
 					}
 					&:before{
 						background: url("../images/home_tout1-dark.png") no-repeat scroll center center / 100% auto;
-						top: -45px;
+						top: -48px;
 						z-index: -1; 
 					}
 					&:after{
-						background: url("../images/home_tout1-black.png") no-repeat scroll center center / 100% auto;
+						background: url("../images/home_tout1-white.png") no-repeat scroll center center / 100% auto;
 						top: -47px;
 						z-index: -2;
 					}
@@ -92,13 +92,13 @@ body{
 						left: -180px;
 					}
 					&:before{
-						background: url("../images/home_tout2-white.png") no-repeat scroll center center / 100% auto;
+						background: url("../images/home_tout2-dark.png") no-repeat scroll center center / 100% auto;
 						top: -50px;
 						z-index: -1; 
 					}
 					&:after{
-						background: url("../images/home_tout2-black.png") no-repeat scroll center center / 100% auto;
-						top: -52px;
+						background: url("../images/home_tout2-white.png") no-repeat scroll center center / 100% auto;
+						top: -49px;
 						z-index: -2;
 					}
 				}
@@ -110,12 +110,12 @@ body{
 						left: -160px;
 					}
 					&:before{
-						background: url("../images/home_tout3-white.png") no-repeat scroll center center / 100% auto;
+						background: url("../images/home_tout3-dark.png") no-repeat scroll center center / 100% auto;
 						top: -50px;
 						z-index: -1; 
 					}
 					&:after{
-						background: url("../images/home_tout3-black.png") no-repeat scroll center center / 100% auto;
+						background: url("../images/home_tout3-white.png") no-repeat scroll center center / 100% auto;
 						top: -52px;
 						z-index: -2;
 					}
@@ -128,13 +128,13 @@ body{
 						height: 140px;
 					}
 					&:before{
-						background: url("../images/_footer_lion-white.png") no-repeat scroll center center / 100% auto;
+						background: url("../images/_footer_lion.png") no-repeat scroll center center / 100% auto;
 						top: -35px;
 						z-index: -1; 
 					}
 					&:after{
-						background: url("../images/_footer_lion-black.png") no-repeat scroll center center / 100% auto;
-						top: -37px;
+						background: url("../images/_footer_lion-white.png") no-repeat scroll center center / 100% auto;
+						top: -34px;
 						z-index: -2;
 					}
 				}

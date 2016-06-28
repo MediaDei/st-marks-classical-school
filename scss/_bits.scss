@@ -14,7 +14,7 @@ $image-inner-frame: #F4DC97;
 $image-outer-frame: #CBBFA5;
 
 //student page buttons
-$dl-btn-1-fill: lighten(#bdf6fb,5%);
+$dl-btn-1-fill: lighten(#284E51,40%);
 $dl-btn-1-icon-fill: #76ABC4;
 $dl-btn-1-border: #AEB7BA;
 $dl-btn-1-icon-border: #8498A0;
@@ -250,6 +250,33 @@ span.simple-dropcaps{
   float: left;
   color: lighten($main-text,5%);
 }
+
+//Lists with &mdash; as bullet
+ul.mdash{
+  padding: 0px 40px;
+  line-height: 1.3;
+  &.top-level{
+    padding-top: 20px;
+    border-top: 2px solid lighten($lightest-border,8%);
+  }
+  li{
+    margin-bottom: 5px;
+    //list-style-type: none;
+    //list-style-image: none;
+    list-style-position:outside;
+    padding-left: 1.7em;
+    text-indent: -1.7em;
+    &:before{
+      content: "\2014\a0";
+      margin-right: 0.5em;
+    } 
+    ul{
+      margin: 5px 0px 0px 0px;
+      padding: 0px;
+    } 
+  } 
+}
+
 
 //ornate-capitals
 p.capital-ornate {

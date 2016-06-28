@@ -9,14 +9,14 @@
 	<h2 class="section-title ap-apply">Apply</h2>
 
 	<h3>Benefits of Classical Education</h3>
-	<ul class="top-list">
-		<li>&mdash; A quality education for your child that far surpasses that of government schools</li>
-		<li>&mdash; Advantage over other students in standardize testing</li>
-		<li>&mdash; Development of your child's character alongside his/her mind</li>
-		<li>&mdash; Acquire professional communication skills that will last a life time</li>
-		<li>&mdash; Wisdom of our forefathers through reading the Great Books</li>
-		<li>&mdash; The ability to read primary sources in their original language (Greek, Hebrew, Latin)</li>
-		<li>&mdash; Critical decision making skills grounded in Aristotelian Virtue Ethics</li>
+	<ul class="top-list mdash">
+		<li>A quality education for your child that far surpasses that of government schools</li>
+		<li>Advantage over other students in standardize testing</li>
+		<li>Development of your child's character alongside his/her mind</li>
+		<li>Acquire professional communication skills that will last a life time</li>
+		<li>Wisdom of our forefathers through reading the Great Books</li>
+		<li>The ability to read primary sources in their original language (Greek, Hebrew, Latin)</li>
+		<li>Critical decision making skills grounded in Aristotelian Virtue Ethics</li>
 	</ul>
 	<div class="box grid">
 		<h4>Apply</h4>
