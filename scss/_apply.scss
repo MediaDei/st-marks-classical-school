@@ -54,9 +54,13 @@ section.apply{
 			}
 		}
 	}
+}
+section.application{
+	border-top: 1px solid $border;
+	border-bottom: 1px solid $border;
+	padding-bottom: 70px; 
 	div.box{
 		border: 1px solid #c9d2da;
-    //border-radius: 7px;
     box-shadow: 0px 0px 4px 0px rgba(black, 0.3),
 										0px 0px 0px 6px rgba(white,1),
 										0px 0px 5px 6px rgba(black, 0.3);
@@ -177,5 +181,12 @@ section.apply{
 	  		margin: 30px 0px 0px; 
 	  	}
 		}
+	}
+}
+section.give{
+	padding-bottom: 50px;
+	p{
+		width: 510px;
+		margin: 0px auto; 
 	}
 }

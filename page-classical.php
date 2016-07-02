@@ -24,13 +24,13 @@
 			Young children (grades K-6) are uniquely able to absorb and memorize new information. They even enjoy making up playground songs or chants of their own. If memory isn’t developed at this phase, it is lost, but modern education largely neglects it. Our students are given a foundation which will last them a lifetime. 
 		</div>
 		<div class="grid-33">
-			<div class="img grammar"></div>
+			<div class="img grammar right"></div>
 		</div>
 		</div>
 
 		<div class="middle">
 		<div class="grid-33">
-			<div class="img logic"></div>
+			<div class="img logic left"></div>
 		</div>
 		<div class="grid-66">
 			<div class="title italic">Logic</div>
@@ -44,7 +44,7 @@
 			In high school, students becomes self-conscious about fashion, vocabulary, mannerisms, and other forms of self-expression. This is the rhetoric phase, and here the students are taught to develop their speaking and writing abilities, learning to relate to their audience, and express themselves with clarity and persuasion.
 		</div>
 		<div class="grid-33">
-			<div class="img rhetoric"></div>
+			<div class="img rhetoric right"></div>
 		</div>
 		</div>
 
@@ -52,7 +52,7 @@
 			<span class="inner">Inspired to Learn</span>
 		</h3>
 
-		<p class="after"><span class="smallcaps">Beyond</span> the foundation of the trivium, the classical method <span class="italic">Inspires Learning</span>. Because it complements the phases of human development, it naturally appeals to students. Classical education engages the mind and the heart, producing a well-formed individual equipped for thinking andable to engage the world around them.</p>
+		<p class="after"><span class="smallcaps">Beyond</span> the foundation of the trivium, the classical method <span class="italic">Inspires Learning</span>. Because it complements the phases of human development, it naturally appeals to students. Classical education engages the mind and the heart, producing a well-formed individual equipped for thinking and able to engage the world around them.</p>
 
 		<h3 class="sub-title">
 			<span class="inner">Integration</span>
@@ -78,7 +78,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="smallcaps">great Minds</span> begin by reading great books. Modern educators see the prior minds of history as approximations to our present enlightened society, as such being outdated and irrelevant. To classical educators great minds stand on their own merits, speak to timeless issues, and are always relevant.
+				<span class="smallcaps">Great minds</span> begin by reading great books. Modern educators see the prior minds of history as approximations to our present enlightened society, as such being outdated and irrelevant. To classical educators great minds stand on their own merits, speak to timeless issues, and are always relevant.
 			</p>
 		</div>
 		</div>
@@ -88,7 +88,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="smallcaps">literature</span> brings the great ideas of history alive. Students who read great literature write better because they have history’s best teachers. Great books let you think and feel the brilliance of history’s most influential people.
+				<span class="smallcaps">Literature</span> brings the great ideas of history alive. Students who read great literature write better because they have history’s best teachers. Great books let you think and feel the brilliance of history’s most influential people.
 			</p>
 		</div>
 		</div>
@@ -98,7 +98,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="smallcaps">philosophy</span> asks the age-old foundational questions about man, God, and nature. Classical Christian education sets students on a firm foundation for understanding and integrating all of life.
+				<span class="smallcaps">Philosophy</span> asks the age-old foundational questions about man, God, and nature. Classical Christian education sets students on a firm foundation for understanding and integrating all of life.
 			</p>
 		</div>
 		</div>
@@ -108,7 +108,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="smallcaps">theology:</span> Scripture provides us with everything we need to know about God. Theology organizes it. Students who know their theology have a better grasp of the Bible. Classical educators call theology the “Queen of the Sciences.”
+				<span class="smallcaps">Theology:</span> Scripture provides us with everything we need to know about God. Theology organizes it. Students who know their theology have a better grasp of the Bible. Classical educators call theology the “Queen of the Sciences.”
 			</p>
 		</div>
 		</div>
@@ -119,7 +119,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="smallcaps">art:</span> People’s beliefs about the world are reflected in their art. By studying music, theater; and the fine arts in their historical context, we come to know the views that produced them.
+				<span class="smallcaps">Art:</span> People’s beliefs about the world are reflected in their art. By studying music, theater; and the fine arts in their historical context, we come to know the views that produced them.
 			</p>
 		</div>
 		</div>
@@ -129,7 +129,7 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="smallcaps">science <span class="italic">&</span> Math:</span> From Archimedes to Newton, from Galileo to Pascal, the golden era of science belongs to the classical worldview. One difference between a classical and a liberal-arts education is our emphasis on science and math. Students at classical schools perform well in these subjects.
+				<span class="smallcaps">Science <span class="italic">&</span> Math:</span> From Archimedes to Newton, from Galileo to Pascal, the golden era of science belongs to the classical worldview. One difference between a classical and a liberal-arts education is our emphasis on science and math. Students at classical schools perform well in these subjects.
 			</p>
 		</div>
 		</div>
@@ -139,14 +139,14 @@
 		</div>
 		<div class="grid-80">
 			<p>
-				<span class="smallcaps">logic<span class="italic"> &</span> Rhetoric</span> are not only methods, they are also subjects, systematized and formalized by Aristotle. We study these to learn the science of thinking and the art of verbal and written communication.
+				<span class="smallcaps">Logic<span class="italic"> &</span> Rhetoric</span> are not only methods, they are also subjects, systematized and formalized by Aristotle. We study these to learn the science of thinking and the art of verbal and written communication.
 			</p>
 		</div>
 		</div>
 		<div>
 		<div class="grid-80">
 			<p>
-				<span class="smallcaps">scripture</span> is not only a subject&mdash;it is also a lens. It provides perspective, enlightening every subject as we use the light of Scripture to help us understand every subject in every way. This difference is evident in every classical and Christian classroom.
+				<span class="smallcaps">Scripture</span> is not only a subject&mdash;it is also a lens. It provides perspective, enlightening every subject as we use the light of Scripture to help us understand every subject in every way. This difference is evident in every classical and Christian classroom.
 			</p>
 		</div>
 		<div class="grid-20 pad-left">
@@ -201,8 +201,7 @@
 	</h2>
 
 	<div class="myths">
-
-		<div>
+		<div class="myth-wrap">
 			<div class="grid-20">
 				<div class="circle smallcaps">Myth<br> #1</div>
 			</div>
@@ -218,7 +217,7 @@
 			</div>
 		</div>
 
-		<div>
+		<div class="myth-wrap">
 			<div class="grid-20">
 				<div class="circle smallcaps">Myth<br> #2</div>
 			</div>
@@ -232,7 +231,7 @@
 			</div>
 		</div>
 
-		<div>
+		<div class="myth-wrap">
 			<div class="grid-20">
 				<div class="circle smallcaps">Myth<br> #3</div>
 			</div>

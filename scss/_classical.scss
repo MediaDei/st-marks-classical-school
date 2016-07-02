@@ -9,11 +9,21 @@ section.classical{
 			padding: 0px;
 			width: 650px;
 			&.middle{
-				margin-left: 120px;
+				margin-left: 150px;
 			}
 			div.grid-66{
 				color: $main-text;
 				font-size: 1em;
+			}
+			div.grid-33{
+				div.img{
+					&.right{
+						margin-right: 0px;
+					}
+					&.left{
+						margin-left: 0px;
+					}
+				}	
 			}
 		}
 	}
@@ -52,6 +62,9 @@ section.classical{
 	}
 	div.latin{
 		div.text-graph{
+			p.first{
+				padding-left: 30px; 
+			}
 			div#chart{
 				padding-right: 20px;
 			}
@@ -59,9 +72,25 @@ section.classical{
 	}
 	div.myths{
 		padding: 0px;
-		div{
+		div.myth-wrap{
 			padding: 0px;
-			margin-bottom: 10px;
+			//border: 1px solid #554f4b;
+			border-radius: 6px;
+			margin-bottom: 20px;
+			background-color: #fef9ef;
+			div.grid-20{
+				border: none;
+				margin: 0px;
+				padding: 10px 0px;
+			}
+			a.anchor-text{
+				color: #554f4b !important;
+			}
+			div.hidden-content{
+				margin: 0px;
+			background-image: linear-gradient(#fef9ef, rgba(white, 0.3));
+			color: #554f4b !important;
+			}
 		}
 	}
 }

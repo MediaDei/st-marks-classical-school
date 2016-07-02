@@ -14,7 +14,7 @@
 
 		<div class="sub-title"><div class="inner italic">What is St. Mark's Academy?</div></div>
 		<div class="what-is">
-			<p><span class="smallcaps">St. Mark’s Academy</span> is a Classical Christian school providing a rigorous academic training in the language arts, history, mathematics and sciences.</p>
+			<p><span class="smallcaps">st. mark’s academy</span> is a Classical Christian school providing a rigorous academic training in the language arts, history, mathematics and sciences.</p>
 			<p>We educate children in the Primary Grades (K-6). We use the method of Classical Education, which is a very old pedagogical approach that has been tried and tested over many centuries.</p>
 		</div>
 
@@ -27,39 +27,37 @@
 				<div class="grid-whole"><img src="<?php bloginfo('template_url'); ?>/images/overview_bracket.png" alt="Bracket"/></div>
 				<div class="grid-50">
 					<div class="d1">
-					<div class="title smallcaps">Intellect</div>
+					<div class="title smallcaps">intellect</div>
 					Superb academics to prepare students to excel in future educational and vocational pursuits.
 					</div>
 				</div>
 				<div class="grid-50">
 					<div class="d2">
-					<div class="title smallcaps">Virtue</div>
+					<div class="title smallcaps">virtue</div>
 					Continual emphasis on integrity and humility through opportunities to serve our community.
 					</div>
 				</div>
 				<div class="grid-33">
 					<div>
-						<div class="title smallcaps">Beauty</div>
+						<div class="title smallcaps">beauty</div>
 						The experience of beauty in art and music to increase understanding of the world we share.
 					</div>
 				</div>
 				<div class="grid-33">
 					<div>
-						<div class="title smallcaps">Faith</div>
-						A worshipping community in which spiritual formation may flourish.
+						<div class="title smallcaps">faith</div>
+						A worshiping community in which spiritual formation may flourish.
 					</div>
 				</div>
 				<div class="grid-33">
 					<div>
-						<div class="title smallcaps">Discipline</div>
+						<div class="title smallcaps">discipline</div>
 						An environment that fosters respect, good manners and self-discipline.
 					</div>
 				</div>
 
 				<div class="grid-whole"><img class="up" src="<?php bloginfo('template_url'); ?>/images/overview_bracket.png" alt="Bracket"/></div>
 			</div>
-
-			<!--moved to index.php for success image <div class="children"></div>	-->	
 		</div>
 	</div>
 </section>
@@ -69,7 +67,7 @@
 	<h2 class="section-title ov-philosophy">Education Philosophy</h2>
 
 	<div class="educational-philosophy">
-		<p><span class="smallcaps">St. Mark’s Academy</span>, in following the model of classical education, progressively nurtures its students through the three fundamental stages of learning: <span class="italic">Grammar</span> (foundational and informational skills), <span class="italic">Logic</span> (thinking and reasoning skills), and <span class="italic">Rhetoric</span> (integration and communication skills).  Our program is designed to help each child develop spiritually, intellectually, emotionally, and physically.<br><br>
+		<p><span class="smallcaps">st. mark’s academy</span>, in following the model of classical education, progressively nurtures its students through the three fundamental stages of learning: <span class="italic">Grammar</span> (foundational and informational skills), <span class="italic">Logic</span> (thinking and reasoning skills), and <span class="italic">Rhetoric</span> (integration and communication skills).  Our program is designed to help each child develop spiritually, intellectually, emotionally, and physically.<br><br>
 		</p>
 
 		<p style="text-align:center">We are committed to the following principles:</p>
@@ -114,20 +112,18 @@
 			</div>
 		</div>
 		
-		<h3>Meet Our Teachers</h3>
-
 		<input type="radio" name="bio1" id="bio1-left" />
 		<input type="radio" name="bio1" id="bio1-center" />
 		<input type="radio" name="bio1" id="bio1-right" />
 
 
-		<div class="outer-3">
+		<div class="outer-3 first">
 			<div class="grid-3">
 			<div class="person">
 				<label for="bio1-left" class="zoom fa fa-search fa-3x"></label>
 				<div class="photo ph1"></div>
 				<div class="name italic">Fr. Jason Patterson</div>
-				<div class="title smallcaps">Head of School</div>
+				<div class="title smallcaps">head of school</div>
 				<div class="arrow bio1-left"></div>
 			</div>
 			</div>
@@ -136,7 +132,7 @@
 				<label for="bio1-center" class="zoom fa fa-search fa-3x"></label>
 				<div class="photo ph2"></div>
 				<div class="name italic">Mrs. Kelly Proctor</div>
-				<div class="title smallcaps">Grammar School</div>
+				<div class="title smallcaps">grammar school</div>
 				<div class="arrow bio1-center"></div>
 			</div>
 			</div>
@@ -145,7 +141,7 @@
 				<label for="bio1-right" class="zoom fa fa-search fa-3x"></label>
 				<div class="photo ph3"></div>
 				<div class="name italic">Mrs. Jane Fadden</div>
-				<div class="title smallcaps">Kindergarten</div>
+				<div class="title smallcaps">kindergarten</div>
 				<div class="arrow bio1-right"></div>
 			</div>
 			</div>
@@ -181,7 +177,7 @@
 				<label for="bio2-left" class="zoom fa fa-search fa-3x"></label>
 				<div class="photo ph4"></div>
 				<div class="name italic">Mrs. Christa Issler</div>
-				<div class="title smallcaps">Art</div>
+				<div class="title smallcaps">art</div>
 				<div class="arrow bio2-left"></div>
 			</div>
 			</div>
@@ -190,7 +186,7 @@
 				<label for="bio2-center" class="zoom fa fa-search fa-3x"></label>
 				<div class="photo ph5"></div>
 				<div class="name italic">Mrs. Grete Ingalls</div>
-				<div class="title smallcaps">Music</div>
+				<div class="title smallcaps">music</div>
 				<div class="arrow bio2-center"></div>
 			</div>
 			</div>
@@ -199,7 +195,7 @@
 				<label for="bio2-right" class="zoom fa fa-search fa-3x"></label>
 				<div class="photo ph6"></div>
 				<div class="name italic">Mrs. Emily Kenniston</div>
-				<div class="title smallcaps">Grammar School</div>
+				<div class="title smallcaps">grammar school</div>
 				<div class="arrow bio2-right"></div>
 			</div>
 			</div>

@@ -8,9 +8,6 @@
 	<meta name="description" content="St. Mark's Classical Academy in Philadelphia, PA, providing children with a moral education joined with timeless truths.">
 	<meta name="viewport" content="width=device-width">
 	
-
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/global.css" type="text/css" />
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 	<?php wp_head(); ?>

@@ -1,4 +1,35 @@
 <?php 
+//enable Featured Images in Posts
+add_theme_support( 'post-thumbnails' );
+
+
+//Disable Emoji from WP Core
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
+
+//Proper way to enable/link jquery and css in WP
+function scripts_styles() {
+
+    //Deregister Scripts/Styles from WP Core
+    wp_deregister_style( 'open-sans' );
+    wp_register_style( 'open-sans', false );
+
+    //Register Scripts/Styles
+    wp_register_style( 'global-style', get_template_directory_uri() . '/css/global.css');
+    wp_register_style('font-awesome-style', get_template_directory_uri() . '/css/font-awesome.min.css');
+
+    //Enqueue Scripts/Styles
+    wp_enqueue_script('jquery'); // default jQuery
+    wp_enqueue_style('global-style');
+    wp_enqueue_style('font-awesome-style');
+}
+add_action( 'wp_enqueue_scripts', 'scripts_styles');
+add_action( 'wp_enqueue_scripts', 'scripts_styles');
+
+
+
+
+
 
 /**
  * Creates a nicely formatted and more specific title element text
@@ -34,9 +65,6 @@ add_filter( 'wp_title', 'stmarks_wp_title', 10, 2 );
 
 
 remove_action( 'wp_head', 'rsd_link' );
-
-//allow Featured Images in Posts (Used in Events Widget)
-add_theme_support( 'post-thumbnails' ); 
 
 
 
@@ -84,7 +112,6 @@ add_action( 'init', 'media_dei_custom_taxonomy', 0 );
 
 
 //Give Plugin Modifications
-
 
 /**
  * Custom Form Fields

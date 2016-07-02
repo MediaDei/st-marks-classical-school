@@ -49,23 +49,12 @@
 
 	<?php wp_footer(); ?>
 
-
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-migrate-1.2.1.min.js"></script> <!-- for slick slider-->
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slick/slick.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/isInViewport.min.js"></script>
 
 
 	<script type="text/javascript">
+		var $ = jQuery.noConflict();
 		$(document).ready(function(){
-
-			//// HOME SLIDER 
-			$('.slick-slider').slick({
-				infinite: true,
-				slidesToShow: 4,
-				slidesToScroll: 4,
-				dots: true
-			});
 
 			/*  For IE < 9 use jQuery <= 1.7.0  */
 			$(window).scroll( function() {

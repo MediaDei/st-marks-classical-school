@@ -4,6 +4,7 @@
 @import "old-global";
 @import "give-widget";
 @import "give-popup";
+@import "soliloquy-sliders";
 
 html {
   line-height: 1;
@@ -26,6 +27,7 @@ body{
 	}
 	@import "header";
 	section{
+		overflow: visible !important;//added because old code has overflow: hidden. Saving edits for code clean up if we return to this project (removing _old-global.scss and merging into this file)
 		&.border{
 			border-bottom: 1px solid $border;
 		}
@@ -61,7 +63,7 @@ body{
 				}
 				&.first,&.second,&.third,&.fourth{
 					&:before,&:after{
-						content: "";
+						//content: ""; commented out for James to add Icons
 						position: absolute;
 						opacity: 0.9;
 					}

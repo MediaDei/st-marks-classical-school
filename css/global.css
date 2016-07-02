@@ -507,13 +507,7 @@ a.button {
   -webkit-transition: height 0.3s ease;
   -webkit-transition-delay: 0s;
   transition: height 0.3s ease 0s;
-  padding: 0px;
-  background-color: #676767;
-  color: white;
-  text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.8);
-  box-shadow: inset 0 12px 8px -5px black; }
-  .hidden-content p span {
-    color: white !important; }
+  padding: 0px; }
   .hidden-content.faq {
     color: #554F4B;
     background-color: white;
@@ -525,10 +519,10 @@ a.button {
   display: none;
   position: fixed; }
   .anchor:target + .anchor-button + .fact-1, .anchor:target + .anchor-button + .fact-2, .anchor:target + .anchor-button + .fact-3, .anchor:target + .anchor-text + .fact-1, .anchor:target + .anchor-text + .fact-2, .anchor:target + .anchor-text + .fact-3 {
-    margin-bottom: 70px;
     padding: 20px 0px;
     height: 300px;
-    opacity: 1; }
+    opacity: 1;
+    border-radius: 0px; }
   .anchor:target + .anchor-button + .question-1, .anchor:target + .anchor-button + .question-2, .anchor:target + .anchor-button + .question-3, .anchor:target + .anchor-button + .question-4, .anchor:target + .anchor-button + .question-5, .anchor:target + .anchor-button + .question-6, .anchor:target + .anchor-button + .question-7, .anchor:target + .anchor-button + .question-8, .anchor:target + .anchor-button + .question-9, .anchor:target + .anchor-button + .question-10, .anchor:target + .anchor-text + .question-1, .anchor:target + .anchor-text + .question-2, .anchor:target + .anchor-text + .question-3, .anchor:target + .anchor-text + .question-4, .anchor:target + .anchor-text + .question-5, .anchor:target + .anchor-text + .question-6, .anchor:target + .anchor-text + .question-7, .anchor:target + .anchor-text + .question-8, .anchor:target + .anchor-text + .question-9, .anchor:target + .anchor-text + .question-10 {
     margin: 10px 0px 70px;
     padding: 20px 20px;
@@ -558,6 +552,28 @@ ul.mdash {
     ul.mdash li ul {
       margin: 5px 0px 0px 0px;
       padding: 0px; }
+
+ul.font-awesome {
+  padding: 0px 40px;
+  line-height: 1.3; }
+  ul.font-awesome.top-level {
+    padding-top: 20px;
+    border-top: 2px solid #dfdfdf; }
+  ul.font-awesome li {
+    list-style-image: url("../images/fa-check-circle-1x.png");
+    margin-bottom: 5px; }
+    ul.font-awesome li ul {
+      margin: 5px 0px 0px 0px;
+      padding: 0px; }
+      ul.font-awesome li ul li {
+        list-style-type: none;
+        list-style-image: none;
+        list-style-position: outside;
+        padding-left: 1.7em;
+        text-indent: -1.7em; }
+        ul.font-awesome li ul li:before {
+          content: "\2014\a0";
+          margin-right: 0.5em; }
 
 p.capital-ornate {
   text-indent: -10px; }
@@ -698,6 +714,8 @@ div.give-form-wrap {
     position: relative;
     margin: 0px; }
     div.give-form-wrap form.give-form label.give-hidden {
+      display: none !important; }
+    div.give-form-wrap form.give-form div.set-price {
       display: none !important; }
     div.give-form-wrap form.give-form p.set-price.give-donation-amount.form-row-wide {
       display: none !important; }
@@ -3216,6 +3234,8 @@ div.give-form-wrap {
     margin: 0px; }
     div.give-form-wrap form.give-form label.give-hidden {
       display: none !important; }
+    div.give-form-wrap form.give-form div.set-price {
+      display: none !important; }
     div.give-form-wrap form.give-form p.set-price.give-donation-amount.form-row-wide {
       display: none !important; }
     div.give-form-wrap form.give-form div.give-total-wrap {
@@ -3537,6 +3557,52 @@ body.give-page div.mfp-wrap div.mfp-container div.mfp-content {
   body.give-page div.mfp-wrap div.mfp-container div.mfp-content form.give-form button.mfp-close {
     top: -6px; }
 
+/* 
+  Custom Soliloquy Slider Themes
+*/
+.soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-viewport {
+  height: 380px !important; }
+  .soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-viewport .soliloquy-slider {
+    margin: 20px 0px;
+    padding-top: 20px; }
+    .soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-viewport .soliloquy-slider .soliloquy-item {
+      box-shadow: 0px 1px 8px 1px rgba(0, 0, 0, 0.3);
+      opacity: 0.7; }
+      .soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-viewport .soliloquy-slider .soliloquy-item.soliloquy-active-slide + li.soliloquy-image-slide {
+        box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.8);
+        opacity: 1;
+        width: 285px !important;
+        z-index: 2;
+        top: -15px; }
+        .soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-viewport .soliloquy-slider .soliloquy-item.soliloquy-active-slide + li.soliloquy-image-slide .soliloquy-image {
+          width: 100%; }
+        .soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-viewport .soliloquy-slider .soliloquy-item.soliloquy-active-slide + li.soliloquy-image-slide .soliloquy-caption .soliloquy-caption-inside {
+          opacity: 1; }
+      .soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-viewport .soliloquy-slider .soliloquy-item .soliloquy-caption .soliloquy-caption-inside {
+        opacity: 0;
+        background: none;
+        color: #484848;
+        position: relative;
+        top: 50px;
+        text-shadow: none; }
+.soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-controls .soliloquy-controls-direction .soliloquy-prev, .soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-controls .soliloquy-controls-direction .soliloquy-next {
+  border-radius: 100%;
+  border: 1px solid #484848;
+  width: 50px;
+  height: 50px;
+  color: #484848;
+  top: 42%;
+  box-shadow: 0 2px 10px 8px white, 2px 0 10px 8px white; }
+  .soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-controls .soliloquy-controls-direction .soliloquy-prev:hover, .soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-controls .soliloquy-controls-direction .soliloquy-next:hover {
+    border: 1px solid #554d47;
+    box-shadow: 0 2px 10px 9px white, 2px 0 10px 9px white; }
+.soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-controls .soliloquy-controls-direction .soliloquy-prev {
+  left: -25px;
+  background: white url("../images/left.png") no-repeat 18px 3px/20% auto; }
+.soliloquy-theme-media-dei-thumbnail-1 .soliloquy-wrapper .soliloquy-controls .soliloquy-controls-direction .soliloquy-next {
+  right: -25px;
+  background: white url("../images/right.png") no-repeat 20px 3px/20% auto; }
+
 html {
   line-height: 1;
   margin: 0;
@@ -3565,297 +3631,328 @@ body {
       box-shadow: 0px 0px 4px -2px rgba(0, 0, 0, 0.5) inset !important; }
     body header div.navTitle div.social a.fa-envelope {
       padding: 6px 8px !important; }
-  body section.border {
-    border-bottom: 1px solid #979797; }
-  body section h3.section-heading {
-    text-align: center;
-    font-size: 2.4em;
-    margin-bottom: 40px; }
-  body section.first {
-    padding-top: 30px;
-    padding-bottom: 0px; }
-  body section div.divider-quote {
-    text-align: center;
-    font-size: 1em;
-    height: 140px;
-    padding: 45px 0px;
-    margin: 80px auto 0px;
-    line-height: 1.3;
-    position: relative;
-    background-color: #676767;
-    color: white;
-    text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.8);
-    z-index: 0; }
-    body section div.divider-quote.fourth {
-      padding: 35px; }
-    body section div.divider-quote blockquote {
-      position: relative;
-      margin: 0px auto; }
-      body section div.divider-quote blockquote cite {
-        color: white; }
-      body section div.divider-quote blockquote.first:before, body section div.divider-quote blockquote.first:after, body section div.divider-quote blockquote.second:before, body section div.divider-quote blockquote.second:after, body section div.divider-quote blockquote.third:before, body section div.divider-quote blockquote.third:after, body section div.divider-quote blockquote.fourth:before, body section div.divider-quote blockquote.fourth:after {
-        content: "";
-        position: absolute;
-        opacity: 0.9; }
-      body section div.divider-quote blockquote.first {
-        width: 550px; }
-        body section div.divider-quote blockquote.first:before, body section div.divider-quote blockquote.first:after {
-          left: -150px;
-          width: 140px;
-          height: 140px; }
-        body section div.divider-quote blockquote.first:before {
-          background: url("../images/home_tout1-dark.png") no-repeat scroll center center/100% auto;
-          top: -48px;
-          z-index: -1; }
-        body section div.divider-quote blockquote.first:after {
-          background: url("../images/home_tout1-white.png") no-repeat scroll center center/100% auto;
-          top: -47px;
-          z-index: -2; }
-      body section div.divider-quote blockquote.second {
-        width: 510px; }
-        body section div.divider-quote blockquote.second:before, body section div.divider-quote blockquote.second:after {
-          width: 160px;
-          height: 160px;
-          left: -180px; }
-        body section div.divider-quote blockquote.second:before {
-          background: url("../images/home_tout2-dark.png") no-repeat scroll center center/100% auto;
-          top: -50px;
-          z-index: -1; }
-        body section div.divider-quote blockquote.second:after {
-          background: url("../images/home_tout2-white.png") no-repeat scroll center center/100% auto;
-          top: -49px;
-          z-index: -2; }
-      body section div.divider-quote blockquote.third {
-        width: 520px; }
-        body section div.divider-quote blockquote.third:before, body section div.divider-quote blockquote.third:after {
-          width: 160px;
-          height: 160px;
-          left: -160px; }
-        body section div.divider-quote blockquote.third:before {
-          background: url("../images/home_tout3-dark.png") no-repeat scroll center center/100% auto;
-          top: -50px;
-          z-index: -1; }
-        body section div.divider-quote blockquote.third:after {
-          background: url("../images/home_tout3-white.png") no-repeat scroll center center/100% auto;
-          top: -52px;
-          z-index: -2; }
-      body section div.divider-quote blockquote.fourth {
-        width: 630px; }
-        body section div.divider-quote blockquote.fourth:before, body section div.divider-quote blockquote.fourth:after {
-          left: -150px;
-          width: 140px;
-          height: 140px; }
-        body section div.divider-quote blockquote.fourth:before {
-          background: url("../images/_footer_lion.png") no-repeat scroll center center/100% auto;
-          top: -35px;
-          z-index: -1; }
-        body section div.divider-quote blockquote.fourth:after {
-          background: url("../images/_footer_lion-white.png") no-repeat scroll center center/100% auto;
-          top: -34px;
-          z-index: -2; }
-  body section.section-banner div.home-scroll {
-    display: none; }
-  body section div.home-leaf {
-    margin-bottom: 20px; }
-  body section h1.home-welcome, body section h1.subtext {
-    margin: 0px auto;
-    font-size: 2.5em;
-    text-align: center; }
-  body section h1.subtext {
-    font-style: italic;
-    margin: 0px auto 60px;
-    letter-spacing: 4.3px; }
-  body section div.icon-p-wrap {
-    margin-bottom: 40px;
-    display: table;
-    margin: 40px auto 0px;
-    position: relative;
-    line-height: 1.3; }
-    body section div.icon-p-wrap.last {
-      margin-bottom: 40px; }
-    body section div.icon-p-wrap div.icon {
-      width: 300px;
-      height: 300px;
-      position: absolute;
-      opacity: 0.2;
-      display: none; }
-      body section div.icon-p-wrap div.icon.icon1 {
-        background: url("../images/home_tout1.svg") no-repeat scroll center 10px/80% auto;
-        top: -140%;
-        left: 50%;
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%); }
-      body section div.icon-p-wrap div.icon.icon2 {
-        background: url("../images/home_tout2.svg") no-repeat scroll center center/80% auto;
-        top: -130%;
-        left: 50%;
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%); }
-      body section div.icon-p-wrap div.icon.icon3 {
-        background: url("../images/home_tout3.svg") no-repeat scroll center center/80% auto;
-        top: -90%;
-        left: 50%;
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%); }
-    body section div.icon-p-wrap p {
-      display: block;
-      width: 645px;
-      margin: 0px 0px 0px 20px; }
-  body section.main-section {
-    padding-bottom: 0px;
-    background-color: white; }
-    body section.main-section div.home-values {
-      margin-bottom: 60px; }
-      body section.main-section div.home-values div.grid-whole img {
-        width: 93%; }
-      body section.main-section div.home-values div.grid-whole div div.img {
-        height: 240px;
-        width: 240px; }
-        body section.main-section div.home-values div.grid-whole div div.img:after {
-          height: 240px;
-          width: 240px; }
-        body section.main-section div.home-values div.grid-whole div div.img.success {
-          background-size: 100% auto;
-          background-position: center center; }
-      body section.main-section div.home-values div.grid div div.img {
-        height: 240px;
-        width: 240px; }
-        body section.main-section div.home-values div.grid div div.img:before {
-          display: none; }
-        body section.main-section div.home-values div.grid div div.img:after {
-          height: 240px;
-          width: 240px; }
-        body section.main-section div.home-values div.grid div div.img.virtue {
-          background-size: 115% auto;
-          background-position: center center; }
-        body section.main-section div.home-values div.grid div div.img.rigor {
-          background-size: 110% auto;
-          background-position: center center; }
-        body section.main-section div.home-values div.grid div div.img.faith {
-          background-size: 100% auto;
-          background-position: center center; }
-      body section.main-section div.home-values div.grid-whole div {
-        width: 100%; }
-        body section.main-section div.home-values div.grid-whole div div.children {
-          border: 4px solid #F4DC97;
-          box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 1px #CBBFA5, 0px 21px 10px -15px rgba(0, 0, 0, 0.5);
-          border-radius: 0px;
-          background: transparent url("../images/overview_formation.jpg") no-repeat scroll 0 -20px/100% auto;
-          height: 260px;
-          margin: 30px auto;
-          width: 660px; }
-        body section.main-section div.home-values div.grid-whole div div.success {
-          display: none; }
-    body section.main-section div.education p {
-      width: 500px;
-      margin: 0 auto 50px; }
-    body section.main-section div.education h3 {
-      font-size: 1.4em;
-      text-align: center;
-      margin-bottom: 15px;
-      font-style: italic; }
-  body section.student-life {
-    padding-bottom: 0px; }
-    body section.student-life h3 {
+  body section {
+    overflow: visible !important; }
+    body section.border {
+      border-bottom: 1px solid #979797; }
+    body section h3.section-heading {
       text-align: center;
       font-size: 2.4em;
       margin-bottom: 40px; }
-    body section.student-life div.gallery {
-      margin-bottom: 40px; }
-      body section.student-life div.gallery p {
-        width: 620px;
-        margin: 0 auto 40px; }
-  body section.home-apply p {
-    width: 600px;
-    margin: 0 auto; }
-  body section.overview div.intro div.our-goals {
-    line-height: 1.2; }
-    body section.overview div.intro div.our-goals div.list div.grid-50 div, body section.overview div.intro div.our-goals div.list div.grid-33 div {
-      color: #554F4B; }
-      body section.overview div.intro div.our-goals div.list div.grid-50 div div.title, body section.overview div.intro div.our-goals div.list div.grid-33 div div.title {
-        margin: 0 auto; }
-    body section.overview div.intro div.our-goals div.children {
-      border: 4px solid #F4DC97;
-      box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 1px #CBBFA5, 0px 21px 10px -15px rgba(0, 0, 0, 0.5);
-      border-radius: 0px; }
-  body section.overview div.environment div.wrapper {
-    display: table;
-    margin: 140px auto 0px 100px; }
-    body section.overview div.environment div.wrapper.second {
-      margin-top: 70px; }
-    body section.overview div.environment div.wrapper div.text {
-      width: 400px;
-      display: inline-block;
-      vertical-align: top;
-      box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
-      padding: 20px;
+    body section.first {
+      padding-top: 30px;
+      padding-bottom: 0px; }
+    body section div.divider-quote {
+      text-align: center;
+      font-size: 1em;
+      height: 140px;
+      padding: 45px 0px;
+      margin: 80px auto 0px;
+      line-height: 1.3;
       position: relative;
-      border-radius: 4px;
-      z-index: 1; }
-      body section.overview div.environment div.wrapper div.text:before {
-        content: "";
-        background: white none repeat scroll 0 0;
-        height: 100%;
-        width: 100%;
-        z-index: -1;
+      background-color: #676767;
+      color: white;
+      text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.8);
+      z-index: 0; }
+      body section div.divider-quote.fourth {
+        padding: 35px; }
+      body section div.divider-quote blockquote {
+        position: relative;
+        margin: 0px auto; }
+        body section div.divider-quote blockquote cite {
+          color: white; }
+        body section div.divider-quote blockquote.first:before, body section div.divider-quote blockquote.first:after, body section div.divider-quote blockquote.second:before, body section div.divider-quote blockquote.second:after, body section div.divider-quote blockquote.third:before, body section div.divider-quote blockquote.third:after, body section div.divider-quote blockquote.fourth:before, body section div.divider-quote blockquote.fourth:after {
+          position: absolute;
+          opacity: 0.9; }
+        body section div.divider-quote blockquote.first {
+          width: 550px; }
+          body section div.divider-quote blockquote.first:before, body section div.divider-quote blockquote.first:after {
+            left: -150px;
+            width: 140px;
+            height: 140px; }
+          body section div.divider-quote blockquote.first:before {
+            background: url("../images/home_tout1-dark.png") no-repeat scroll center center/100% auto;
+            top: -48px;
+            z-index: -1; }
+          body section div.divider-quote blockquote.first:after {
+            background: url("../images/home_tout1-white.png") no-repeat scroll center center/100% auto;
+            top: -47px;
+            z-index: -2; }
+        body section div.divider-quote blockquote.second {
+          width: 510px; }
+          body section div.divider-quote blockquote.second:before, body section div.divider-quote blockquote.second:after {
+            width: 160px;
+            height: 160px;
+            left: -180px; }
+          body section div.divider-quote blockquote.second:before {
+            background: url("../images/home_tout2-dark.png") no-repeat scroll center center/100% auto;
+            top: -50px;
+            z-index: -1; }
+          body section div.divider-quote blockquote.second:after {
+            background: url("../images/home_tout2-white.png") no-repeat scroll center center/100% auto;
+            top: -49px;
+            z-index: -2; }
+        body section div.divider-quote blockquote.third {
+          width: 520px; }
+          body section div.divider-quote blockquote.third:before, body section div.divider-quote blockquote.third:after {
+            width: 160px;
+            height: 160px;
+            left: -160px; }
+          body section div.divider-quote blockquote.third:before {
+            background: url("../images/home_tout3-dark.png") no-repeat scroll center center/100% auto;
+            top: -50px;
+            z-index: -1; }
+          body section div.divider-quote blockquote.third:after {
+            background: url("../images/home_tout3-white.png") no-repeat scroll center center/100% auto;
+            top: -52px;
+            z-index: -2; }
+        body section div.divider-quote blockquote.fourth {
+          width: 630px; }
+          body section div.divider-quote blockquote.fourth:before, body section div.divider-quote blockquote.fourth:after {
+            left: -150px;
+            width: 140px;
+            height: 140px; }
+          body section div.divider-quote blockquote.fourth:before {
+            background: url("../images/_footer_lion.png") no-repeat scroll center center/100% auto;
+            top: -35px;
+            z-index: -1; }
+          body section div.divider-quote blockquote.fourth:after {
+            background: url("../images/_footer_lion-white.png") no-repeat scroll center center/100% auto;
+            top: -34px;
+            z-index: -2; }
+    body section.section-banner div.home-scroll {
+      display: none; }
+    body section div.home-leaf {
+      margin-bottom: 20px; }
+    body section h1.home-welcome, body section h1.subtext {
+      margin: 0px auto;
+      font-size: 2.5em;
+      text-align: center; }
+    body section h1.subtext {
+      font-style: italic;
+      margin: 0px auto 60px;
+      letter-spacing: 4.3px; }
+    body section div.icon-p-wrap {
+      margin-bottom: 40px;
+      display: table;
+      margin: 40px auto 0px;
+      position: relative;
+      line-height: 1.3; }
+      body section div.icon-p-wrap.last {
+        margin-bottom: 40px; }
+      body section div.icon-p-wrap div.icon {
+        width: 300px;
+        height: 300px;
         position: absolute;
-        opacity: 0.9;
-        left: 0;
-        top: 0; }
-      body section.overview div.environment div.wrapper div.text.faculty {
-        top: 40px;
-        left: -90px; }
-      body section.overview div.environment div.wrapper div.text div.sub-title {
+        opacity: 0.2;
+        display: none; }
+        body section div.icon-p-wrap div.icon.icon1 {
+          background: url("../images/home_tout1.svg") no-repeat scroll center 10px/80% auto;
+          top: -140%;
+          left: 50%;
+          -moz-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+        body section div.icon-p-wrap div.icon.icon2 {
+          background: url("../images/home_tout2.svg") no-repeat scroll center center/80% auto;
+          top: -130%;
+          left: 50%;
+          -moz-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+        body section div.icon-p-wrap div.icon.icon3 {
+          background: url("../images/home_tout3.svg") no-repeat scroll center center/80% auto;
+          top: -90%;
+          left: 50%;
+          -moz-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+      body section div.icon-p-wrap p {
+        display: block;
+        width: 645px;
+        margin: 0px 0px 0px 20px; }
+    body section.main-section {
+      padding-bottom: 0px;
+      background-color: white; }
+      body section.main-section div.home-values {
+        margin-bottom: 60px; }
+        body section.main-section div.home-values div.grid-whole img {
+          width: 93%; }
+        body section.main-section div.home-values div.grid-whole div div.img {
+          height: 240px;
+          width: 240px; }
+          body section.main-section div.home-values div.grid-whole div div.img:after {
+            height: 240px;
+            width: 240px; }
+          body section.main-section div.home-values div.grid-whole div div.img.success {
+            background-size: 100% auto;
+            background-position: center center; }
+        body section.main-section div.home-values div.grid div div.img {
+          height: 240px;
+          width: 240px; }
+          body section.main-section div.home-values div.grid div div.img:before {
+            display: none; }
+          body section.main-section div.home-values div.grid div div.img:after {
+            height: 240px;
+            width: 240px; }
+          body section.main-section div.home-values div.grid div div.img.virtue {
+            background-size: 115% auto;
+            background-position: center center; }
+          body section.main-section div.home-values div.grid div div.img.rigor {
+            background-size: 110% auto;
+            background-position: center center; }
+          body section.main-section div.home-values div.grid div div.img.faith {
+            background-size: 100% auto;
+            background-position: center center; }
+        body section.main-section div.home-values div.grid-whole div {
+          width: 100%; }
+          body section.main-section div.home-values div.grid-whole div div.children {
+            border: 4px solid #F4DC97;
+            box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 1px #CBBFA5, 0px 21px 10px -15px rgba(0, 0, 0, 0.5);
+            border-radius: 0px;
+            background: transparent url("../images/overview_formation.jpg") no-repeat scroll 0 -20px/100% auto;
+            height: 260px;
+            margin: 30px auto;
+            width: 660px; }
+          body section.main-section div.home-values div.grid-whole div div.success {
+            display: none; }
+      body section.main-section div.education p {
+        width: 500px;
+        margin: 0 auto 50px; }
+      body section.main-section div.education h3 {
+        font-size: 1.4em;
         text-align: center;
-        margin: 0px;
-        padding: 0px;
-        font-size: 1.2em; }
-        body section.overview div.environment div.wrapper div.text div.sub-title div.acorn:before {
-          width: 22px !important;
-          height: 32px !important; }
-    body section.overview div.environment div.wrapper div.overview-image {
-      display: inline-block;
-      position: relative;
-      width: 450px;
-      height: 350px;
-      box-shadow: 0px 0px 0px 2px white inset, 0px 0px 3px 4px rgba(0, 0, 0, 0.5) inset, 0px 0px 0px 8px white inset, 0px 0px 5px 11px rgba(0, 0, 0, 0.5) inset; }
-      body section.overview div.environment div.wrapper div.overview-image.chapel {
-        background: url("../images/chapel.jpg") no-repeat center center/155% auto;
-        top: -70px;
-        left: -100px; }
-      body section.overview div.environment div.wrapper div.overview-image.faculty {
-        background: url("../images/faculty.jpg") no-repeat center center/155% auto;
-        top: 0px;
-        left: 0px; }
-  body section.overview div.environment div.divider-quote {
-    margin: 0px auto; }
-  body section.overview div.environment h3 {
-    text-align: center;
-    font-size: 1.7em;
-    font-style: italic;
-    margin: 70px 0px 40px; }
-  body section.overview div.environment div.outer-3 div.grid-3 div.person div.title {
-    color: #554F4B; }
-  body section.overview div.curriculum div.outer {
-    line-height: 1.2; }
-    body section.overview div.curriculum div.outer div.grid1 div, body section.overview div.curriculum div.outer div.grid2 div, body section.overview div.curriculum div.outer div.grid3 div {
+        margin-bottom: 15px;
+        font-style: italic; }
+    body section.student-life {
+      padding-bottom: 0px; }
+      body section.student-life h3 {
+        text-align: center;
+        font-size: 2.4em;
+        margin-bottom: 40px; }
+      body section.student-life div.gallery {
+        margin-bottom: 40px; }
+        body section.student-life div.gallery p {
+          width: 620px;
+          margin: 0 auto 40px; }
+    body section.home-apply p {
+      width: 600px;
+      margin: 0 auto; }
+  body section.overview {
+    padding-bottom: 70px; }
+    body section.overview div.intro div.our-goals {
+      line-height: 1.2; }
+      body section.overview div.intro div.our-goals div.list div.grid-50 div, body section.overview div.intro div.our-goals div.list div.grid-33 div {
+        color: #554F4B; }
+        body section.overview div.intro div.our-goals div.list div.grid-50 div div.title, body section.overview div.intro div.our-goals div.list div.grid-33 div div.title {
+          margin: 0 auto; }
+      body section.overview div.intro div.our-goals div.children {
+        border: 4px solid #F4DC97;
+        box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 1px #CBBFA5, 0px 21px 10px -15px rgba(0, 0, 0, 0.5);
+        border-radius: 0px; }
+    body section.overview div.environment div.wrapper {
+      display: table;
+      margin: 140px auto 0px 100px; }
+      body section.overview div.environment div.wrapper.second {
+        margin-top: 70px; }
+      body section.overview div.environment div.wrapper div.text {
+        width: 400px;
+        display: inline-block;
+        vertical-align: top;
+        box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        position: relative;
+        border-radius: 4px;
+        z-index: 1; }
+        body section.overview div.environment div.wrapper div.text:before {
+          content: "";
+          background: white none repeat scroll 0 0;
+          height: 100%;
+          width: 100%;
+          z-index: -1;
+          position: absolute;
+          opacity: 0.9;
+          left: 0;
+          top: 0; }
+        body section.overview div.environment div.wrapper div.text.faculty {
+          top: 40px;
+          left: -90px; }
+        body section.overview div.environment div.wrapper div.text div.sub-title {
+          text-align: center;
+          margin: 0px;
+          padding: 0px;
+          font-size: 1.2em; }
+          body section.overview div.environment div.wrapper div.text div.sub-title div.acorn:before {
+            width: 22px !important;
+            height: 32px !important; }
+      body section.overview div.environment div.wrapper div.overview-image {
+        display: inline-block;
+        position: relative;
+        width: 450px;
+        height: 350px;
+        box-shadow: 0px 0px 0px 2px white inset, 0px 0px 3px 4px rgba(0, 0, 0, 0.5) inset, 0px 0px 0px 8px white inset, 0px 0px 5px 11px rgba(0, 0, 0, 0.5) inset; }
+        body section.overview div.environment div.wrapper div.overview-image.chapel {
+          background: url("../images/chapel.jpg") no-repeat center center/155% auto;
+          top: -70px;
+          left: -100px; }
+        body section.overview div.environment div.wrapper div.overview-image.faculty {
+          background: url("../images/faculty.jpg") no-repeat center center/155% auto;
+          top: 0px;
+          left: 0px; }
+    body section.overview div.environment div.divider-quote {
+      margin: 0px auto; }
+    body section.overview div.environment h3 {
+      text-align: center;
+      font-size: 1.7em;
+      font-style: italic;
+      margin: 70px 0px 40px; }
+    body section.overview div.environment div.outer-3.first {
+      margin-top: 100px !important; }
+    body section.overview div.environment div.outer-3 div.grid-3 div.person label.zoom {
+      width: 210px;
+      padding-top: 85px;
+      font-size: 4em; }
+    body section.overview div.environment div.outer-3 div.grid-3 div.person div.photo {
+      width: 180px;
+      height: 180px; }
+      body section.overview div.environment div.outer-3 div.grid-3 div.person div.photo.ph1 {
+        background: url("../images/overview_photo1.jpg") no-repeat 0px -12px/100% auto; }
+      body section.overview div.environment div.outer-3 div.grid-3 div.person div.photo.ph2 {
+        background: url("../images/overview_photo2_color.jpg") no-repeat 0px -12px/100% auto; }
+      body section.overview div.environment div.outer-3 div.grid-3 div.person div.photo.ph3 {
+        background: url("../images/overview_photo3.jpg") no-repeat 0px -12px/100% auto; }
+      body section.overview div.environment div.outer-3 div.grid-3 div.person div.photo.ph4 {
+        background: url("../images/overview_photo4_color.jpg") no-repeat 0px -5px/108% auto; }
+      body section.overview div.environment div.outer-3 div.grid-3 div.person div.photo.ph5 {
+        background: url("../images/overview_photo5_color.jpg") no-repeat -5px -15px/103% auto; }
+      body section.overview div.environment div.outer-3 div.grid-3 div.person div.photo.ph6 {
+        background: url("../images/overview_photo6.jpg") no-repeat 0px 0px/100% auto; }
+    body section.overview div.environment div.outer-3 div.grid-3 div.person div.title {
       color: #554F4B; }
+    body section.overview div.environment div.modal-info div.bio1 div.text, body section.overview div.environment div.modal-info div.bio2 div.text {
+      line-height: 1.2;
+      font-size: 0.94em; }
+    body section.overview div.curriculum div.outer {
+      line-height: 1.2; }
+      body section.overview div.curriculum div.outer div.grid1 div, body section.overview div.curriculum div.outer div.grid2 div, body section.overview div.curriculum div.outer div.grid3 div {
+        color: #554F4B; }
   body section.classical h3 span {
     font-size: 2em !important; }
   body section.classical div.foundation div {
     padding: 0px;
     width: 650px; }
     body section.classical div.foundation div.middle {
-      margin-left: 120px; }
+      margin-left: 150px; }
     body section.classical div.foundation div div.grid-66 {
       color: #554F4B;
       font-size: 1em; }
+    body section.classical div.foundation div div.grid-33 div.img.right {
+      margin-right: 0px; }
+    body section.classical div.foundation div div.grid-33 div.img.left {
+      margin-left: 0px; }
   body section.classical div.lost-content {
     line-height: 1.2; }
     body section.classical div.lost-content div div.grid-20.pad-left {
@@ -3880,13 +3977,27 @@ body {
         margin: 0px; }
         body section.classical div.lost-content div div.grid-80 p span.simple-dropcaps {
           font-size: 2em !important; }
+  body section.classical div.latin div.text-graph p.first {
+    padding-left: 30px; }
   body section.classical div.latin div.text-graph div#chart {
     padding-right: 20px; }
   body section.classical div.myths {
     padding: 0px; }
-    body section.classical div.myths div {
+    body section.classical div.myths div.myth-wrap {
       padding: 0px;
-      margin-bottom: 10px; }
+      border-radius: 6px;
+      margin-bottom: 20px;
+      background-color: #fef9ef; }
+      body section.classical div.myths div.myth-wrap div.grid-20 {
+        border: none;
+        margin: 0px;
+        padding: 10px 0px; }
+      body section.classical div.myths div.myth-wrap a.anchor-text {
+        color: #554f4b !important; }
+      body section.classical div.myths div.myth-wrap div.hidden-content {
+        margin: 0px;
+        background-image: linear-gradient(#fef9ef, rgba(255, 255, 255, 0.3));
+        color: #554f4b !important; }
   body section.faq h3 {
     margin-bottom: 40px; }
   body section.faq ol.questions {
@@ -3894,8 +4005,10 @@ body {
     body section.faq ol.questions h4 {
       text-align: center;
       font-size: 1.6em;
+      margin-bottom: 10px;
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
       margin-top: 40px;
-      margin-bottom: 10px; }
+      padding-top: 40px; }
     body section.faq ol.questions li {
       margin-bottom: 10px;
       padding-left: 10px; }
@@ -3946,94 +4059,103 @@ body {
       body section.apply div.link-wrapper a.grid-1-2:after {
         content: "→";
         padding-left: 10px; }
-  body section.apply div.box {
-    border: 1px solid #c9d2da;
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 6px white, 0px 0px 5px 6px rgba(0, 0, 0, 0.3);
-    margin: 60px auto;
-    padding: 30px;
-    width: 740px; }
-    body section.apply div.box.f-aid {
-      background-color: #FAFDFF; }
-      body section.apply div.box.f-aid div.grid-1-2 img {
-        width: 100%; }
-    body section.apply div.box h4 {
-      text-align: center;
-      font-size: 1.8em;
-      width: 86%;
-      margin: 0px auto 30px;
-      border-bottom: 1px solid #DFDFDF;
-      padding-bottom: 5px; }
-    body section.apply div.box a:hover {
-      text-decoration: none; }
-    body section.apply div.box a div.ribbon {
-      background-color: #7998c1;
-      height: 140px;
-      position: relative;
-      right: -89%;
-      top: -98px;
-      width: 80px;
-      box-shadow: -6px 0px 10px -7px rgba(0, 0, 0, 0.5), 6px 0px 10px -7px rgba(0, 0, 0, 0.5), inset 0px 0px 3px 1px white;
-      border-top: 2px solid #748aa6;
-      border-right: 2px solid #50647D;
-      border-bottom: 2px solid #50647D;
-      border-left: 2px solid #50647D; }
-      body section.apply div.box a div.ribbon:active {
-        background-color: #6f90bc; }
-      body section.apply div.box a div.ribbon:before {
-        background-color: white;
-        border-bottom-right-radius: 100%;
-        content: "";
-        height: 56px;
-        position: absolute;
-        right: 10px;
-        top: 109px;
-        -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        width: 56px;
-        box-shadow: 0px 0px 2px 1px white, inset 0px 18px 0px -15px #50647D, inset 18px 0px 0px -15px #50647D, inset 0 40px 6px -35px rgba(0, 0, 0, 0.5), inset 40px 0px 6px -35px rgba(0, 0, 0, 0.5); }
-      body section.apply div.box a div.ribbon p {
-        font-style: italic;
-        hyphens: none;
-        font-size: 1em;
-        color: white;
-        text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+  body section.application {
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    padding-bottom: 70px; }
+    body section.application div.box {
+      border: 1px solid #c9d2da;
+      box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 6px white, 0px 0px 5px 6px rgba(0, 0, 0, 0.3);
+      margin: 60px auto;
+      padding: 30px;
+      width: 740px; }
+      body section.application div.box.f-aid {
+        background-color: #FAFDFF; }
+        body section.application div.box.f-aid div.grid-1-2 img {
+          width: 100%; }
+      body section.application div.box h4 {
         text-align: center;
-        padding: 0px 5px;
+        font-size: 1.8em;
+        width: 86%;
+        margin: 0px auto 30px;
+        border-bottom: 1px solid #DFDFDF;
+        padding-bottom: 5px; }
+      body section.application div.box a:hover {
+        text-decoration: none; }
+      body section.application div.box a div.ribbon {
+        background-color: #7998c1;
+        height: 140px;
         position: relative;
-        top: 0px;
-        left: 0px; }
-        body section.apply div.box a div.ribbon p:hover {
-          cursor: pointer; }
-    body section.apply div.box div.wrapper {
-      margin-top: -155px; }
-      body section.apply div.box div.wrapper div.img {
-        width: 40%;
+        right: -89%;
+        top: -98px;
+        width: 80px;
+        box-shadow: -6px 0px 10px -7px rgba(0, 0, 0, 0.5), 6px 0px 10px -7px rgba(0, 0, 0, 0.5), inset 0px 0px 3px 1px white;
+        border-top: 2px solid #748aa6;
+        border-right: 2px solid #50647D;
+        border-bottom: 2px solid #50647D;
+        border-left: 2px solid #50647D; }
+        body section.application div.box a div.ribbon:active {
+          background-color: #6f90bc; }
+        body section.application div.box a div.ribbon:before {
+          background-color: white;
+          border-bottom-right-radius: 100%;
+          content: "";
+          height: 56px;
+          position: absolute;
+          right: 10px;
+          top: 109px;
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+          width: 56px;
+          box-shadow: 0px 0px 2px 1px white, inset 0px 18px 0px -15px #50647D, inset 18px 0px 0px -15px #50647D, inset 0 40px 6px -35px rgba(0, 0, 0, 0.5), inset 40px 0px 6px -35px rgba(0, 0, 0, 0.5); }
+        body section.application div.box a div.ribbon p {
+          font-style: italic;
+          hyphens: none;
+          font-size: 1em;
+          color: white;
+          text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+          text-align: center;
+          padding: 0px 5px;
+          position: relative;
+          top: 0px;
+          left: 0px; }
+          body section.application div.box a div.ribbon p:hover {
+            cursor: pointer; }
+      body section.application div.box div.wrapper {
+        margin-top: -155px; }
+        body section.application div.box div.wrapper div.img {
+          width: 40%;
+          float: left; }
+          body section.application div.box div.wrapper div.img img {
+            display: block;
+            margin: 0px auto;
+            width: 90%;
+            height: 290px;
+            border: 4px solid #F4DC97;
+            box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 1px #CBBFA5, 0px 21px 10px -15px rgba(0, 0, 0, 0.5); }
+      body section.application div.box div.text {
+        border-left: 1px solid #DFDFDF;
+        padding-left: 20px;
+        width: 60%;
         float: left; }
-        body section.apply div.box div.wrapper div.img img {
-          display: block;
-          margin: 0px auto;
-          width: 90%;
-          height: 290px;
-          border: 4px solid #F4DC97;
-          box-shadow: inset 0px -1px 0px 0px white, inset 0px 1px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 1px #CBBFA5, 0px 21px 10px -15px rgba(0, 0, 0, 0.5); }
-    body section.apply div.box div.text {
-      border-left: 1px solid #DFDFDF;
-      padding-left: 20px;
-      width: 60%;
-      float: left; }
-      body section.apply div.box div.text h5 {
-        font-size: 1.2em;
-        font-style: italic; }
-      body section.apply div.box div.text ul {
-        padding: 0px 90px 0px 30px;
-        list-style-type: lower-roman; }
-        body section.apply div.box div.text ul li {
-          margin: 10px 0px;
-          padding-left: 10px; }
-    body section.apply div.box a.button div.centered-button {
-      margin: 30px 0px 0px; }
+        body section.application div.box div.text h5 {
+          font-size: 1.2em;
+          font-style: italic; }
+        body section.application div.box div.text ul {
+          padding: 0px 90px 0px 30px;
+          list-style-type: lower-roman; }
+          body section.application div.box div.text ul li {
+            margin: 10px 0px;
+            padding-left: 10px; }
+      body section.application div.box a.button div.centered-button {
+        margin: 30px 0px 0px; }
+  body section.give {
+    padding-bottom: 50px; }
+    body section.give p {
+      width: 510px;
+      margin: 0px auto; }
   body section.no-pad {
     padding: 0px; }
   body section.students {
@@ -4056,15 +4178,35 @@ body {
       body section.students section.newsletters div.item-wrap {
         width: 30%;
         float: left;
-        margin-top: 84px; }
-        body section.students section.newsletters div.item-wrap.middle {
+        margin-top: 72px;
+        padding: 30px;
+        background-color: white;
+        margin-left: 50px;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 6px white, 0px 0px 5px 6px rgba(0, 0, 0, 0.3); }
+        body section.students section.newsletters div.item-wrap.left {
           width: 40%;
           margin-top: 0px;
-          padding: 30px;
-          box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 6px white, 0px 0px 5px 6px rgba(0, 0, 0, 0.3);
-          background-color: white; }
-          body section.students section.newsletters div.item-wrap.middle h4.subtitle {
-            font-size: 1.2em; }
+          margin-left: 120px; }
+          body section.students section.newsletters div.item-wrap.left h4.subtitle {
+            font-size: 1.2em;
+            margin-bottom: 5px; }
+          body section.students section.newsletters div.item-wrap.left ul {
+            width: 250px;
+            margin: 0px auto;
+            text-shadow: 0px -1px 0px white;
+            background-color: #faf9f9;
+            box-shadow: 0px 0px 0px 2px white inset, 0px 0px 3px 4px rgba(0, 0, 0, 0.3) inset, 0px 0px 0px 8px white inset, 0px 0px 5px 11px rgba(0, 0, 0, 0.3) inset;
+            padding: 30px; }
+            body section.students section.newsletters div.item-wrap.left ul li {
+              border-bottom: 1px solid #CBCBCB;
+              padding: 5px 0px; }
+              body section.students section.newsletters div.item-wrap.left ul li:first-of-type {
+                border-top: 1px solid #CBCBCB; }
+              body section.students section.newsletters div.item-wrap.left ul li a {
+                color: #3C7BC4;
+                margin-bottom: 0px; }
+                body section.students section.newsletters div.item-wrap.left ul li a:hover {
+                  color: #5088ca; }
         body section.students section.newsletters div.item-wrap h4.lower {
           margin-bottom: 20px;
           font-size: 1.2em; }
@@ -4089,11 +4231,11 @@ body {
               top: 0%;
               left: 0%; }
             body section.students section.newsletters div.item-wrap a div.button:before {
-              background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiZmExOGMiIHN0b3Atb3BhY2l0eT0iMC4zOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
-              background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(191, 161, 140, 0.38))) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
-              background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
-              background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
-              background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
+              background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiZmExOGMiIHN0b3Atb3BhY2l0eT0iMC4zOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') repeat scroll 0 0%, #faf1de none repeat scroll 0 0;
+              background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(191, 161, 140, 0.38))) repeat scroll 0 0%, #faf1de none repeat scroll 0 0;
+              background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #faf1de none repeat scroll 0 0;
+              background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #faf1de none repeat scroll 0 0;
+              background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #faf1de none repeat scroll 0 0;
               border-radius: 4px; }
             body section.students section.newsletters div.item-wrap a div.button:active {
               top: 1px;
@@ -4130,14 +4272,6 @@ body {
               body section.students section.newsletters div.item-wrap div.wrapper div.grid-1 div.button div.text span {
                 font-style: italic;
                 font-size: 1.5em; }
-          body section.students section.newsletters div.item-wrap div.wrapper div.grid-1-2 {
-            margin: 0 auto; }
-            body section.students section.newsletters div.item-wrap div.wrapper div.grid-1-2 div.button {
-              width: 150px;
-              height: 42px; }
-              body section.students section.newsletters div.item-wrap div.wrapper div.grid-1-2 div.button div.text span {
-                font-style: italic;
-                font-size: 1.1em; }
         body section.students section.newsletters div.item-wrap div.handbook {
           width: 200px;
           height: 54px;
@@ -4156,13 +4290,40 @@ body {
     body section.students section.uniforms {
       padding: 70px 0px;
       border-bottom: 1px solid #979797; }
-      body section.students section.uniforms ul.mdash {
+      body section.students section.uniforms p {
+        width: 500px;
+        margin: 0 auto; }
+        body section.students section.uniforms p.bottom {
+          width: 360px;
+          font-style: italic; }
+      body section.students section.uniforms ul.font-awesome {
         width: 640px;
-        margin: 0 auto 40px;
+        margin: 40px auto;
         text-shadow: 0px -1px 0px white;
         background-color: #faf9f9;
         box-shadow: 0px 0px 0px 2px white inset, 0px 0px 3px 4px rgba(0, 0, 0, 0.5) inset, 0px 0px 0px 8px white inset, 0px 0px 5px 11px rgba(0, 0, 0, 0.5) inset;
-        padding: 30px; }
+        padding: 30px 50px; }
+        body section.students section.uniforms ul.font-awesome span {
+          margin-left: -17px; }
+      body section.students section.uniforms a.lands-end {
+        display: table;
+        margin: 0 auto; }
+        body section.students section.uniforms a.lands-end img {
+          display: table;
+          background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiZmExOGMiIHN0b3Atb3BhY2l0eT0iMC4zOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
+          background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(191, 161, 140, 0.38))) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
+          background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
+          background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
+          background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(191, 161, 140, 0.38) 100%) repeat scroll 0 0%, #f5e3bf none repeat scroll 0 0;
+          border: 1px solid #a9a9a9;
+          border-radius: 6px;
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5), 0 -2px 6px rgba(255, 255, 255, 0.75) inset;
+          padding: 10px 20px;
+          margin: 10px auto 40px;
+          cursor: pointer; }
+          body section.students section.uniforms a.lands-end img:active {
+            position: relative;
+            top: 1px; }
       body section.students section.uniforms a.button div.centered-button {
         margin: 0px auto; }
 
