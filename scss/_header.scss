@@ -7,6 +7,7 @@ header{
 		}
 		div.social{
 			a{
+				transform: none !important;//new fa stylesheet breaks shadow without this (z-index issue)
 				border: 1px solid darken(#fefcf9,10%);
 				@include background-image(linear-gradient(lighten(#fefcf9,2%), lighten(#fbefdd,2%), lighten(#fcf4e7,2%)));
 				&:active{

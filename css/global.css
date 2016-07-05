@@ -489,7 +489,6 @@ a.button {
     top: 1px; }
 
 .anchor-text {
-  font-style: italic;
   color: #002645 !important;
   font-size: 1.3em;
   padding-bottom: 20px; }
@@ -507,7 +506,13 @@ a.button {
   -webkit-transition: height 0.3s ease;
   -webkit-transition-delay: 0s;
   transition: height 0.3s ease 0s;
-  padding: 0px; }
+  padding: 0px;
+  background-color: #676767;
+  color: white;
+  text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 12px 8px -5px black; }
+  .hidden-content p span {
+    color: white !important; }
   .hidden-content.faq {
     color: #554F4B;
     background-color: white;
@@ -3620,6 +3625,7 @@ body {
   body header div.navTitle a.seal img {
     opacity: 0.8; }
   body header div.navTitle div.social a {
+    transform: none !important;
     border: 1px solid #f7e6cd;
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmNmM2U2Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmRmOGYwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
     background-size: 100%;
@@ -3939,6 +3945,8 @@ body {
       line-height: 1.2; }
       body section.overview div.curriculum div.outer div.grid1 div, body section.overview div.curriculum div.outer div.grid2 div, body section.overview div.curriculum div.outer div.grid3 div {
         color: #554F4B; }
+  body section.classical.myths {
+    padding-bottom: 70px; }
   body section.classical h3 span {
     font-size: 2em !important; }
   body section.classical div.foundation div {
@@ -3985,19 +3993,25 @@ body {
     padding: 0px; }
     body section.classical div.myths div.myth-wrap {
       padding: 0px;
+      border: 1px solid #554f4b;
       border-radius: 6px;
-      margin-bottom: 20px;
-      background-color: #fef9ef; }
-      body section.classical div.myths div.myth-wrap div.grid-20 {
-        border: none;
-        margin: 0px;
-        padding: 10px 0px; }
+      margin-bottom: 20px; }
       body section.classical div.myths div.myth-wrap a.anchor-text {
         color: #554f4b !important; }
+        body section.classical div.myths div.myth-wrap a.anchor-text:hover {
+          text-decoration: none; }
+        body section.classical div.myths div.myth-wrap a.anchor-text div.grid-20 {
+          border: none;
+          margin: 0px;
+          padding: 10px 0px; }
+          body section.classical div.myths div.myth-wrap a.anchor-text div.grid-20 div.circle {
+            font-style: none !important;
+            font-size: 0.8em; }
+        body section.classical div.myths div.myth-wrap a.anchor-text p.grid-80 {
+          margin: 0px;
+          padding: 0px 0px 15px 0px; }
       body section.classical div.myths div.myth-wrap div.hidden-content {
-        margin: 0px;
-        background-image: linear-gradient(#fef9ef, rgba(255, 255, 255, 0.3));
-        color: #554f4b !important; }
+        margin: 0px; }
   body section.faq h3 {
     margin-bottom: 40px; }
   body section.faq ol.questions {

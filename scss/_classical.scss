@@ -1,4 +1,7 @@
 section.classical{
+	&.myths{
+		padding-bottom: 70px;
+	}
 	h3{
 		span{
 			font-size: 2em !important; 
@@ -74,22 +77,34 @@ section.classical{
 		padding: 0px;
 		div.myth-wrap{
 			padding: 0px;
-			//border: 1px solid #554f4b;
+			border: 1px solid #554f4b;
 			border-radius: 6px;
 			margin-bottom: 20px;
-			background-color: #fef9ef;
-			div.grid-20{
-				border: none;
-				margin: 0px;
-				padding: 10px 0px;
-			}
 			a.anchor-text{
 				color: #554f4b !important;
+				&:hover{
+					text-decoration: none;
+				}
+				
+				div.grid-20{
+					border: none;
+					margin: 0px;
+					padding: 10px 0px;
+					div.circle{
+						font-style: none !important;
+						font-size: 0.8em;
+					}
+				}
+				p.grid-80{
+					margin: 0px;
+					padding: 0px 0px 15px 0px;
+				}
 			}
+			
 			div.hidden-content{
 				margin: 0px;
-			background-image: linear-gradient(#fef9ef, rgba(white, 0.3));
-			color: #554f4b !important;
+			  //background-image: linear-gradient(#fef9ef, rgba(white, 0.3));
+			  //color: #554f4b !important;
 			}
 		}
 	}

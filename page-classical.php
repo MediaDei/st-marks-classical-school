@@ -194,7 +194,7 @@
 	</div>
 </section>
 
-<section class="classical main-section">
+<section class="classical main-section myths">
 	<h2 class="section-title cl-myths">
 		Myths
 		<span class="extra ex-myths italic">Three common misconceptions.</span>
@@ -202,12 +202,15 @@
 
 	<div class="myths">
 		<div class="myth-wrap">
-			<div class="grid-20">
-				<div class="circle smallcaps">Myth<br> #1</div>
-			</div>
-		
 			<span id="fact-1" class="anchor"></span>
-			<a class="anchor-text grid-80" href="#fact-1">Classical education was fine back then, but we need modern education in a modern world.</a>
+			<a class="anchor-text" href="#fact-1">
+				<div class="grid-20">
+					<div class="circle smallcaps">Myth<br> #1</div>
+				</div>
+				<p class="grid-80">
+					Classical education was fine back then, but we need modern education in a modern world.
+				</p>
+			</a>
 			<div class="hidden-content fact-1">
 				<p><span class="simple-dropcaps">F</span><span class="smallcaps">act:</span> Classical education teaches students facts, provides them with logical tools to use those facts, and perfects the student’s ability to relate those facts to others. This fundamental skill-set is more valuable today than it has ever been. The process of teaching students to think extends far beyond filling their heads with knowledge. Modern education, to varying degrees, has succeeded in teaching facts and some skills. Classical education helps students draw original, creative, and accurate conclusions from facts and then formulate those conclusions into logical and persuasive arguments.</p>
 
@@ -218,12 +221,15 @@
 		</div>
 
 		<div class="myth-wrap">
-			<div class="grid-20">
-				<div class="circle smallcaps">Myth<br> #2</div>
-			</div>
-
 			<span id="fact-2" class="anchor"></span>
-			<a class="anchor-text grid-80" href="#fact-2">Classical education is unnecessarily difficult.</a>
+			<a class="anchor-text" href="#fact-2">
+				<div class="grid-20">
+					<div class="circle smallcaps">Myth<br> #2</div>
+				</div>
+				<p class="grid-80">
+					Classical education is unnecessarily difficult.
+				</p>
+			</a>
 			<div class="hidden-content fact-2">
 				<p><span class="simple-dropcaps">F</span><span class="smallcaps">act:</span> Children enjoy learning. They are wired for it. Assuming that a child will not be able to succeed in a challenging environment is tempting, but simply untrue.</p>
 				
@@ -232,19 +238,21 @@
 		</div>
 
 		<div class="myth-wrap">
-			<div class="grid-20">
-				<div class="circle smallcaps">Myth<br> #3</div>
-			</div>
-
 			<span id="fact-3" class="anchor"></span>
-			<a class="anchor-text grid-80" href="#fact-3">Classical education is too extreme.</a>
+			<a class="anchor-text" href="#fact-3">
+				<div class="grid-20">
+					<div class="circle smallcaps">Myth<br> #3</div>
+				</div>
+				<p class="grid-80">
+					Classical education is too extreme.
+				</p>
+			</a>
 			<div class="hidden-content fact-3">
 				<p><span class="simple-dropcaps">F</span><span class="smallcaps">act:</span> Classical education teaches “with the grain”&mdash;complementing their developmental phase with the appropriate teaching method. Parents are rightfully skeptical of anything that differs boldly from the norm. However, classical education was the norm 100 years ago because it worked.</p>
 
 				<p>Conventional education has taken an experimental approach to educating our children over the past four decades. Many different methods have been tried and later scrapped when they failed. This constant state of change in education creates an environment where anything “traditional” seems extreme. Classical education provides a basic structure upon which we can build effective, successful students. We are not advocating an experiment. Rather, we are seeking a return to a system proven for over 1,000 years.</p>
 			</div>
 		</div>
-
 	</div>
 </section>
 
